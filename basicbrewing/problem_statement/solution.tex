@@ -1,0 +1,20 @@
+\begin{frame}{.}
+	\begin{block}{Problem}
+		Given pairs~$(a, b)$, multiply them with a value in~$[0,1]$, sum them up such that the result is as big as possible and the ratio between~$a$ and~$b$ is~$x$.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		We can partition the input into two sets:
+		\begin{itemize}
+			\item Those pairs with~$\frac{a}{b}\ge x$
+			\item Those with~$\frac{a}{b}<x$
+		\end{itemize}
+		Observe that an optimal solution always contains all entries of one of the sets.
+		\begin{itemize}
+			\item Take all entries from set~$A$ and add entries from set~$B$ one by one.
+			\item Getting as much as possible~$\iff$ approach ratio~$x$ as slow as possible.
+			\item Thus, first take entries with ratio~close to~$x$.
+		\end{itemize}
+    The total runtime is in~$\mathcal{O}(n\log(n))$ to sort entries by their ratio.
+	\end{block}
+\end{frame}

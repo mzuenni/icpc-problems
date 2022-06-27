@@ -1,0 +1,19 @@
+\begin{frame}{.}
+	\begin{block}{Problem}
+		Given a Graph~$G$, change the edges of a single vertex such that the resulting graph is a simple cycle.
+		\pause
+		Alternatively, check whether~$G$ without a single vertex is a path.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		We only need to check a constant number of candidate vertices:
+		\begin{enumerate}
+			\item One vertex with degree greater~$3$.
+			\item All vertices with degree~$3$ which are adjacent to all other vertices with degree~$3$.
+			\item One vertex with degree~$0$.
+			\item One vertex with degree~$1$.
+			\item One vertex.
+		\end{enumerate}
+		The check if~$G$ without a vertex is a path can be done in~$\mathcal{O}(n)$ and thus, the solution is in~$\mathcal{O}(n)$.
+	\end{block}
+\end{frame}

@@ -1,0 +1,8 @@
+name: Looking for Waldo
+source: German Collegiate Programming Contest (GCPC) 2021
+source_url: https://gcpc.nwerc.eu
+author: Michael Zündorf
+license: cc by-sa
+
+limits:
+  time_multiplier: 2

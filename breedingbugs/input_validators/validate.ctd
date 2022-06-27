@@ -1,0 +1,6 @@
+INT(1, 749, n) NEWLINE
+REPI(i, n, SPACE)
+	INT(1, 9999999, a[i])
+END
+NEWLINE
+EOF

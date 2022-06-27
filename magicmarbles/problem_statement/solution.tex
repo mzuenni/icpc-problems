@@ -1,0 +1,19 @@
+\begin{frame}{.}
+	\begin{block}{Problem}
+		Given a string where runs of consecutive equal characters are removed if the run has length larger then~$k$, simulate~$q$ inserts of characters into this string.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item You just need to simulate this efficiently.
+      \item Either use a \emph{treap} and keep track of run lengths.
+      \item Or a \emph{binary search tree} which contains runs.
+			\item In both cases your data structure needs to efficiently do this:
+			\begin{itemize}
+				\item Insert a character at a position.
+				\item Find the length of a run at a position.
+			\end{itemize}
+		\end{itemize}
+		Total runtime~$\mathcal{O}(q\log(n))$
+	\end{block}
+\end{frame}

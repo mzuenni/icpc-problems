@@ -1,0 +1,22 @@
+\begin{slide}
+	\begin{block}{Problem}
+		Given a cyclic \emph{cellular automaton} with state $s$ and transition function $f$, check if a state $x$ exists with $f(x)=s$.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item First we choose a pair $(x[0],x[1])$
+			\item Starting from $i=1$ until $n$ \textcolor{gray}{(where $i = n$ means $i = 0$)}
+			\begin{itemize}
+				\item We keep a list of possible states for the pair $(x[i-1], x[i])$\\\textcolor{gray}{(just the chosen possibility when i=1)}
+				\item The pair $(x[i+1], x[i])$ is possible iff $f(x[i-1], x[i], x[i+1])=s[i]$
+			\end{itemize}
+			\item Check if the initial tuple is in our list after the last step.
+			\medskip
+			\pause
+			\item If the initial tuple is in the list we found a previous assignment in $\mathcal{O}(n\cdot{}m^3)$
+			\pause
+			\item Since we need to consider all initial pairs, the total runtime is $\mathcal{O}(n\cdot{}m^5)$
+		\end{itemize}
+	\end{block}
+\end{slide}

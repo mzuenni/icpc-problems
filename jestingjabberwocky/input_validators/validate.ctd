@@ -1,0 +1,3 @@
+REGEX("[chds]+", s) NEWLINE
+ASSERT(STRLEN(s) <= 100000)
+EOF

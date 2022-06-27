@@ -1,0 +1,43 @@
+\problemname{Diabolic Doofenshmirtz}
+
+\illustration{0.32}{running-track}{A circular running track. Illustration by Kjrstie, \href{https://pixabay.com/de/vectors/laufen-nachverfolgen-rennstrecke-1018587/}{Pixabay}\vspace{-0.5cm}}
+% Perry the platypus needs to stay in shape and is training for the yearly Great Crawling Platypus Cup (GCPC).
+Each year, the fastest platypuses of the world come together for the \emph{Great Crawling Platypus Cup} (GCPC) to crawl a single lap in the platypus arena.
+Of course, Perry the platypus wants to take part in this great event.
+Perry's arch enemy Dr. Doofenshmirtz got wind of it and plans to capture Perry right when he crosses the finish line at the GCPC.
+To carry out his evil plan successfully, he needs to find out how long Perry needs to finish the lap.
+He knows that Perry takes the preparation for the GCPC very seriously and trains by crawling lap after lap in the arena at a constant speed of~$1\,\frac{\text{m}}{\text{s}}$.
+Perry's training starts this Saturday and Dr. Doofenshmirtz knows that he will run at least $10^{18}$ seconds.
+To determine the exact length of one lap, Dr. Doofenshmirtz invented the Measurinator which can measure the exact distance Perry has already crawled in his current lap.
+Unfortunately, the Measurinator will break after too many measurements, so Dr. Doofenshmirtz has to carefully plan when to use it in order to determine the length of one lap.
+
+
+\begin{Interaction}
+	Your submission can print ``\texttt{?~t}'' where~$t$ ($0\leq t<10^{18}$) is the point in time when you want to use the Measurinator.
+	The time $t=0$ marks the point in time where Perry starts practicing i.e. where he starts his first lap at the start and finish line.
+	The Measurinator responds with a single integer~$x$ which is the current position of Perry in his current lap.
+	Note that the Measurinator will not respond with the number of meters Perry has already crawled in total!
+	Thus, whenever Perry reaches the start and finish line, the Measurinator will respond with $0$.
+	Further note that you recently lost your Timetravellinator and therefore, the values of~$t$ must be strictly increasing.
+
+	If you determined the length $x$ of one lap, print ``\texttt{!~x}''.
+	After this, your program should immediately terminate.
+
+	All interactions must be ended by a newline.
+	Further note that you additionally need to \emph{flush} the standard output to ensure that the query is sent.
+	For example, you can use:
+	\begin{itemize}
+		\item \texttt{std::cout <{}< std::flush} in C++
+		\item \texttt{fflush(stdout)} in C
+		\item \texttt{System.out.flush()} in Java
+		\item \texttt{sys.stdout.flush()} in Python
+	\end{itemize}
+
+	Your submission is considered correct if you followed these rules, found the correct length of one lap, and used no more than~$42$ queries.
+	Note that giving the answer is also counted as a query.
+
+	It is guaranteed that one lap has integer length, is at least one meter long, and at most~$10^{12}$ meters long.
+
+	A testing tool is provided to help you develop your solution. It can be downloaded from the DOMjudge problems overview page.
+\end{Interaction}
+\newpage

@@ -1,0 +1,91 @@
+solution: /submissions/accepted/mzuenni.cpp
+#solution: /submissions/time_limit_exceeded/brute.cpp
+
+#visualizer: /generators/visualizers/draw.py {name}
+
+generators:
+  random_grid:
+    - generators/random_grid.cpp
+    - icpc_gen_helper.h
+
+  random_grid_noise:
+    - generators/random_grid_noise.cpp
+    - icpc_gen_helper.h
+
+  random:
+    - generators/random.cpp
+    - icpc_gen_helper.h
+
+  random_close_to_line:
+    - generators/random_close_to_line.cpp
+    - icpc_gen_helper.h
+
+  precision:
+    - generators/precision.cpp
+    - icpc_gen_helper.h
+
+  perm:
+    - generators/fromPerm.cpp
+    - icpc_gen_helper.h
+
+  permBig:
+    - generators/fromPermBig.cpp
+    - icpc_gen_helper.h
+
+data:
+  sample:
+    type: directory
+    solution:
+    data:
+      "1":
+      "2":
+  secret:
+    type: directory
+    data:
+      - tricky1: manual/tricky1.in
+      - tricky2: manual/tricky2.in
+      - tricky3: manual/tricky3.in
+      - tricky4: manual/tricky4.in
+      - all_on_line: manual/all_on_line.in
+      - 3_on_line_tricky: manual/3_on_line_tricky.in
+      - 3_on_line_below: manual/3_on_line_below.in
+      - 3_on_line_below_2: manual/3_on_line_below_2.in
+      - precision1: manual/precision1.in
+      - precision2: manual/precision2.in
+      - precision3: manual/precision3.in
+      - precision4: manual/precision4.in
+      - perm_1_0_3_2_5_4: perm --manual --n 6 1 0 3 2 5 4 --seed {seed:1}
+      - perm_1_0_4_3_2: perm --manual --n 5 1 0 4 3 2 --seed {seed:2}
+      - random_1x1000: random_grid --w 1 --h 1000 --seed {seed:1}
+      - random_50x50: random_grid --w 50 --h 50 --seed {seed:2}
+      - random_1x1000: random_grid_noise --w 1 --h 1000 --seed {seed:1}
+      - random_50x50: random_grid_noise --w 50 --h 50 --seed {seed:2}
+      - random1: random --n 1000 --seed {seed:1}
+      - random2: random --n 1000 --seed {seed:2}
+      - random3: random --n 1000 --seed {seed:3}
+      - random4: random --n 1000 --seed {seed:4}
+      - random5: random --n 1000 --seed {seed:5}
+      - random_1x100000: random_grid --w 1 --h 100000 --seed {seed:3}
+      - random_316x316: random_grid --w 316 --h 316 --seed {seed:4}
+      - random_1x100000: random_grid_noise --w 1 --h 100000 --seed {seed:3}
+      - random_316x316: random_grid_noise --w 316 --h 316 --seed {seed:4}
+      - random6: random --n 100000 --seed {seed:6}
+      - random7: random --n 100000 --seed {seed:7}
+      - random8: random --n 100000 --seed {seed:8}
+      - random9: random --n 100000 --seed {seed:9}
+      - random10: random --n 100000 --seed {seed:10}
+      - random_close_to_line1: random_close_to_line --n 500 --seed {seed:1}
+      - random_close_to_line2: random_close_to_line --n 100000 --seed {seed:2}
+      - precision4: precision
+      - perm_random_10: perm --random --n 10 --seed {seed:6}
+      - perm_random_50: perm --random --n 50 --seed {seed:5}
+      - perm_random_500: perm --random --n 500 --seed {seed:4}
+      - perm_random_5000: perm --random --n 5000 --seed {seed:3}
+      - perm_random_10000: perm --random --n 10000 --seed {seed:2}
+      - perm_random_44721: perm --random --n 44721 --seed {seed:1}
+      - perm_random_50000: permBig --random --n 50000 --seed {seed:1}
+      - perm_random_99999: permBig --random --n 75000 --seed {seed:2}
+      - perm_random_100000: permBig --random --n 100000 --seed {seed:3}
+      - perm_random_100000: permBig --random --n 100000 --inverse --seed {seed:3}
+      - perm_random_100000: permBig --random --n 100000 --reverse --seed {seed:3}
+      - perm_random_100000: permBig --random --n 100000 --inverse --reverse --seed {seed:3}

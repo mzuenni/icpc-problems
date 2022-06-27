@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Build the required visualizer.
+# Modify to your likings.
+g++ -std=gnu++17 -O2 visualizer.cpp -o run

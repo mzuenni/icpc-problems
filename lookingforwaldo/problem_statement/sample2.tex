@@ -1,0 +1,35 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{matrix}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{scopes}
+\usetikzlibrary{patterns,patterns.meta}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\begin{document}
+
+\tikzset{
+  lit/.style={red!85!black,font=\bfseries\ttfamily},
+  drk/.style={black,font=\ttfamily}
+}
+\begin{tikzpicture}
+  \tiny
+  \matrix [matrix of nodes,inner sep=1.5pt,nodes={drk}] (m)
+  {
+    A & B & C & |[lit]| D & E & |[lit]| A & B & C & D & E \\
+    F & G & H & I & J & F & G & H & I & J \\
+    K & L & M & N & |[lit]| O & K & |[lit]| L & M & N & O \\
+    P & Q & R & S & T & P & Q & R & S & T \\
+    V & W & X & Y & Z & V & |[lit]| W & X & Y & Z \\
+  };
+	\begin{scope}[on background layer]
+		\clip[rounded corners=2pt] (m-1-3.north east) rectangle (m-5-8.south west);
+		\fill[black!5] (m-1-3.north east) rectangle (m-5-8.south west);
+		\fill[pattern={Lines[line width=5pt,distance=10pt,yshift=2pt]},pattern color=red!10] (m-1-3.north east) rectangle (m-5-8.south west);
+		\draw[rounded corners=2pt,thick] (m-1-3.north east) rectangle (m-5-8.south west);
+	\end{scope}
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,15 @@
+\begin{slide}
+	\begin{block}{Problem}
+		Given a text with~$n$ words separated by spaces with total length~$W$, replace some spaces with newlines such that the total height plus width of the text is minimized.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item For a given width~$w$ we can find the minimal height greedily by only adding newlines when needed.
+			\item The next position where a newline is needed can be found in~$O(1)$ with a prefix sum over the lengths of the words.
+			\item Therefore, the minimal height can be found in~$\mathcal{O}(\frac{W}{w})$.
+			\pause
+			\item Calculating this for every width is in~$\mathcal{O}(W\log(W))$.
+		\end{itemize}
+	\end{block}
+\end{slide}

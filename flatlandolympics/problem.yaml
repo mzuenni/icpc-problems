@@ -1,0 +1,8 @@
+name: Flatland Olympics
+author: Harry Smit
+license: cc by-sa
+source: Northwestern Europe Regional Contest (NWERC) 2021
+source_url: http://2021.nwerc.eu
+
+limits:
+  time_multiplier: 3

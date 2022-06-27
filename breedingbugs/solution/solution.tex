@@ -1,0 +1,43 @@
+\begin{slide}
+	\begin{block}{Problem}
+		Given $n$ positive integers, how many can you select such that no two  selected integers sum up to a prime.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		First, observe that we can select at most one $1$ since $1+1=2$ and $2$ is prime.\\
+		\pause
+		\smallskip
+		
+		Let's rephrase the problem in terms of graph theory:
+		Given a graph with $n$ vertices where two vertices are connected iff their sum is prime, find a maximum independent set.\\
+		\pause
+		\smallskip
+		Now observe the following properties:
+		\begin{itemize}
+			\item No two vertices sum up to $2$.
+			\item All primes that some vertices sum up to are odd.
+			\item The sum of two numbers is only odd if we sum up an even and an odd number.
+			\pause
+			\item[$\Rightarrow$] The given graph is \emph{bipartite}.
+		\end{itemize}
+	\end{block}
+\end{slide}
+
+\begin{slide}
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item The complement of a maximum independent set is a minimum vertex cover.
+			\item For bipartite graphs, the minimum vertex cover and the matching have the same size.
+			\pause
+			\item[$\Rightarrow$] The answer is $n-|\text{matching}|$.
+			\smallskip
+			\pause
+			\item A maximum matching can be found in many ways:
+			\begin{itemize}
+				\item Any flow algorithm
+				\item Kuhn's algorithm
+				\item Hopcroft Karp's algorithm
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{slide}

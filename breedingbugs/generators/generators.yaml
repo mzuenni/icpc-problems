@@ -1,0 +1,152 @@
+solution: /submissions/accepted/sol.cpp
+
+generators:
+  range:
+    - range.cpp
+    - validate.h
+
+  random:
+    - random.cpp
+    - validate.h
+  
+  numbers:
+    - numbers.cpp
+    - validate.h
+
+  dense:
+    - dense.cpp
+    - validate.h
+
+  degree:
+    - degree.cpp
+    - validate.h
+
+  many_primes1:
+    - many_primes1.cpp
+    - validate.h
+
+  many_primes2:
+    - many_primes2.cpp
+    - validate.h
+
+  many_primes3:
+    - dense2.cpp
+    - validate.h
+
+  many_ones:
+    - many_ones.cpp
+    - validate.h
+
+  disconnected:
+    - disconnected.cpp
+    - validate.h
+
+  sparse1:
+    - sparse.cpp
+    - validate.h
+
+  sparse2:
+    - sparse2.cpp
+    - validate.h
+
+  random_low:
+    - random_low.cpp
+    - validate.h
+
+  paths:
+    - paths.cpp
+    - validate.h
+
+  trees:
+    - trees.cpp
+    - validate.h
+
+
+data:
+  sample:
+    type: directory
+    data:
+      "1":
+      "2":
+
+  secret:
+    type: directory
+    data:
+      - edgecase: manual/edgecase1.in
+      - edgecase: manual/edgecase2.in
+      - range: range --n 749 --first 1 --seed {seed}
+      - range: range --n 749 --first 1337 --seed {seed}
+      - range: range --n 749 --first 9999250 --seed {seed}
+      - random: random --n 749 --seed {seed:1}
+      - random: random --n 749 --seed {seed:2}
+      - random: random --n 749 --seed {seed:3}
+      - random: random --n 749 --seed {seed:4}
+      - random: random --n 749 --seed {seed:5}
+      - random: random --n 749 --seed {seed:6}
+      - random: random --n 749 --seed {seed:7}
+      - random: random --n 749 --seed {seed:8}
+      - random: random --n 749 --seed {seed:9}
+      - random: random --n 749 --seed {seed:10}
+      - random: random --n 749 --seed {seed:11}
+      - random: random --n 749 --seed {seed:12}
+      - random: random --n 749 --seed {seed:13}
+      - random: random --n 749 --seed {seed:14}
+      - random: random --n 749 --seed {seed:15}
+      - numbers: numbers --n 749 --numbers 1 2 --seed {seed:1}
+      - numbers: numbers --n 749 --numbers 2 3 5 --seed {seed:2}
+      - numbers: numbers --n 749 --numbers 2 2 3 5 --seed {seed:3}
+      - dense: dense --n 749 --lim 25000 --range 50000 --seed {seed:1}
+      - dense: dense --n 749 --lim 25000 --range 50000 --seed {seed:2}
+      - dense: dense --n 749 --lim 25000 --range 50000 --seed {seed:3}
+      - dense: dense --n 749 --lim 25000 --range 10000000 --seed {seed:4}
+      - dense: dense --n 749 --lim 25000 --range 10000000 --seed {seed:5}
+      - dense: dense --n 749 --lim 25000 --range 10000000 --seed {seed:6}
+      - degree: degree --n 499 --deg 25 --seed {seed:1}
+      - degree: degree --n 499 --deg 33 --seed {seed:2}
+      - degree: degree --n 499 --deg 42 --seed {seed:3}
+      - degree: degree --n 499 --deg 50 --seed {seed:4}
+      - many_primes: many_primes3 --n 749 --lim 25000 --range 10000000 --seed {seed:1}
+      - many_primes: many_primes1 --n 749 --seed {seed:1}
+      - many_primes: many_primes2 --n 749 --seed {seed:2}
+      - degree: degree --n 749 --deg 66 --seed {seed:1}
+      - degree: degree --n 749 --deg 75 --seed {seed:2}
+      - degree: degree --n 749 --deg 80 --seed {seed:3}
+      - disconnected: disconnected --n 749 --lim 4 --seed {seed:1}
+      - disconnected: disconnected --n 749 --lim 6 --seed {seed:2}
+      - many_ones: many_ones --n 749 --other 2 4
+      - many_ones: many_ones --n 749 --other 2 4 6 3
+
+      - sparse1: sparse1 --n 749 --lim 25000 --range 50000 --seed {seed:1}
+      - sparse1: sparse1 --n 749 --lim 25000 --range 50000 --seed {seed:2}
+      - sparse1: sparse1 --n 749 --lim 25000 --range 50000 --seed {seed:3}
+      - sparse1: sparse1 --n 749 --lim 25000 --range 10000000 --seed {seed:4}
+      - sparse1: sparse1 --n 749 --lim 25000 --range 10000000 --seed {seed:5}
+      - sparse1: sparse1 --n 749 --lim 25000 --range 10000000 --seed {seed:6}
+      - sparse2: sparse2 --n 749 --lim 25000 --range 10000000 --seed {seed:1}
+      - sparse2: sparse2 --n 749 --lim 25000 --range 25001 --seed {seed:2}
+      - random_low: random_low --n 749 --seed {seed:1}
+      - random_low: random_low --n 749 --seed {seed:2}
+      - random_low: random_low --n 749 --seed {seed:3}
+      - random_low: random_low --n 749 --seed {seed:4}
+      - random_low: random_low --n 749 --seed {seed:5}
+      - paths: paths --n 749 --seed {seed:1}
+      - paths: paths --n 749 --seed {seed:2}
+      - paths: paths --n 749 --seed {seed:3}
+      - paths: paths --n 749 --noise 5 --seed {seed:4}
+      - paths: paths --n 749 --noise 10 --seed {seed:5}
+      - paths: paths --n 749 --noise 25 --seed {seed:6}
+      - trees: trees --n 749 --seed {seed:1}
+      - trees: trees --n 749 --seed {seed:2}
+      - trees: trees --n 749 --noise 5 --seed {seed:3}
+      - trees: trees --n 749 --noise 10 --seed {seed:4}
+      - trees: trees --n 749 --noise 25 --seed {seed:5}
+
+      - fuzz: random --n 749 --seed 549503038
+      - fuzz: random --n 749 --seed 309983103
+      - fuzz: random --n 749 --seed 59866657
+      - fuzz: random --n 749 --seed 1153895022
+      - fuzz: random --n 749 --seed 749639146
+      - fuzz: random --n 749 --seed 1264366603
+      - fuzz: random_low --n 749 --seed 972469608
+      - fuzz: random_low --n 749 --seed 543460732
+

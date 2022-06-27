@@ -1,0 +1,64 @@
+solution: /submissions/accepted/sol.cpp
+
+generators:
+  random:
+    - generator/generator_random.cpp
+    - generator/validate.h
+
+  maxanswer:
+    - generator/generator_max_answer.cpp
+    - generator/validate.h
+
+  normaldist:
+    - generator/generator_normal_dist.cpp
+    - generator/validate.h
+
+  reverse:
+    - generator/generator_reverse.cpp
+    - generator/validate.h
+
+data:
+  sample:
+    type: directory
+    data:
+      '1': stdout.py hccdhcd
+      '2': stdout.py cchhdshcdshdcsh
+  secret:
+    type: directory
+    data:
+      - manual: stdout.py c
+      - manual: stdout.py cchhhddss
+      - manual: stdout.py chchchch
+      - manual: stdout.py cccchhccddcccccsscccc
+      - random: random --n 20 --seed {seed:1}
+      - random: random --n 20 --seed {seed:2}
+      - random: random --n 20 --seed {seed:3}
+      - random: random --n 20 --seed {seed:4}
+      - random: random --n 20 --seed {seed:5}
+      - random: random --n 20 --seed {seed:6}
+      - random: random --n 20 --seed {seed:7}
+      - random: random --n 20 --seed {seed:8}
+      - random: random --n 20 --seed {seed:9}
+      - random: random --n 20 --seed {seed:10}
+      - random: random --n 20 --seed {seed:11}
+      - random: random --n 20 --seed {seed:12}
+      - random: random --n 20 --seed {seed:13}
+      - random: random --n 20 --seed {seed:14}
+      - random: random --seed {seed:15}
+      - random: random --seed {seed:16}
+      - random: random --seed {seed:17}
+      - random: random --seed {seed:18}
+      - random: random --n 100000 --seed {seed:19}
+      - random: random --n 100000 --seed {seed:20}
+      - random: random --n 100000 --seed {seed:21}
+      - random: random --n 100000 --seed {seed:22}
+      - maxanswer: maxanswer --n 100 --seed {seed:23}
+      - maxanswer: maxanswer --n 100000 --seed {seed:24}
+      - bigoverlap: normaldist --n 25000 25000 25000 25000 0.0 0.4 1.1 0.6 0.5 0.3 0.5 0.5  --seed {seed:25}
+      - midoverlap: normaldist --n 25000 25000 25000 25000 0.0 1.1 2.8 4.3 1.0 1.0 1.0 1.0  --seed {seed:26}
+      - smalloverlap: normaldist --n 25000 25000 25000 25000 0.0 2.0 4.0 6.0 1.0 1.0 1.0 1.0  --seed {seed:26}
+      - reverse: reverse --n 2500 2500 2500 2500 100 --seed {seed:27}
+      - reverse_small: reverse --n 50 50 50 50 10 --seed {seed:28}
+      - reverse_many_moves: reverse --n 10 10 10 10 100 --seed {seed:28}
+
+

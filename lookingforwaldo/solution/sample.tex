@@ -1,0 +1,25 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{matrix}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{scopes}
+\usetikzlibrary{patterns,patterns.meta}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\begin{document}
+
+\tikzset{
+  rowcol/.style={gray,font=\tiny},
+  char/.style={black,font=\ttfamily}
+}
+\begin{tikzpicture}
+  \small
+  \matrix [matrix of nodes,inner sep=1.5pt,nodes={char}] (m) {
+  	& |[rowcol]| 1 & |[rowcol]| 2 & |[rowcol]| 3 & |[rowcol]| 4 & |[rowcol]| 5 & |[rowcol]| 6 & |[rowcol]| 7 & |[rowcol]| 8 & |[rowcol]| 9 \\
+  	|[rowcol]| 1 & W & H & E & R & E & I & S & W & A \\
+  };
+\end{tikzpicture}
+
+\end{document}

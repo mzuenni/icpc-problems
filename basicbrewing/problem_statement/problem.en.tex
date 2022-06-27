@@ -1,0 +1,27 @@
+\problemname{Basic Brewing}
+
+\illustration{0.32}{potions}{The classroom. Photo by Rob Young, \href{https://commons.wikimedia.org/wiki/File:Potions_Classroom_(7119166399).jpg}{Wikimedia}\vspace{-0.5cm}}
+In his first potion lesson Snape asked Harry: "Tell me, what would I get if I added \emph{powdered root of asphodel} to an \emph{infusion of wormwood}?".
+Back then, Harry had no idea what this meant and Snape had to explain to him that this would make a sleeping potion, so powerful that it is known as \emph{Draught of Living Death}.
+
+Now is Harry's sixth-year and his new professor, Slughorn, wants him and everyone else to brew exactly this potion.
+To no surprise, Harry is the one to brew it best, as he is the only one who knew that the final potion should contain exactly~$p$ percent of powdered root of asphodel.
+
+After the class is over, professor Slughorn decides to mix some of his students potions together to brew a perfect Draught of Living Death himself.
+His class consists of~$n$ students, including Harry, and each of them attempted to brew the potion.
+Therefore, Professor Slughorn has access to~$n$ potions, each in a different cauldron.
+The~$i$th cauldron contains~$c_i$ liters of potion in total and it contains~$p_i$ percent of powdered root of asphodel.
+How many liters of the Draught of Living Death can Slughorn brew?
+
+\begin{Input}
+The input consists of:
+\begin{itemize}
+	\item One line with an integer $n$ and a real value $p$ $(1\leq n \leq 1000, 0\leq p\leq1)$, the number of cauldrons and the percentage of powdered root of asphodel the potion should contain.
+	\item $n$ lines, each containing an integer $c$ and a real value $p$ $(1\leq c\leq1000, 0\leq p\leq1)$, the amount of potion in the $i$th cauldron in liters and the percentage of powdered root of asphodel in that potion.
+\end{itemize}
+All real values are given with at most three decimal places.
+\end{Input}
+\begin{Output}
+Print a single real value, the maximal amount of Draught of Living Death that Slughorn can brew.
+Your solution is considered correct if the relative or absolute error is less than $10^{-4}$.
+\end{Output}

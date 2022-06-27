@@ -1,0 +1,49 @@
+\begin{slide}
+	\begin{block}{Problem}
+		Given an encrypted message and a its assumed decryption, at least how many letters where encrypted wrong?
+		
+		The encryption consists of two steps:
+		\begin{itemize}
+			\item Caesar shift all letters by the same amount.
+			\item Split the text at any point and switch the two parts.
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item Note that the second operation is actually a shift/rotation of the text.
+			\item[$\Rightarrow$] If we encode all chars unary both operations behave similar.\\
+			\textcolor{gray}{\texttt{a} is encoded as \texttt{1000}\dots, \texttt{b} as \texttt{0100}\dots and so on}
+			\item A Caesar shift by $26$ now corresponds to a Split before the last character.
+			\pause
+			\item However, a Caesar shift of something less can break everything i.e. \texttt{za} shifted by $1$ result in a zero char and one char with two ones. 
+		\end{itemize}
+	\end{block}
+\end{slide}
+
+\begin{slide}
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item But we can fix the Caesar shift:
+			\begin{itemize}
+				\item In the first string add an empty character after each character\\i.e. "\texttt{abc}" becomes "\texttt{a b c }"
+				\item In the second string double each character\\i.e. "\texttt{abc}" becomes "\texttt{aabbcc}"
+			\end{itemize}
+			\item A shift by $a\cdot2\cdot26+b$ now corresponds to a Caesar shift by $b$ and a rotation by $a$ in the unary encoding.
+			\pause
+			\item Now we only search a rotation which maximizes the number of bits in the bit-wise and of those two strings.
+			This is also called the cross-correlation of the two strings.
+		\end{itemize}
+	\end{block}
+\end{slide}
+
+\begin{slide}
+	\begin{block}{Solution}
+		\begin{itemize}
+			%TODO Do we really want this?
+			\item The cross correlation can be computed with the \emph{Fast Fourier transformation} for every rotation by reversing one of the strings.
+			\item Note that we are only interested in rotations of $a\cdot2\cdot26+b$ with $0\leq b<26$.
+			\item The total runtime then is $\mathcal{O}(4\cdot26*n*\log(n))$
+		\end{itemize}
+	\end{block}
+\end{slide}

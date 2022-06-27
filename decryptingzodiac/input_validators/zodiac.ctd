@@ -1,0 +1,6 @@
+INT(1,150000,n) NEWLINE
+REP(2)
+	REGEX("[a-z]+", s) NEWLINE
+	ASSERT(STRLEN(s)==n)
+END
+EOF

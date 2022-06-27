@@ -1,0 +1,49 @@
+\problemname{Document Dimensions}
+
+%\problemQuote{Typography is two-dimensional architecture}{Hermann Zapf}
+\illustration{0.32}{writing}{Hermione's text. Image by Chris Martin, \href{https://commons.wikimedia.org/wiki/File:Writing_F.svg}{Wikimedia}}
+Hermione was really proud of her one million word text she wrote for her assignment.
+She was, until she realized that the text must be handed in on a single piece of paper with limited dimensions.
+Obviously, she could have just shortened her text, but Hermione decided to go another route.
+She decided to just copy her text to a new piece of paper, writing a little bit smaller\dots
+To make this easier, she decided to first change the line breaks in her text such that the sum of the \emph{height} and \emph{width} of the piece of paper is minimized.
+Given Hermione's text with~$n$ words and assuming that each character takes up one unit height and one unit width, what is the minimal \emph{height} plus \emph{width} that can be achieved by inserting line breaks?
+Note that two words which are on the same line need to be separated by a single space.
+
+\begin{Input}
+The input consists of:
+\begin{itemize}
+	\item One line with a single integer $n$ $(1\leq n\leq 10^6)$, the number of words.
+	\item One line with $n$ space separated words $w_i$ $(1\leq |w_i|\leq 10^6)$, consisting only of lowercase Latin letters.
+\end{itemize}
+It is guaranteed that the total length of the text, i.e. the sum of the lengths of the $n$ words, is not greater than $10^6$.
+\end{Input}
+
+\begin{Output}
+	Output a single integer, the sum of the \emph{height} and \emph{width} of the smallest piece of paper the text could fit on.
+\end{Output}
+\begin{afterSample}
+	\clearpage
+	\section*{Notes}
+	\lstdefinestyle{typsesettingExample}{
+		breaklines=false,
+		breakatwhitespace=false,
+		tabsize=4,
+		basicstyle=\ttfamily\normalsize,
+		showspaces=true,
+		extendedchars=true,
+		aboveskip=3pt,
+		belowskip=3pt,
+	}
+	These are visualizations of the optimal result.
+	
+	\begin{minipage}{\linewidth}
+		First testcase: $2+9$
+		\lstinputlisting[inputencoding=utf8/latin1,style=typsesettingExample]{documentdimensions/problem_statement/sample1.txt}
+	\end{minipage}
+
+	\begin{minipage}{\linewidth}
+		Second testcase: $4+10$
+		\lstinputlisting[inputencoding=utf8/latin1,style=typsesettingExample]{documentdimensions/problem_statement/sample2.txt}
+	\end{minipage}
+\end{afterSample}

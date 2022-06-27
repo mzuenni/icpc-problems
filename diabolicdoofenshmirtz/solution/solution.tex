@@ -1,0 +1,25 @@
+\begin{slide}
+	\begin{block}{Problem}
+		You can query $t$ and the judge responds with $t\bmod x$.
+		Your goal is to find $x$.
+		However, the $t$ values must be strictly increasing.
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		Try to find $t$ such that $x\leq t<2\cdot x$. The answer is then simply $t - (t\bmod x)$.\\
+		\pause
+		\smallskip
+		How to find the right $t$:
+		\begin{itemize}
+			\item Since $x$ could be $1$, we can only try $t=1$ as the first query.
+			\pause
+			\item If this $t$ is less than $x$, we know that $x$ is at least $2$.
+			\item Thus, the largest possible $t$ we can now try is $t=3$.
+			\pause
+			\item If this $t$ is less than $x$, we know that $x$ is at least $4$.
+			\item Thus, the largest possible $t$ we can now try is $t=7$.
+			\pause
+			\item[$\Rightarrow$] Try $t=2^i-1$ until $t\bmod x\neq t$. Then answer with $t - (t\bmod x)$.
+		\end{itemize}
+	\end{block}
+\end{slide}
