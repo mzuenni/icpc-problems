@@ -1,0 +1,181 @@
+solution: /submissions/accepted/mzuenni.cpp
+visualizer: /visualizer/vis {name}
+
+generators:
+  generator_bipartite:
+    - generator_bipartite.cpp
+    - validate.h
+
+  generator_random:
+    - generator_random.cpp
+    - validate.h
+
+  generator_tower:
+    - generator_tower.cpp
+    - validate.h
+
+  generator_small:
+    - generator_small.cpp
+    - validate.h
+
+  generator_small_random:
+    - generator_small_random.cpp
+    - validate.h
+
+  generator_tower_overlapping:
+    - generator_tower_overlapping.cpp
+    - validate.h
+
+  tree:
+    - tree.cpp
+
+data:
+  sample:
+    type: directory
+    data:
+      "1":
+      "2":
+
+  secret:
+    type: directory
+    data:
+      - tower_overlapping: generator_tower_overlapping --seed {seed:5} --tower 100000 --overlapping 100000 --noice 100
+      - tower_overlapping: generator_tower_overlapping --seed {seed:6} --tower 100000 --overlapping 100000 --noice 1000
+      - tower_overlapping: generator_tower_overlapping --seed {seed:5} --tower 110000 --overlapping 90000 --noice 10
+      - tower_overlapping: generator_tower_overlapping --seed {seed:5} --tower 130000 --overlapping 70000 --noice 10
+      - tower_overlapping: generator_tower_overlapping --seed {seed:5} --tower 70000 --overlapping 130000 --noice 10
+
+      - manual: manual/manual1.in
+      - manual: manual/manual2.in
+      - manual: manual/manual3.in
+      - manual: manual/manual4.in
+      - manual: manual/manual5.in
+
+      - fuzz-small: generator_random --n 20 --ends 100 --seed 638476722
+      - fuzz-small: generator_random --n 1000 --ends 100 --seed 2011895704
+      - fuzz-small: generator_random --n 20 --ends 30 --p 100 --seed 370782672
+      - fuzz-small: generator_random --n 20 --ends 23 --p 30 --seed 1355890635
+      - fuzz: generator_random --n 300 --seed 316457606
+      - fuzz: generator_random --n 200 --seed 596397182
+      - fuzz: generator_random --n 150 --seed 1183489911
+      - fuzz: generator_random --n 100 --seed 1825048190
+      - fuzz: generator_random --n 100 --seed 660760149
+      - fuzz: generator_random --n 100 --seed 99513386
+      - fuzz: generator_random --n 50 --seed 881003256
+
+      - max-left: max-tower.py left  100000 1000000000 1000000000
+      - max-right: max-tower.py right 100000  999900001 1000000000
+      - max-left-shufle: max-tower.py left-shuffle  100000 1000000000 1000000000 {seed}
+
+      - bipartite: generator_bipartite --A 1 --B 199999
+      - bipartite: generator_bipartite --A 1000 --B 199000
+      - bipartite: generator_bipartite --A 100000 --B 100000
+      - bipartite: generator_bipartite --A 199000 --B 1000
+      - bipartite: generator_bipartite --A 199999 --B 1
+
+      - tower: generator_tower
+
+      - random: generator_random --seed {seed:1}
+      - random: generator_random --seed {seed:2}
+      - random: generator_random --seed {seed:3}
+      - random: generator_random --seed {seed:4}
+      - random-few-ends: generator_random --seed {seed} --ends 700
+      - random-few-ends: generator_random --seed {seed} --ends 1000
+      - random-few-ends: generator_random --seed {seed} --ends 2000
+      - random-few-ends: generator_random --seed {seed} --ends 4000
+      - random-many-ends: generator_random --seed {seed} --ends 100000
+      - random-many-ends: generator_random --seed {seed} --ends 200000
+      - random-many-ends: generator_random --seed {seed} --ends 400000
+      - random-many-ends: generator_random --seed {seed} --ends 800000
+      - random-many-ends: generator_random --seed {seed} --ends 1600000
+      - random-many-ends: generator_random --seed {seed} --ends 10000000
+
+      - random-small: generator_random --n 16 --ends 23 --p 30 --seed {seed}
+      - random-small: generator_random --n 10 --ends 20 --p 40 --seed {seed}
+      - random-small: generator_random --n 20 --ends 30 --p 100 --seed {seed}
+      - random-small: generator_random --n 1000 --ends 500 --p 10000 --seed {seed}
+
+      - small: generator_small
+      - small: generator_small_random --seed {seed:1}
+      - small: generator_small_random --seed {seed:2}
+      - small: generator_small_random --seed {seed:3}
+      - small: generator_small_random --seed {seed:4}
+
+      - tower: generator_tower_overlapping --seed {seed:1} --tower 200000 --overlapping 0 --noice 100
+      - tower: generator_tower_overlapping --seed {seed:2} --tower 200000 --overlapping 0 --noice 1000
+      - overlapping: generator_tower_overlapping --seed {seed:3} --tower 0 --overlapping 200000 --noice 100
+      - overlapping: generator_tower_overlapping --seed {seed:4} --tower 0 --overlapping 200000 --noice 1000
+
+        # seed / n / maxx
+      - complete: dense.py {seed} 100000 3
+      - complete: dense.py {seed} 100000 4
+      - complete: dense.py {seed} 100000 10
+      - complete: dense.py {seed} 100000 632
+      - complete: dense.py {seed} 100000 633
+      - dense: dense.py {seed} 100 14
+      - dense: dense.py {seed} 100 15
+      - dense: dense.py {seed} 100 18
+      - dense: dense.py {seed} 100 20
+      - dense: dense.py {seed} 100 25
+      - dense: dense.py {seed} 100 50
+      - dense: dense.py {seed} 100 100
+      - dense: dense.py {seed} 100 1000
+      - dense: dense.py {seed} 100 10000
+      - dense-maxn: dense.py {seed} 100000 634
+      - dense-maxn: dense.py {seed} 100000 639
+      - dense-maxn: dense.py {seed} 100000 650
+      - dense-maxn: dense.py {seed} 100000 700
+      - dense-maxn: dense.py {seed} 100000 890
+      - dense-maxn: dense.py {seed} 100000 1000
+      - dense-maxn: dense.py {seed} 100000 2000
+      - dense-maxn: dense.py {seed} 100000 4000
+      - dense-maxn: dense.py {seed} 100000 8000
+      - dense-maxn: dense.py {seed} 100000 16000
+
+        # seed, n, p0/p1/p2, pjoin
+      - tree: tree {seed} 5       1 2 1 0.2
+      - tree: tree {seed} 10      1 2 1 0.1
+      - tree: tree {seed} 100     1 2 1 0.1
+      - tree: tree {seed} 1000    1 2 1 0.2
+      - tree: tree {seed} 10000   1 2 1 0.01
+      - tree: tree {seed} 200000  1 2 1 0.1
+        # Mostly deg 2 vertices, up to some level
+      - tree-binary: tree {seed} 5       1 0 4 0.2   3
+      - tree-binary: tree {seed} 10      1 0 4 0.1   3
+      - tree-binary: tree {seed} 100     1 0 4 0.1   7
+      - tree-binary: tree {seed} 1000    1 0 4 0.2   9
+      - tree-binary: tree {seed} 10000   1 0 4 0.01  12
+      - tree-binary: tree {seed} 200000  1 0 2 0.1   20
+      - tree-binary: tree {seed} 200000  1 0 4 0.1   20
+      - tree-binary-deep: tree {seed} 5       1 0 1.1 0.2    100
+      - tree-binary-deep: tree {seed} 10      1 0 1.1 0.1    100
+      - tree-binary-deep: tree {seed} 100     1 0 1.1 0.1    100
+      - tree-binary-deep: tree {seed} 1000    1 0 1.1 0.2    100
+      - tree-binary-deep: tree {seed} 10000   1 0 1.1 0.01   1000
+      - tree-binary-deep: tree {seed} 200000  1 0 1.1 0.1    1000
+      - tree-random: tree {seed} 5       1 2 2 0.2  7
+      - tree-random: tree {seed} 10      1 2 2 0.1  7
+      - tree-random: tree {seed} 20      1 2 2 0.5  7
+      - tree-random: tree {seed} 30      1 2 2 0.1  7
+      - tree-random: tree {seed} 100     1 2 2 0.1  7
+      - tree-random: tree {seed} 1000    1 2 2 0.2  7
+      - tree-large: tree {seed} 200000  1 1 1 0.0 15
+      - tree-large: tree {seed} 200000  1 1 1 0.1 20
+      - tree-large: tree {seed} 200000  1 1 1 0.5 30
+        # make a branch once every 1/p0 = 1/p2
+      - tree-pathy: tree {seed} 200     0.1 1 0.1 0.2          1000
+      - tree-pathy: tree {seed} 200000  0.1 1 0.105 0            100
+      - tree-pathy: tree {seed} 200000  0.01 1 0.015 0          200
+      - tree-pathy: tree {seed} 200000  0.01 1 0.015 0          5000
+      - tree-pathy: tree {seed} 200000  0.001 1 0.0015 0        3000
+      - tree-pathy: tree {seed} 200000  0.001 1 0.003 0        1000
+      - tree-pathy: tree {seed} 200000  0.0001 1 0.00015 0      10000
+      - tree-pathy-deep: tree {seed} 200     0.1 1 0.2 0.3   200
+      - tree-pathy-deep: tree {seed} 200000  0.1 1 0.2 0     400
+      - tree-pathy-deep: tree {seed} 200000  0.1 1 0.02 0   400
+      - tree-pathy-deep: tree {seed} 200000  0.1 1 0.02 0   100
+      - tree-pathy-deep: tree {seed} 200000  0.01 1 0.002 0 1000
+      - tree-pathy-deep: tree {seed} 200000  0.001 1 0.0002 0 10000
+      - tree-pathy-deep: tree {seed} 200000  0.01 1 0.2 0    10
+      - tree-pathy-deep: tree {seed} 200000  0.01 1 0.02 0   300
+      - tree-pathy-deep: tree {seed} 200000  0.01 1 0.02 0   3000

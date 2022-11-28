@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="full" viewBox="0.000000 -37.500000 18.000000 37.500000" >
+<rect x="6" y="-2.5" width="12" height="2.5" stroke="none" fill="#ff0000" />
+<rect x="9" y="-12.5" width="9" height="2.5" stroke="none" fill="#0000ff" />
+<rect x="6" y="-17.5" width="6" height="2.5" stroke="none" fill="#0000ff" />
+<rect x="12" y="-27.5" width="6" height="2.5" stroke="none" fill="#ff0000" />
+<rect x="12" y="-37.5" width="3" height="2.5" stroke="none" fill="#0000ff" />
+</svg>

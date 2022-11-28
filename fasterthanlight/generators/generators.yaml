@@ -1,0 +1,340 @@
+solution: /submissions/accepted/mzuenni.cpp
+visualizer: /visualizers/vis.cpy {name}
+gitignore_generated: true
+
+generators:
+  gen1:
+    - gen1.cpp
+    - validate.h
+
+  gen2:
+    - gen2.cpp
+    - validate.h
+
+  gen3:
+    - gen3.cpp
+    - validate.h
+
+  gen4:
+    - gen4.cpp
+    - validate.h
+
+  gen5:
+    - gen5.cpp
+    - validate.h
+
+  gen6:
+    - gen6.cpp
+    - validate.h
+
+  gen7:
+    - gen7.cpp
+    - validate.h
+
+  gen8:
+    - gen8.cpp
+    - validate.h
+
+  gen_jorke1:
+    - gen_jorke1.cpp
+    - validate.h
+
+  gen_jorke2:
+    - gen_jorke2.cpp
+    - validate.h
+
+  gen_jorke3:
+    - gen_jorke3.cpp
+    - validate.h
+
+  parabola_gen:
+    - parabola_gen.py
+
+  parpar_gen:
+    - parallel_parabola_gen.py
+
+  pardis:
+    - parabola_disjoint.py
+
+  partan:
+    - parabola_tangent.py
+
+  worstcase:
+    - worst_case_gen.py
+
+  box:
+    - box_gen.py
+
+  prime_line:
+    - prime_line.py
+
+  side_boxes:
+    - side_boxes.py
+
+  long_box:
+    - long_box.py
+
+  gen_ragnar_markus:
+    - gen_ragnar_markus.cpp
+    - validate.h
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+      '2':
+      '3':
+
+  secret:
+    type: directory
+    data:
+      - precision: manual/precision1.in
+      - precision: manual/precision2.in
+      - precision: manual/precision3.in
+      - precision: manual/precision4.in
+
+      - gen_jorke1: gen_jorke1 --seed {seed} --dx 2 --dy 1 --c 43187
+      - gen_jorke1: gen_jorke1 --seed {seed}
+      - gen_jorke1: gen_jorke1 --seed {seed} --dx 3 --dy 2 --c 5323
+
+      - gen_jorke1: gen_jorke1 --seed {seed} --dx 2 --dy 1 --c 43187 --flip
+      - gen_jorke1: gen_jorke1 --seed {seed} --flip
+      - gen_jorke1: gen_jorke1 --seed {seed} --dx 3 --dy 2 --c 5323 --flip
+
+      - gen_jorke2: gen_jorke2 --seed {seed} --dx 2 --dy 1 --c 768432
+      - gen_jorke2: gen_jorke2 --seed {seed}
+      - gen_jorke2: gen_jorke2 --seed {seed} --dx 3 --dy 2 --c 5438
+
+      - gen_jorke2: gen_jorke2 --seed {seed} --dx 2 --dy 1 --c 768432 --flip
+      - gen_jorke2: gen_jorke2 --seed {seed} --flip
+      - gen_jorke2: gen_jorke2 --seed {seed} --dx 3 --dy 2 --c 5438 --flip
+
+      - side_boxes_hor: side_boxes {seed:4} 200000 190000 190000 0 0
+      - side_boxes_hor: side_boxes {seed:5} 200000 190000 190000 0.01 0
+      - side_boxes_hor: side_boxes {seed:6} 200000 190000 190000 0.05 0
+      - side_boxes_hor: side_boxes {seed:7} 200000 100000000 100000000 0.01 0
+      - side_boxes_hor: side_boxes {seed:8} 200000 100000000 100000000 0.05 0
+      - side_boxes_hor: side_boxes {seed:9} 200000 190000 190000 0.1 0
+      - side_boxes_ver: side_boxes {seed:10} 200000 190000 190000 0 1
+      - side_boxes_ver: side_boxes {seed:11} 200000 190000 190000 0.01 1
+      - side_boxes_ver: side_boxes {seed:12} 200000 190000 190000 0.05 1
+      - side_boxes_ver: side_boxes {seed:13} 200000 100000000 100000000 0.01 1
+      - side_boxes_ver: side_boxes {seed:14} 200000 100000000 100000000 0.05 1
+      - side_boxes_ver: side_boxes {seed:15} 200000 190000 190000 0.1 1
+
+      - worstcase_200000_00: worstcase {seed:8} 200000 1000000000 0 0
+      - worstcase_200000_00: worstcase {seed:9} 200000 1000000000 0 0
+      - worstcase_200000_10: worstcase {seed:21} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:22} 200000 1000000000 1 0
+      - worstcase_200000_01: worstcase {seed:25} 200000 1000000000 0 1
+      - worstcase_200000_01: worstcase {seed:26} 200000 1000000000 0 1
+      - worstcase_200000_11: worstcase {seed:27} 200000 1000000000 1 1
+      - worstcase_200000_11: worstcase {seed:28} 200000 1000000000 1 1
+
+      - doomsday_manual: manual/doomsday_manual1.in
+      - doomsday_manual: manual/doomsday_manual2.in
+      - doomsday_manual: manual/doomsday_manual3.in
+      - doomsday_precision: manual/doomsday_precision1.in
+      - doomsday_precision: manual/doomsday_precision2.in
+
+      - manual: manual/manual1.in
+      - manual: manual/manual2.in
+      - manual: manual/manual3.in
+      - manual: manual/manual4.in
+      - manual: manual/manual4_mirrored.in
+      - manual: manual/manual5.in
+      - manual: manual/manual6.in
+      - manual: manual/manual6_mirrored.in
+      - manual: manual/manual7.in
+      - manual: manual/manual7_mirrored.in
+      - manual: manual/manual8.in
+      - manual: manual/manual8_mirrored.in
+      - manual: manual/manual9.in
+      - manual: manual/manual10.in
+      - manual: manual/manual11.in
+      - manual: manual/manual12.in
+      - manual: manual/manual13.in
+      - manual: manual/manual14.in
+      - manual: manual/manual14_mirrored.in
+      - manual: manual/manual15.in
+      - manual: manual/manual16.in
+      - manual: manual/manual17.in
+      - manual: manual/manual18.in
+      - minimal-low: manual/minimal-low.in
+      - minimal-high: manual/minimal-high.in
+      - minimal-low-high: manual/minimal-low-high.in
+
+      - gen1: gen1 --seed {seed:1}
+      - gen1: gen1 --seed {seed:2} --impossible
+      - gen1: gen1 --seed {seed:3} --m -1.23491873178 --c 841239
+      - gen1: gen1 --seed {seed:4} --impossible --m -1.23493178 --c 784239
+
+      - gen2: gen2 --seed {seed}
+      - gen2: gen2 --seed {seed:2} --impossible
+      - gen2: gen2 --seed {seed:3} --m -1.23495345 --c 878239
+      - gen2: gen2 --seed {seed:4} --impossible --m -1.2373178 --c 841239
+
+      - gen3: gen3 --seed {seed}
+      - gen4: gen4 --seed {seed}
+      - gen5: gen5 --seed {seed}
+
+      - gen6: gen6 --seed {seed}
+      - gen6: gen6 --seed {seed} --mMul 1 --mDiv 1
+
+      - gen7: gen7 --seed {seed}
+      - gen7: gen7 --seed {seed} --dx 1 --dy 1 --c 4133
+      - gen7: gen7 --seed {seed} --dx 2 --dy 3 --c 532
+
+      - parabola_gen_5: parabola_gen {seed} 5 1000000000
+      - parabola_gen_20: parabola_gen {seed:1} 20 1000000000
+      - parabola_gen_1000: parabola_gen {seed:2} 1000 1000000000
+      - parabola_gen_200000: parabola_gen {seed:3} 200000 1000000000
+      - parabola_gen_200000: parabola_gen {seed:4} 200000 1000000000
+      - parabola_gen_200000: parabola_gen {seed:5} 200000 1000000000
+
+      - parpar_gen_5: parpar_gen {seed:6} 5 1000000000
+      - parpar_gen_20: parpar_gen {seed:7} 20 1000000000
+      - parpar_gen_1000: parpar_gen {seed:8} 1000 1000000000
+      - parpar_gen_5000: parpar_gen {seed:9} 5000 1000000000
+      - parpar_gen_10000: parpar_gen {seed:10} 10000 1000000000
+      - parpar_gen_200000: parpar_gen {seed:11} 200000 1000000000
+      - parpar_gen_200000: parpar_gen {seed:12} 200000 1000000000
+      - parpar_gen_200000: parpar_gen {seed:13} 200000 1000000000
+
+      - pardis_5: pardis {seed} 5 1000000000
+      - pardis_20: pardis {seed:1} 20 1000000000
+      - pardis_1000: pardis {seed:2} 1000 1000000000
+      - pardis_5000: pardis {seed:3} 5000 1000000000
+      - pardis_10000: pardis {seed:4} 10000 1000000000
+      - pardis_200000: pardis {seed:5} 200000 1000000000
+      - pardis_200000: pardis {seed:6} 200000 1000000000
+
+      - partan_5: partan {seed} 5 200000 1000000000 0.3 0.3
+      - partan_20: partan {seed:10} 20 200000 1000000000 0.3 0.3
+      - partan_5000: partan {seed:3} 5000 200000 1000000000 0.3 0.3
+      - partan_10000: partan {seed:5} 10000 200000 1000000000 0 0
+      - partan_10000: partan {seed:7} 10000 200000 1000000000 0.2 0.8
+      - partan_200000: partan {seed:9} 200000 200000 1000000000 0.3 0.3
+      - partan_200000: partan {seed:10} 200000 200000 1000000000 0 0
+      - partan_200000: partan {seed:13} 200000 200000 1000000000 0.8 0.2
+      - partan_200000: partan {seed:15} 200000 200000 1000000000 0.15 0.7
+
+      - worstcase_5_00: worstcase {seed} 5 1000000000 0 0
+      - worstcase_20_00: worstcase {seed:1} 20 1000000000 0 0
+      - worstcase_1000_00: worstcase {seed:2} 1000 1000000000 0 0
+      - worstcase_5000_00: worstcase {seed:3} 5000 1000000000 0 0
+      - worstcase_10000_00: worstcase {seed:4} 10000 1000000000 0 0
+      - worstcase_200000_00: worstcase {seed:5} 200000 1000000000 0 0
+      - worstcase_200000_00: worstcase {seed:6} 200000 1000000000 0 0
+      - worstcase_200000_00: worstcase {seed:7} 200000 1000000000 0 0
+      - worstcase_5_10: worstcase {seed:10} 5 1000000000 1 0
+      - worstcase_20_10: worstcase {seed:11} 20 1000000000 1 0
+      - worstcase_1000_10: worstcase {seed:12} 1000 1000000000 1 0
+      - worstcase_5000_10: worstcase {seed:13} 5000 1000000000 1 0
+      - worstcase_10000_10: worstcase {seed:14} 10000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:15} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:16} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:17} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:18} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:19} 200000 1000000000 1 0
+      - worstcase_200000_10: worstcase {seed:20} 200000 1000000000 1 0
+      - worstcase_20_01: worstcase {seed:23} 20 1000000000 0 1
+      - worstcase_20_11: worstcase {seed:24} 20 1000000000 1 1
+
+      - box_5_0: box {seed} 5 0 1000000000
+      - box_7_0: box {seed:1} 7 0 1000000000
+      - box_10_0: box {seed:2} 10 0 1000000000
+      - box_10_0: box {seed:3} 10 0 1000000000
+      - box_7_0: box {seed:4} 7 0 5
+      - box_7_0: box {seed:5} 7 0 5
+      - box_7_0: box {seed:6} 7 0 5
+      - box_5_5: box {seed:7} 5 5 1000000000
+      - box_5_5: box {seed:8} 5 5 1000000000
+      - box_5_5: box {seed:9} 5 5 7
+      - box_5_5: box {seed:10} 5 5 7
+      - box_7_5: box {seed:11} 7 5 7
+      - box_5_7: box {seed:12} 5 7 7
+      - box_7_7: box {seed:13} 7 7 1000000000
+      - box_7_7: box {seed:14} 7 7 7
+      - box_3_10: box {seed:15} 3 10 7
+      - box_3_10: box {seed:16} 3 10 7
+      - box_3_10: box {seed:17} 3 10 7
+
+      - prime_line: prime_line {seed} 200000
+      - prime_line: prime_line {seed:1} 200000
+      - prime_line: prime_line {seed:2} 200000
+
+      - manual_break_nils: manual/manual_break_nils.in
+
+      - side_boxes_hor: side_boxes {seed:1} 100 100 20 0 0
+      - side_boxes_hor: side_boxes {seed:2} 100 100 100 0.1 0
+      - side_boxes_ver: side_boxes {seed:3} 1000 10000 10000 0 1
+
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --shear 1
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --shear 3
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --spacing 4
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --shear 1 --spacing 4
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --dc 2
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --shear 1 --dc 2
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --dc 3
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 20 --shear 1 --dc 3
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --shear 1
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --shear 3
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --spacing 4
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --shear 1 --spacing 4
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --dc 2
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --shear 1 --dc 2
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --dc 3
+      - gen_jorke3: gen_jorke3 --seed {seed} --n 99999 --shear 1 --dc 3
+
+      - long_box: long_box {seed:1} 100 0 1000 0
+      - long_box: long_box {seed:2} 100 100 1000 1
+      - long_box: long_box {seed:3} 100 10 1000 2
+      - long_box: long_box {seed:4} 10 10000 1000000000 3
+      - long_box: long_box {seed:5} 199999 0 1000000000 0
+      - long_box: long_box {seed:6} 199999 0 1000000000 1
+      - long_box: long_box {seed:7} 199999 0 1000000000 2
+      - long_box: long_box {seed:8} 199999 0 1000000000 3
+      - long_box: long_box {seed:9} 199999 200000 1000000000 0
+      - long_box: long_box {seed:10} 199999 200000 1000000000 1
+      - long_box: long_box {seed:11} 199999 200000 1000000000 2
+      - long_box: long_box {seed:12} 199999 200000 1000000000 3
+
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed} --n 20
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed} --n 50
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed} --n 100
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:1} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:2} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:3} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:4} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:5} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:6} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:7} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:8} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:10} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:11} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:12} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:13} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:14} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:15} --n 99999
+      - gen_ragnar_markus: gen_ragnar_markus --seed {seed:16} --n 99999
+      
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 545849564 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 1198285192 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 1623963357 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 2106459997 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 1326399694 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 2039754002 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 300399765 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 2047775490 --n 99999 --dc 3
+      - gen_jorke3_fuzzed: gen_jorke3 --seed 700417428 --n 99999 --dc 3
+
+      - gen8: gen8 --seed {seed}
+      - gen8: gen8 --seed {seed} --dx 1 --dy 1 --c 41325
+      - gen8: gen8 --seed {seed} --dx 34 --dy 21 --c 89743
+      - gen8: gen8 --seed {seed} --dx 22 --dy 43 --c 7568
+

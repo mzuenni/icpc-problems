@@ -1,0 +1,64 @@
+\documentclass{standalone}
+
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows,backgrounds,scopes}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\begin{document}
+	\begin{tikzpicture}[line cap=round,line join=round,x=1.0cm,y=1.0cm]
+		\newcommand{\shipRoom}[2]{
+			\begin{scope}[blend mode=color]
+				\clip(0,0) rectangle (9,5);
+				\clip(#1) rectangle (#2);
+				%\draw[line width=3pt,blue,fill=blue,fill opacity=0.2] (#1) rectangle (#2);
+				\fill[blue!75!white] (#1) rectangle (#2);
+			\end{scope}
+		};
+		
+		\newcommand{\shipImage}[2][]{
+			\begin{scope}
+				\clip(0,0) rectangle (9,5);
+				\node[inner sep=0pt,outer sep=0pt,anchor=south west,#1] {\includegraphics[interpolate=false,width=9cm,height=5cm]{#2}};
+			\end{scope}
+		};
+		\begin{scope}[transparency group]
+			\shipImage[opacity=.5]{example_bg};
+			\shipImage{example_rooms2};
+		\end{scope}
+		\newcommand{\corner}[3][white]{
+			\node[fill=#1!50,draw=#1,thick,circle,inner sep=0pt,minimum size=0.2cm] at (#2,#3) {};
+		};
+		\begin{axis}[
+			x=1.0cm,y=1.0cm,
+			axis lines=middle,
+			ymajorgrids=true,
+			xmajorgrids=true,
+			xmin=0,
+			xmax=9,
+			ymin=0,
+			ymax=5,
+			xtick={0.0,1.0,...,9.0},
+			ytick={0.0,1.0,...,5.0},]
+		\end{axis}
+	
+%		\fill[red,opacity=0.33] (1,5) -- (1,3) -- (4,2) -- (6,4) -- (6,5) --cycle;
+		\corner[red]{1}{3};
+		\corner[red]{5}{3};
+		\corner[red]{4}{2};
+		\corner[red]{6}{4};	
+		
+%		\fill[blue,opacity=0.33] (5,0) -- (5,2) -- (7,3) -- (8,2) -- (8,0) --cycle;
+%		\corner[blue]{5}{2};
+%		\corner[blue]{8}{2};
+%		\corner[blue]{5}{1};
+%		\corner[blue]{7}{3};
+	
+		\shipImage[]{example_beam2};
+	\end{tikzpicture}
+\end{document} 

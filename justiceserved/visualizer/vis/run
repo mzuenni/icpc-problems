@@ -1,0 +1,9 @@
+#!/bin/sh
+
+NAME=$1
+${0%/*}/vis $1
+
+echo $1.svg >&2
+if [ -f "$1.svg" ]; then
+    timeout 10 convert $1.svg $1.png || true
+fi

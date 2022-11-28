@@ -1,0 +1,134 @@
+solution: /submissions/accepted/mzuenni.cpp
+visualizer: /visualizers/vis.cpy {name}
+gitignore_generated: true
+
+generators:
+  complete:
+    - complete.cpp
+    - graph_gen.h
+    - validate.h
+
+  copath:
+    - copath.cpp
+    - graph_gen.h
+    - validate.h
+
+  fibonacci_path_on_leaf:
+    - fibonacci_path_on_leaf.cpp
+    - graph_gen.h
+    - validate.h
+
+  fibonacci_random:
+    - fibonacci_random.cpp
+    - graph_gen.h
+    - validate.h
+
+  fibonacci:
+    - fibonacci.cpp
+    - graph_gen.h
+    - validate.h
+
+  path:
+    - path.cpp
+    - graph_gen.h
+    - validate.h
+
+  random:
+    - random.cpp
+    - graph_gen.h
+    - validate.h
+
+data:
+  sample:
+    type: directory
+    data:
+      "1":
+      "2":
+
+  secret:
+    type: directory
+    data:
+      - path-tree: path-tree.py {seed:1} 100000 100000
+      - path-tree: path-tree.py {seed:1} 190000 10000
+      - path-tree: path-tree.py {seed:1} 10000 190000
+      - complete: complete --seed {seed:1}
+      - complete: complete --seed {seed:2} --l 3
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:9} --n 83971
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:9} --n 17481
+      - fibonacci_random: fibonacci_random --seed {seed:7} --n 8375
+      - fibonacci_random: fibonacci_random --seed {seed:8} --n 19450
+      - copath: copath --seed {seed:1}
+      - copath: copath --seed {seed:2}
+      - copath: copath --seed {seed:5}
+      - binary: binary.py {seed:10} 200000 20000
+      - binary: binary.py {seed:11} 200000 200000
+      - random2: random2.py {seed:1} 200000 200000
+      - random2: random2.py {seed:2} 200000 450
+      - random2: random2.py {seed:3} 200000 10
+      - random2: random2.py {seed:4} 200000 5
+      - random2: random2.py {seed:5} 200000 3
+
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:0}
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:1} --n 10
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:2} --n 15
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:3} --n 16
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:4} --n 17
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:5} --n 20
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:6} --n 31
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:7} --n 32
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:8} --n 12
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:9} --n 11
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:9} --n 112
+      - fibonacci_path_on_leaf: fibonacci_path_on_leaf --seed {seed:9} --n 9485
+      - fibonacci_random: fibonacci_random --seed {seed:0}
+      - fibonacci_random: fibonacci_random --seed {seed:1} --n 10
+      - fibonacci_random: fibonacci_random --seed {seed:2} --n 15
+      - fibonacci_random: fibonacci_random --seed {seed:3} --n 16
+      - fibonacci_random: fibonacci_random --seed {seed:4} --n 17
+      - fibonacci_random: fibonacci_random --seed {seed:5} --n 20
+      - fibonacci_random: fibonacci_random --seed {seed:6} --n 31
+      - fibonacci_random: fibonacci_random --seed {seed:7} --n 32
+      - fibonacci_random: fibonacci_random --seed {seed:8} --n 12
+      - fibonacci_random: fibonacci_random --seed {seed:9} --n 11
+      - fibonacci_random: fibonacci_random --seed {seed:9} --n 193
+      - fibonacci: fibonacci_random --seed {seed}
+      - path: path --seed {seed:1}
+      - path: path --seed {seed:2}
+      - copath-small: copath --seed {seed} --n 100
+      - copath-small: copath --seed {seed} --n 1000
+      - random: random --seed {seed:0}
+      - random: random --seed {seed:1}
+      - random: random --seed {seed:2}
+      - random: random --seed {seed:3}
+      - random: random --seed {seed:1} --n 4
+      - random: random --seed {seed:1} --n 5
+      - random: random --seed {seed:1} --n 6
+      - random: random --seed {seed:1} --n 7
+      - random: random --seed {seed:1} --n 8
+      - random: random --seed {seed:1} --n 9
+      - random: random --seed {seed:1} --n 10
+      - random: random --seed {seed:2} --n 15
+      - random: random --seed {seed:3} --n 16
+      - random: random --seed {seed:4} --n 17
+      - random: random --seed {seed:5} --n 20
+      - random: random --seed {seed:6} --n 31
+      - random: random --seed {seed:7} --n 32
+      - random: random --seed {seed:8} --n 12
+      - random: random --seed {seed:9} --n 11
+      - random: random --seed {seed:9} --n 1102
+      - random: random --seed {seed:9} --n 29485
+      - random2-small: random2.py {seed:6} 10 2
+      - random2-small: random2.py {seed:6} 15 7
+      - random2-small: random2.py {seed:6} 20 3
+      - random2-small: random2.py {seed:6} 50 4
+      - random2-small: random2.py {seed:6} 100 2
+      - random2-small: random2.py {seed:6} 100 3
+      - random2-small: random2.py {seed:6} 100 4
+      - random2-small: random2.py {seed:6} 100 7
+      - binary: binary.py {seed:7} 200000 1
+      - binary: binary.py {seed:8} 200000 111
+      - binary: binary.py {seed:9} 200000 1231
+      - binary: binary.py {seed:10} 15 10
+      - binary: binary.py {seed:9} 148 123
+      - binary: binary.py {seed:8} 1023 11
+      - binary: binary.py {seed:7} 1024 21
