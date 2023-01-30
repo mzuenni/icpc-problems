@@ -1,0 +1,7 @@
+INT(1, 1000, n) SPACE INT(1, 1000, w) NEWLINE
+REP(n, SPACE)
+  REGEX("[a-z]*", s)
+  ASSERT(STRLEN(s) <= 100)
+END
+NEWLINE
+EOF

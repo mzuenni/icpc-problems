@@ -1,0 +1,33 @@
+solution: /submissions/accepted/sol.cpp
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+      '2':
+      '3':
+  secret:
+    type: directory
+    data:
+      - small: random --seed {seed} --n 10 --w 1
+      - small: random --seed {seed} --n 10 --w 2
+      - small: random --seed {seed} --n 10 --w 4
+      - small: random --seed {seed} --n 10 --w 8
+      - small: random --seed {seed} --n 10 --w 16
+      - small: random --seed {seed} --n 10 --w 32
+
+      - large: random --seed {seed} --n 1000 --w 32
+      - large: random --seed {seed} --n 1000 --w 64
+      - large: random --seed {seed} --n 1000 --w 128
+      - large: random --seed {seed} --n 1000 --w 256
+      - large: random --seed {seed} --n 1000 --w 512
+      - large: random --seed {seed} --n 1000 --w 1000
+
+      - random: random --seed {seed:1}
+      - random: random --seed {seed:2}
+      - random: random --seed {seed:3}
+      - random: random --seed {seed:4}
+      - random: random --seed {seed:5}
+      - random: random --seed {seed:6}
+      - random: random --seed {seed:7}

@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="90cm"
+   height="30cm"
+   viewBox="0 0 2400 800"
+   id="svg5277"
+   sodipodi:docname="example.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <g
+     id="g7039"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5077"
+       clip-path="url(#clip13)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5075">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5069"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 374.02539,264.7168 a 15.0015,15.0015 0 0 0 -5.37305,28.99218 c 47.85976,19.29541 70.83129,73.32207 51.53516,121.1836 -4.54648,11.2693 -11.01872,21.15809 -18.88086,29.4414 7.16771,7.00565 13.56076,14.81663 19.02344,23.29688 11.65248,-11.46589 21.1931,-25.43289 27.68164,-41.51758 a 15.0015,15.0015 0 0 0 0.002,-0.004 C 473.37165,363.2122 442.77003,291.24347 379.87109,265.88477 a 15.0015,15.0015 0 0 0 -5.8457,-1.16797 z M 293.15234,465.25977 A 15.0015,15.0015 0 0 0 287.77148,494.25 c 30.2214,12.19127 62.53514,11.45152 90.76954,0.42188 -6.01253,-9.50144 -13.89423,-17.62331 -23.09375,-23.9336 -18.13436,4.32061 -37.76317,3.23012 -56.45118,-4.30859 a 15.0015,15.0015 0 0 0 -5.84375,-1.16992 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5071">Bogen s_3</title>
+        <desc
+           id="desc5073">Bogen s_3: Halbkreis durch F und W</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5259"
+       clip-path="url(#clip27)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5257">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5251"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 343.24805,257.31836 c 1.30133,11.00378 4.81189,21.82902 10.59375,31.78711 4.97134,1.10803 9.92229,2.63239 14.80859,4.60351 A 15.0015,15.0015 0 1 0 379.875,265.88477 c -12.00699,-4.84361 -24.34598,-7.63902 -36.62695,-8.56641 z m -49.33008,6.39258 c -32.62055,11.21847 -60.41502,35.93607 -74.2832,70.31445 a 15.0015,15.0015 0 0 0 0,0.002 c -25.358,62.89718 5.24168,134.86591 68.14062,160.22461 a 15.0015,15.0015 0 1 0 11.21875,-27.82226 c -47.85877,-19.29506 -70.83302,-73.3209 -51.53906,-121.18169 l 0.002,-0.004 c 10.15773,-25.17783 29.92524,-43.46485 53.3457,-52.33789 -3.40589,-9.49571 -5.70134,-19.29391 -6.88476,-29.19531 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5253">Bogen c_5</title>
+        <desc
+           id="desc5255">Bogen c_5: Halbkreis durch W und F</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     clip-path="url(#clip3)"
+     id="g4947-3"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4945-8"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4941-6">Bogen d_3</title>
+      <desc
+         id="desc4943-1">Bogen d_3: Halbkreis durch Q und H_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip15)"
+     id="g5103-9"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5101-6"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5097-1">Bogen c_4</title>
+      <desc
+         id="desc5099-7">Bogen c_4: Halbkreis durch U und B</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip16)"
+     id="g5116-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5114-5"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5110-4">Bogen d_4</title>
+      <desc
+         id="desc5112-1">Bogen d_4: Halbkreis durch T und S</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip14)"
+     id="g5090-4"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5088-9"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5084-9">Bogen t_3</title>
+      <desc
+         id="desc5086-1">Bogen t_3: Halbkreis durch C und V</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip9)"
+     id="g5025-7"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5023-7"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5019-1">Bogen k_3</title>
+      <desc
+         id="desc5021-5">Bogen k_3: Halbkreis durch L und C_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip2)"
+     id="g4934-9"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4932-3"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4928-0">Bogen c_3</title>
+      <desc
+         id="desc4930-8">Bogen c_3: Halbkreis durch R und I_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip17)"
+     id="g5129-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5127-5"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5123-7">Bogen e_4</title>
+      <desc
+         id="desc5125-5">Bogen e_4: Halbkreis durch I_1 und R</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip12)"
+     id="g5064-6"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5062-3"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5058-7">Bogen r_3</title>
+      <desc
+         id="desc5060-5">Bogen r_3: Halbkreis durch I und Z</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip19)"
+     id="g5155-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5153-9"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5149-4">Bogen g_4</title>
+      <desc
+         id="desc5151-3">Bogen g_4: Halbkreis durch G_1 und P</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip21)"
+     id="g5181-4"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5179-8"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5175-8">Bogen k_4</title>
+      <desc
+         id="desc5177-9">Bogen k_4: Halbkreis durch E_1 und N</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip24)"
+     id="g5220-0"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5218-3"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5214-9">Bogen r_4</title>
+      <desc
+         id="desc5216-2">Bogen r_4: Halbkreis durch C_1 und L</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip25)"
+     id="g5233-5"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5231-4"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5227-5">Bogen s_4</title>
+      <desc
+         id="desc5229-9">Bogen s_4: Halbkreis durch A_1 und J</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip23)"
+     id="g5207-4"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5205-6"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5201-2">Bogen q_4</title>
+      <desc
+         id="desc5203-2">Bogen q_4: Halbkreis durch B_1 und K</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip27)"
+     id="g5259-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5257-1"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5253-8">Bogen c_5</title>
+      <desc
+         id="desc5255-9">Bogen c_5: Halbkreis durch W und F</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip28)"
+     id="g5272-3"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5270-6"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5266-0">Bogen d_5</title>
+      <desc
+         id="desc5268-2">Bogen d_5: Halbkreis durch V und C</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     id="g7128"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5012"
+       clip-path="url(#clip8)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5010">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5004"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 669.84375,122.17383 a 15.0015,15.0015 0 0 0 -14.23828,19.49219 c 14.7506,49.45464 -13.16527,101.10508 -62.61914,115.85546 -11.64452,3.47316 -23.40859,4.57747 -34.78516,3.59571 -1.00815,9.97179 -3.12966,19.84015 -6.35351,29.39843 16.22741,1.96093 33.09476,0.71111 49.71484,-4.24609 64.99161,-19.38474 102.17554,-88.18688 82.79102,-153.17773 a 15.0015,15.0015 0 0 0 -14.50977,-10.91797 z m -207.25,61.84765 a 15.0015,15.0015 0 0 0 -14.20898,19.45899 c 9.31976,31.22297 30.04463,56.02104 56.26757,71.21875 3.67912,-10.6255 5.11499,-21.85157 4.3125,-32.97852 -14.6823,-11.48491 -26.06786,-27.51119 -31.83203,-46.82226 a 15.0015,15.0015 0 0 0 -14.53906,-10.87696 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5006">Bogen s_2</title>
+        <desc
+           id="desc5008">Bogen s_2: Halbkreis durch B und U</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5272"
+       clip-path="url(#clip28)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5270">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5264"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 425.75781,124.60938 c -29.57364,0.024 -59.22505,10.59368 -82.72461,31.99804 -50.1452,45.66507 -53.79581,123.78854 -8.13086,173.9336 a 15.0015,15.0015 0 1 0 22.18164,-20.19727 c -34.74855,-38.15767 -32.00714,-96.80627 6.1504,-131.55469 a 15.0015,15.0015 0 0 0 0,-0.004 c 20.06715,-18.27905 45.80813,-26.17566 70.75976,-24.00586 1.0516,-10.03932 3.23414,-19.87085 6.4668,-29.31055 -2.92149,-0.34522 -5.8537,-0.58729 -8.79102,-0.72461 -1.96905,-0.0921 -3.94053,-0.13637 -5.91211,-0.13476 z m 61.91602,16.52148 c -3.60204,10.47922 -5.13735,21.75479 -4.24805,33.23633 3.9991,3.15542 7.79963,6.67615 11.34766,10.57226 a 15.0015,15.0015 0 1 0 22.18164,-20.20117 c -8.71711,-9.57233 -18.61893,-17.4432 -29.28125,-23.60742 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5266">Bogen d_5</title>
+        <desc
+           id="desc5268">Bogen d_5: Halbkreis durch V und C</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5103"
+       clip-path="url(#clip15)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5101">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5095"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="M 567.7832,45.175781 C 555.68024,45.022779 543.35968,46.66757 531.17383,50.302734 466.18469,69.689571 429.00054,138.48672 448.38477,203.47656 a 15.0015,15.0015 0 1 0 28.74804,-8.57422 c -14.75068,-49.45488 13.16421,-101.097797 62.61914,-115.849606 26.01674,-7.761063 52.63776,-3.709257 74.17774,9.070313 5.30137,-8.585948 11.5418,-16.483554 18.54687,-23.583985 C 613.3505,52.374649 590.96737,45.468867 567.7832,45.175781 Z m 100.42383,53.958985 c -7.7858,7.876684 -14.05651,17.366394 -18.23437,28.091794 2.23226,4.57546 4.12755,9.39299 5.63281,14.43946 a 15.0015,15.0015 0 1 0 28.74805,-8.57422 c -3.69958,-12.40307 -9.21708,-23.7794 -16.14649,-33.957034 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5097">Bogen c_4</title>
+        <desc
+           id="desc5099">Bogen c_4: Halbkreis durch U und B</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5090"
+       clip-path="url(#clip14)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5088">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5082"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 506.41602,159.69531 a 15.0015,15.0015 0 0 0 -11.64258,25.24414 c 34.74854,38.15768 32.00714,96.80626 -6.15039,131.55469 -8.98033,8.18039 -19.09756,14.28023 -29.77149,18.33203 3.4174,9.4218 5.78561,19.23362 7.02735,29.24414 15.47072,-5.27467 30.12467,-13.71823 42.94531,-25.39648 50.14521,-45.66507 53.7958,-123.79049 8.13086,-173.93555 a 15.0015,15.0015 0 0 0 -10.53906,-5.04297 z M 346.55273,305.28125 a 15.0015,15.0015 0 0 0 -11.65039,25.25977 c 21.94009,24.09259 51.37231,37.44711 81.59375,39.76171 -1.29382,-11.16932 -4.86914,-21.90718 -10.41797,-31.58398 -18.2133,-3.97582 -35.42536,-13.47502 -48.99414,-28.375 a 15.0015,15.0015 0 0 0 -10.53125,-5.0625 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5084">Bogen t_3</title>
+        <desc
+           id="desc5086">Bogen t_3: Halbkreis durch C und V</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g7051"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5220"
+       clip-path="url(#clip24)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5218">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5212"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 506.55469,841.20898 a 15.0015,15.0015 0 0 0 -15.50196,12.82618 c -2.02354,12.63219 -2.02643,25.30236 -0.1914,37.60546 10.44294,-3.7195 20.21892,-9.55292 28.64258,-17.41015 -0.0373,-5.12378 0.34731,-10.28962 1.17382,-15.44922 a 15.0015,15.0015 0 0 0 -14.12304,-17.57227 z m 213.55664,34.20118 a 15.0015,15.0015 0 0 0 -15.53321,12.84961 c -5.26573,32.86078 -27.63195,60.37571 -58.74414,72.2539 a 15.0015,15.0015 0 0 0 -0.002,0 c -31.09589,11.87622 -66.10451,6.26571 -91.93555,-14.73242 a 15.0015,15.0015 0 0 0 -0.002,-0.002 c -7.39553,-6.00928 -13.70526,-13.01369 -18.82812,-20.71875 -8.54836,5.47202 -17.64645,9.91857 -27.09571,13.28906 7.12386,11.50627 16.18715,21.92174 27.00391,30.71094 34.11144,27.72767 80.49423,35.1627 121.56055,19.47851 v 0.002 c 41.07691,-15.68258 70.71116,-52.13337 77.66601,-95.53516 a 15.0015,15.0015 0 0 0 -14.08984,-17.5957 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5214">Bogen r_4</title>
+        <desc
+           id="desc5216">Bogen r_4: Halbkreis durch C_1 und L</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5025"
+       clip-path="url(#clip9)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5023">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5017"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 613.4082,750.39844 c -2.05811,-0.0135 -4.10789,0.0239 -6.14843,0.11328 -57.13529,2.50131 -106.81674,44.92503 -116.20704,103.52148 a 15.001538,15.001538 0 1 0 29.625,4.74805 c 8.16631,-50.95866 55.72147,-85.37359 106.68165,-77.20703 11.99787,1.9227 23.0794,6.02926 32.90429,11.84961 5.2347,-8.54673 11.42695,-16.51576 18.47852,-23.72852 -13.77055,-8.80669 -29.51017,-14.99791 -46.63477,-17.74219 -6.27804,-1.00608 -12.52487,-1.51429 -18.69922,-1.55468 z m 100.99805,54.01953 c -7.92546,7.97563 -14.08953,17.46566 -18.19531,27.83789 8.25083,16.7204 11.55637,36.10307 8.36718,56.00391 a 15.0015,15.0015 0 1 0 29.62305,4.74609 c 5.1565,-32.17712 -2.75804,-63.51619 -19.79492,-88.58789 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5019">Bogen k_3</title>
+        <desc
+           id="desc5021">Bogen k_3: Halbkreis durch L und C_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <metadata
+     id="metadata5283">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5281">
+    <clipPath
+       id="clip9ff52b4b-49a2-4dac-a594-f8680dcfa504">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4910"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip226e3331-5854-4b1b-b849-ff11357d814a">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4923"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip1264009f-a86a-449b-aba4-263af08c78d3">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4936"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip8908b41a-dfd1-4d48-951f-5e7484a294b8">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4949"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip805bd32d-2fd7-43fc-8739-9520a63f0a47">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4962"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip7c093c4b-d5ed-44a6-8c1b-6c85b4372688">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4975"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipb8eea66e-d99b-4da6-b7cd-333789213d2f">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path4988"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip041454c0-b540-4364-959a-15188cce7d78">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5001"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip1f5579f6-043c-4c4e-9a2c-58b144a3d63f">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5014"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipb1f0b455-ee59-49e6-8092-8fff2793fc1d">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5027"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip6e38ec7c-c3cf-4221-9336-248ded46fc62">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5040"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip6d909340-633b-4bed-8396-4b6cdbd7f404">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5053"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip8e2db157-6361-4304-ba6b-2c834916b2c9">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5066"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipa81d1cb8-360b-467f-ab39-9359324995bc">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5079"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip3cb3c8ed-cd17-4098-8882-f08d82de1b40">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5092"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipa3864382-5eb7-46aa-8ac5-fb026400222b">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5105"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip3c1b7506-ee0a-49c8-99ac-8782aeb8d83b">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5118"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip979d983f-a7c7-4e8d-b705-c2d20c49d9c3">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5131"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip60b0ed8d-17e8-406a-a9cc-db8e148d85bc">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5144"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip9bb1cda7-d063-4fc6-9de1-8ed445c0702c">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5157"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipf53ac829-2207-425a-b6e1-873c6020cb77">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5170"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip96af85a2-ba36-474a-aa51-4b5aeea26708">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5183"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip1daed3b9-ed35-47dd-91f3-f1b113fa5ef9">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5196"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip3e97b9e0-6365-42b1-ad57-08ce712e18ce">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5209"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip1157327c-d0d9-4b72-ba3e-ac2a54c1b800">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5222"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipdbe363d8-c68a-4e8d-8029-fbc928172609">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5235"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipb2c3cad4-cd2b-4a79-9929-d29f32c81c64">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5248"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clip6cc33a21-c199-4fd0-84f0-88e205813bea">
+      <path
+         d="M 0,0 V 858 H 1299 V 0 Z"
+         id="path5261"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
+     id="namedview5279"
+     showgrid="false"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="1463.1038"
+     inkscape:cy="119.83854"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5277" />
+  <title
+     id="title4907" />
+  <g
+     id="g7027"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5116"
+       clip-path="url(#clip16)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5114">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5108"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 728.125,34.603516 c -2.05811,-0.01369 -4.10787,0.02389 -6.14844,0.113281 C 664.84061,37.219738 615.15962,79.651654 605.76953,138.25195 A 15.0015,15.0015 0 1 0 635.39258,143 c 8.16654,-50.964581 55.72468,-85.3851 106.68359,-77.21875 26.81173,4.296676 49.03882,19.500829 62.89844,40.36523 8.50398,-5.43645 17.54661,-9.86284 26.94141,-13.220699 -18.1923,-29.308747 -48.48551,-50.899333 -85.0918,-56.765625 -6.27817,-1.006099 -12.5249,-1.515577 -18.69922,-1.55664 z M 849.10547,139.60156 c -10.43804,3.71794 -20.21115,9.54839 -28.63281,17.40235 0.0262,5.09337 -0.35572,10.2603 -1.18946,15.46289 a 15.0015,15.0015 0 1 0 29.6211,4.74609 c 2.04846,-12.78262 2.02893,-25.43275 0.20117,-37.61133 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5110">Bogen d_4</title>
+        <desc
+           id="desc5112">Bogen d_4: Halbkreis durch T und S</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4921"
+       clip-path="url(#clip1)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4919">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4913"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 621.27344,125.42969 a 15.0015,15.0015 0 0 0 -15.50391,12.82226 c -5.15631,32.16894 2.75281,63.50425 19.78516,88.57422 7.92602,-7.97698 14.09395,-17.46785 18.19922,-27.84179 C 635.50925,182.2684 632.20409,162.89214 635.39258,143 a 15.0015,15.0015 0 0 0 -14.11914,-17.57031 z m 213.54101,34.1875 A 15.0015,15.0015 0 0 0 819.2832,172.4668 c -8.16631,50.95867 -55.72537,85.36967 -106.68554,77.20312 -11.99876,-1.92284 -23.07818,-6.03084 -32.90235,-11.85156 -5.23471,8.54657 -11.42696,16.5178 -18.47851,23.73047 13.77034,8.80782 29.50879,15.00159 46.63476,17.74609 66.96586,10.73153 130.32096,-35.11465 141.05274,-102.08203 a 15.0015,15.0015 0 0 0 -14.08985,-17.5957 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4915">Bogen t_2</title>
+        <desc
+           id="desc4917">Bogen t_2: Halbkreis durch S und T</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g7083"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4999"
+       clip-path="url(#clip7)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4997">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4991"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 775.00586,739.84961 c -12.10292,-0.15333 -24.4236,1.49431 -36.60938,5.12891 -64.99162,19.38475 -102.17554,88.18687 -82.79101,153.17773 a 15.0015,15.0015 0 1 0 28.74805,-8.57617 c -14.75061,-49.45465 13.1633,-101.10315 62.61718,-115.85352 11.64566,-3.4735 23.41222,-4.57989 34.79102,-3.59765 1.00822,-9.96767 3.12719,-19.83226 6.34961,-29.38672 -4.32986,-0.52317 -8.70127,-0.83679 -13.10547,-0.89258 z m 60.30469,16.69531 c -3.68086,10.62333 -5.1192,21.84763 -4.31836,32.97266 14.68707,11.48456 26.07564,27.51352 31.83593,46.82617 a 15.0015,15.0015 0 1 0 28.7461,-8.57422 c -9.31375,-31.22636 -30.03782,-56.0265 -56.26367,-71.22461 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4993">Bogen h_3</title>
+        <desc
+           id="desc4995">Bogen h_3: Halbkreis durch M und D_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4973"
+       clip-path="url(#clip5)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4971">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4965"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 1007.1797,528.08203 c -1.0014,-0.007 -2.0007,-2.8e-4 -3,0.0176 -14.73647,0.26337 -29.21163,3.19427 -42.75197,8.48242 6.01298,9.49925 13.89221,17.62083 23.0918,23.92969 18.13287,-4.31871 37.76007,-3.2274 56.44727,4.30664 a 15.0015,15.0015 0 1 0 11.2168,-27.82422 c -14.7415,-5.94328 -29.9826,-8.81217 -45.0039,-8.91211 z m -87.54689,35.53516 c -11.65092,11.46533 -21.19051,25.43367 -27.67578,41.51953 -25.37129,62.8986 5.24735,134.86663 68.14453,160.22461 a 15.0015,15.0015 0 1 0 11.2168,-27.82227 C 923.45785,718.24334 900.47484,664.21681 919.78125,616.35742 a 15.0015,15.0015 0 0 0 0,-0.004 c 4.54344,-11.26941 11.01406,-21.15673 18.875,-29.43946 -7.16827,-7.00533 -13.56025,-14.817 -19.02344,-23.29687 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4967">Bogen f_3</title>
+        <desc
+           id="desc4969">Bogen f_3: Halbkreis durch O und F_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5194"
+       clip-path="url(#clip22)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5192">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5186"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 877.06445,816.85352 a 15.0015,15.0015 0 0 0 -14.23633,19.49023 c 14.75061,49.45465 -13.16526,101.1051 -62.61914,115.85547 -26.00113,7.75524 -52.60761,3.71311 -74.14062,-9.04883 -5.25425,8.55142 -11.45835,16.47954 -18.48438,23.63477 29.09366,18.46366 65.71336,24.7463 101.19922,14.16211 64.99161,-19.38476 102.17554,-88.18688 82.79102,-153.17774 a 15.0015,15.0015 0 0 0 -14.50977,-10.91601 z m -207.20703,61.79492 a 15.0015,15.0015 0 0 0 -14.25195,19.50781 c 3.68839,12.36613 9.17041,23.72241 16.07031,33.87695 7.90222,-7.96888 14.14063,-17.50404 18.29102,-28.05468 -2.22319,-4.56298 -4.1127,-9.36742 -5.61328,-14.39844 a 15.0015,15.0015 0 0 0 -14.4961,-10.93164 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5188">Bogen p_4</title>
+        <desc
+           id="desc5190">Bogen p_4: Halbkreis durch D_1 und M</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5181"
+       clip-path="url(#clip21)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5179">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5173"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 994.53125,695.66406 a 15.0015,15.0015 0 0 0 -11.64258,25.24024 c 34.74853,38.15767 32.00713,96.80627 -6.15039,131.55468 -20.07445,18.28094 -45.81988,26.1794 -70.77344,24.00977 -1.05179,10.03956 -3.23394,19.87056 -6.46679,29.31055 34.25934,4.04895 70.02888,-6.17705 97.43945,-31.13868 50.1452,-45.66508 53.7978,-123.79244 8.1328,-173.9375 a 15.0015,15.0015 0 0 0 -10.53905,-5.03906 z M 834.6543,841.24414 a 15.0015,15.0015 0 0 0 -11.65039,25.26367 c 8.71709,9.57231 18.61898,17.4451 29.28125,23.60938 3.60189,-10.47882 5.13676,-21.75363 4.24804,-33.23438 -4.00028,-3.15607 -7.80066,-6.67708 -11.34961,-10.57422 a 15.0015,15.0015 0 0 0 -10.52929,-5.06445 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5175">Bogen k_4</title>
+        <desc
+           id="desc5177">Bogen k_4: Halbkreis durch E_1 und N</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5168"
+       clip-path="url(#clip20)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5166">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5160"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 1046.3398,535.82617 a 15.0015,15.0015 0 0 0 -5.373,28.99219 c 47.8605,19.29572 70.8415,73.3203 51.5352,121.17969 a 15.0015,15.0015 0 0 0 0,0.004 c -10.1511,25.18425 -29.9147,43.47233 -53.334,52.34375 3.4072,9.50013 5.7039,19.30294 6.8867,29.20899 32.621,-11.21674 60.4107,-35.94998 74.2715,-70.33789 v 0.006 c 25.3735,-62.89956 -5.2444,-134.87013 -68.1426,-160.22852 a 15.0015,15.0015 0 0 0 -5.8438,-1.16797 z m -80.86128,200.53125 a 15.0015,15.0015 0 0 0 -5.38086,29.00196 c 12.00587,4.84315 24.34319,7.64163 36.62304,8.57031 -1.30125,-11.00409 -4.80827,-21.82874 -10.58984,-31.78711 -4.97219,-1.10836 -9.92334,-2.63203 -14.81055,-4.60352 a 15.0015,15.0015 0 0 0 -5.84179,-1.18164 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5162">Bogen h_4</title>
+        <desc
+           id="desc5164">Bogen h_4: Halbkreis durch F_1 und O</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4986"
+       clip-path="url(#clip6)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4984">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4978"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 923.4707,660.95312 c 1.29493,11.17036 4.87373,21.90866 10.42578,31.58594 18.21418,3.97501 35.4262,13.47247 48.99414,28.36719 a 15.0015,15.0015 0 1 0 22.17778,-20.20313 c -21.94115,-24.08667 -51.37472,-37.43773 -81.5977,-39.75 z m -49.38281,6.23438 c -15.47208,5.2756 -30.12745,13.72042 -42.95117,25.39844 -50.14402,45.664 -53.79679,123.7779 -8.13281,173.92187 a 15.0015,15.0015 0 1 0 22.17968,-20.19922 c -34.74952,-38.15874 -32.00831,-96.79347 6.15039,-131.54297 8.9852,-8.18243 19.10685,-14.28402 29.78516,-18.33593 -3.41872,-9.4212 -5.78855,-19.23204 -7.03125,-29.24219 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4980">Bogen g_3</title>
+        <desc
+           id="desc4982">Bogen g_3: Halbkreis durch N und E_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g7106"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5142"
+       clip-path="url(#clip18)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5140">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5134"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 983.34766,214.26562 c -19.85676,0.31258 -39.90111,5.4341 -58.35352,15.86133 a 15.0015,15.0015 0 1 0 14.75781,26.11914 c 44.93035,-25.38961 101.48935,-9.65842 126.88085,35.27539 13.3565,23.6361 15.3315,50.48727 7.668,74.32813 9.553,3.26016 18.6458,7.5829 27.1289,12.83594 11.5712,-32.49862 9.5621,-69.64591 -8.6777,-101.92383 -22.9386,-40.59294 -65.7195,-63.18376 -109.40434,-62.4961 z m 60.85934,195.41797 c -3.9674,3.19835 -8.2462,6.1232 -12.8359,8.7168 a 15.0015,15.0015 0 1 0 14.7598,26.11719 c 11.2693,-6.36816 21.1447,-14.26973 29.5253,-23.29102 -9.4131,-5.84442 -20.0614,-9.85275 -31.4492,-11.54297 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5136">Bogen f_4</title>
+        <desc
+           id="desc5138">Bogen f_4: Halbkreis durch H_1 und Q</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4947"
+       clip-path="url(#clip3)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4945">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4939"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 933.17773,228.09375 a 15.0015,15.0015 0 0 0 -8.18359,2.0332 c -28.36806,16.03045 -47.93848,41.75367 -56.92187,70.70117 11.17665,1.22491 22.44081,0.1302 33.10937,-3.125 7.9304,-16.87196 21.02352,-31.54154 38.57031,-41.45703 a 15.0015,15.0015 0 0 0 -6.57422,-28.15234 z m -39.94726,121.92187 c -9.94672,1.23489 -20.0397,1.36127 -30.07617,0.34376 1.6991,16.2573 6.67194,32.42289 15.20508,47.52343 33.3652,59.04426 108.70862,80 167.76762,46.63477 a 15.0015,15.0015 0 1 0 -14.7559,-26.11914 c -44.94491,25.39152 -101.50102,9.66037 -126.89258,-35.27344 -5.97753,-10.57805 -9.67337,-21.801 -11.24805,-33.10938 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4941">Bogen d_3</title>
+        <desc
+           id="desc4943">Bogen d_3: Halbkreis durch Q und H_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4934"
+       clip-path="url(#clip2)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4932">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4926"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 788.18945,141.15234 a 15.0015,15.0015 0 0 0 -12.32812,6.60938 c -18.60761,26.74712 -25.07472,58.41182 -20.60352,88.39062 10.601,-3.74634 20.27379,-9.62273 28.47266,-17.18554 -0.17767,-18.64031 5.25347,-37.53279 16.75976,-54.07227 a 15.0015,15.0015 0 0 0 -12.30078,-23.74219 z m 177.57422,123.44727 a 15.0015,15.0015 0 0 0 -12.36719,6.63281 c -29.46734,42.36836 -87.25486,52.73811 -129.625,23.26953 -9.97642,-6.93864 -18.1774,-15.44768 -24.5039,-24.95507 -8.42471,5.42816 -17.46253,9.92117 -26.94531,13.35937 8.58628,13.91128 20.08248,26.32079 34.32226,36.22461 55.67814,38.72433 132.65529,24.91037 171.38086,-30.76953 a 15.0015,15.0015 0 0 0 -12.26172,-23.76172 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4928">Bogen c_3</title>
+        <desc
+           id="desc4930">Bogen c_3: Halbkreis durch R und I_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5129"
+       clip-path="url(#clip17)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5127">
+        <title
+           id="title5123">Bogen e_4</title>
+        <desc
+           id="desc5125">Bogen e_4: Halbkreis durch I_1 und R</desc>
+        <path
+           inkscape:connector-curvature="0"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           id="path6708"
+           d="m 994.48633,254.61133 c -0.76837,-0.0821 -1.52562,-0.23241 -2.29688,-0.29297 -2.65535,-0.2085 -5.32617,-0.29047 -8.0039,-0.24024 -2.67774,0.0502 -5.36318,0.2328 -8.04493,0.54688 -2.68174,0.31408 -5.35996,0.7607 -8.02734,1.34375 -2.37421,0.51897 -4.73491,1.18598 -7.08398,1.92187 -2.17606,4.56524 -4.64628,9.04774 -7.63282,13.3418 a 15.0015,15.0015 0 1 0 24.62891,17.12891 c 7.38071,-10.61203 12.82416,-22.00316 16.46094,-33.75 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           id="path5121"
+           d="M 878.75977,95.019531 C 839.21076,94.509343 800.06426,112.96179 775.86133,147.76367 a 15.0015,15.0015 0 1 0 24.6289,17.12891 c 29.46822,-42.37298 87.25208,-52.75016 129.6211,-23.28125 22.31964,15.52339 35.65906,38.91927 39.07617,63.76562 4.64721,-0.56332 9.30249,-0.99347 13.95117,-1.06445 2.95265,-0.0451 5.90148,0.008 8.8418,0.1582 2.40913,0.12287 4.80646,0.35533 7.20117,0.60742 -3.67346,-34.30656 -21.49893,-66.92421 -51.93945,-88.0957 -20.87972,-14.52246 -44.75302,-21.656776 -68.48242,-21.962889 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g7015"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4960"
+       clip-path="url(#clip4)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4958">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4952"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 1024.6582,368.99219 a 15.0015,15.0015 0 0 0 -1.0469,0.0469 c -32.5154,2.13815 -61.30643,16.82421 -81.95896,39.00782 9.53782,5.95213 20.1596,9.85329 31.1836,11.54882 14.46609,-11.76277 32.62846,-19.30028 52.74416,-20.62304 a 15.0015,15.0015 0 0 0 -0.9219,-29.98047 z m -108.92578,81.54883 c -5.52413,15.38669 -8.06032,32.11174 -6.92578,49.42187 4.43632,67.67212 63.24221,119.22895 130.92386,114.79297 a 15.0015,15.0015 0 1 0 -1.961,-29.9375 C 986.2618,588.19427 942.11776,549.49144 938.74219,498 c -0.79492,-12.12842 0.74531,-23.84789 4.23437,-34.72266 -9.4965,-3.20262 -18.6438,-7.46612 -27.24414,-12.73632 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4954">Bogen e_3</title>
+        <desc
+           id="desc4956">Bogen e_3: Halbkreis durch P und G_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5155"
+       clip-path="url(#clip19)">
+      <g
+         style="fill:none;stroke:#ff0000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5153">
+        <title
+           id="title5149">Bogen g_4</title>
+        <desc
+           id="desc5151">Bogen g_4: Halbkreis durch G_1 und P</desc>
+        <path
+           inkscape:connector-curvature="0"
+           id="path5147"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 1033.0664,368.7793 c -3.1285,-0.0338 -6.281,0.0518 -9.4531,0.25976 a 15.0015,15.0015 0 1 0 1.9648,29.9375 c 51.4909,-3.37553 95.6342,35.34044 99.0098,86.83203 1.776,27.09112 -8.0984,52.14322 -25.3516,70.29883 7.1932,7.08121 13.5162,14.91745 18.8809,23.33008 24.5249,-24.26012 38.8332,-58.60221 36.4082,-95.59375 -4.1591,-63.4425 -56.1009,-112.73211 -118.3379,-114.99023 -1.0373,-0.0376 -2.0783,-0.063 -3.1211,-0.0742 z m 20.0332,213.76172 c -4.9576,1.15822 -10.075,1.93283 -15.3301,2.27734 a 15.0015,15.0015 0 1 0 1.961,29.9375 c 12.9161,-0.84673 25.2422,-3.68043 36.707,-8.17188 -5.9477,-9.34996 -13.8067,-17.58018 -23.3379,-24.04296 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <!-- default stroke -->
+  <g
+     clip-path="url(#clip18)"
+     id="g5142-3"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5140-8"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5136-3">Bogen f_4</title>
+      <desc
+         id="desc5138-1">Bogen f_4: Halbkreis durch H_1 und Q</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip20)"
+     id="g5168-3"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5166-3"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5162-6">Bogen h_4</title>
+      <desc
+         id="desc5164-0">Bogen h_4: Halbkreis durch F_1 und O</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip22)"
+     id="g5194-7"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5192-7"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5188-4">Bogen p_4</title>
+      <desc
+         id="desc5190-3">Bogen p_4: Halbkreis durch D_1 und M</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip26)"
+     id="g5246-4"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5244-7"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5240-5">Bogen t_4</title>
+      <desc
+         id="desc5242-4">Bogen t_4: Halbkreis durch Z und I</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip1)"
+     id="g4921-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4919-5"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4915-9">Bogen t_2</title>
+      <desc
+         id="desc4917-6">Bogen t_2: Halbkreis durch S und T</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip4)"
+     id="g4960-9"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4958-4"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4954-1">Bogen e_3</title>
+      <desc
+         id="desc4956-2">Bogen e_3: Halbkreis durch P und G_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip5)"
+     id="g4973-3"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4971-6"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4967-6">Bogen f_3</title>
+      <desc
+         id="desc4969-3">Bogen f_3: Halbkreis durch O und F_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip6)"
+     id="g4986-1"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4984-5"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4980-8">Bogen g_3</title>
+      <desc
+         id="desc4982-4">Bogen g_3: Halbkreis durch N und E_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip7)"
+     id="g4999-9"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g4997-7"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4993-6">Bogen h_3</title>
+      <desc
+         id="desc4995-7">Bogen h_3: Halbkreis durch M und D_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip10)"
+     id="g5038-0"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5036-6"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5032-5">Bogen p_3</title>
+      <desc
+         id="desc5034-9">Bogen p_3: Halbkreis durch K und B_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     id="g7160"
+     transform="matrix(-0.99883127,0.04833323,0.04833323,0.99883127,2374.4739,-20.133494)">
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5038"
+       clip-path="url(#clip10)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5036">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5030"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 464.8457,690.1543 c -39.54826,-0.51102 -78.69472,17.9374 -102.89843,52.72851 a 15.0015,15.0015 0 1 0 24.6289,17.13086 c 29.46698,-42.35669 87.25241,-52.73515 129.6211,-23.26758 v -0.004 c 9.97217,6.93751 18.17149,15.44677 24.49609,24.95312 8.42438,-5.4278 17.46103,-9.92332 26.94336,-13.36133 -8.58376,-13.90802 -20.07499,-26.31467 -34.3086,-36.21679 -20.87984,-14.52201 -44.75346,-21.65628 -68.48242,-21.96289 z m 119.85742,104.9414 c -10.60195,3.74603 -20.27497,9.6207 -28.4746,17.1836 0.17781,18.6444 -5.25377,37.54166 -16.76172,54.08789 a 15.0015,15.0015 0 1 0 24.63086,17.1289 c 18.6066,-26.7527 25.07517,-58.42049 20.60546,-88.40039 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5032">Bogen p_3</title>
+        <desc
+           id="desc5034">Bogen p_3: Halbkreis durch K und B_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5246"
+       clip-path="url(#clip26)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5244">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5238"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 301.28711,416.44336 a 15.0015,15.0015 0 0 0 -1.04688,0.0469 c -12.91741,0.84682 -25.24643,3.67952 -36.71289,8.17188 5.94756,9.35054 13.80647,17.58031 23.33789,24.04297 4.95964,-1.15904 10.08073,-1.93466 15.33789,-2.2793 a 15.0015,15.0015 0 0 0 -0.91601,-29.98242 z m -79.44141,35.37109 c -24.52364,24.26063 -38.83143,58.59877 -36.39843,95.58985 4.43867,67.68091 63.24321,119.23884 130.91211,114.80273 a 15.0015,15.0015 0 1 0 -1.96485,-29.93555 c -51.493,3.37568 -95.63397,-35.32607 -99.00976,-86.83203 a 15.0015,15.0015 0 0 0 -0.004,-0.004 c -1.78155,-27.08654 8.09345,-52.13531 25.3457,-70.29102 -7.1931,-7.08118 -13.51642,-14.91738 -18.88086,-23.33008 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5240">Bogen t_4</title>
+        <desc
+           id="desc5242">Bogen t_4: Halbkreis durch Z und I</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5233"
+       clip-path="url(#clip25)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5231">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5225"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 302.02734,584.69531 a 15.0015,15.0015 0 0 0 -8.18554,2.03125 c -11.27176,6.36954 -21.14942,14.27452 -29.53125,23.29883 9.41358,5.84395 20.06371,9.84981 31.45312,11.53906 3.96778,-3.19908 8.24768,-6.12487 12.83789,-8.71875 a 15.0015,15.0015 0 0 0 -6.57422,-28.15039 z m -63.48828,67.875 c -11.56879,32.50109 -9.55743,69.65124 8.68164,101.92774 33.35415,59.04822 108.70949,79.98748 167.75586,46.62109 A 15.0015,15.0015 0 1 0 400.2168,775 c -44.93106,25.39 -101.49959,9.67062 -126.87696,-35.25781 a 15.0015,15.0015 0 0 0 0,-0.004 c -13.35733,-23.63762 -15.32998,-50.49393 -7.66406,-74.33984 -9.55411,-3.25968 -18.65255,-7.57517 -27.13672,-12.82813 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5227">Bogen s_4</title>
+        <desc
+           id="desc5229">Bogen s_4: Halbkreis durch A_1 und J</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5207"
+       clip-path="url(#clip23)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5205">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5199"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 374.27148,736.27539 a 15.0015,15.0015 0 0 0 -12.32421,6.60742 c -7.39332,10.63017 -12.86504,22.03839 -16.50196,33.80664 11.01784,1.1795 22.35217,0.1682 33.34766,-3.2539 2.18678,-4.60285 4.77326,-9.09417 7.7832,-13.42188 a 15.0015,15.0015 0 0 0 -12.30469,-23.73828 z m -3.57226,89.71484 c -10.02065,1.20895 -20.09024,1.26923 -30.01172,0.21875 3.67839,34.29654 21.6025,66.89049 52.02734,88.05664 a 15.0015,15.0015 0 0 0 0.002,0 c 55.67958,38.72536 132.65296,24.89821 171.3789,-30.76757 a 15.0015,15.0015 0 1 0 -24.62695,-17.13282 c -29.46631,42.35573 -87.25268,52.73854 -129.62109,23.27344 l -0.002,-0.002 c -22.28006,-15.50115 -35.70774,-38.83928 -39.14648,-63.64649 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5201">Bogen q_4</title>
+        <desc
+           id="desc5203">Bogen q_4: Halbkreis durch B_1 und K</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5051"
+       clip-path="url(#clip11)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5049">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5043"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 352.19922,570.87109 c -19.8578,0.31243 -39.90128,5.4329 -58.35352,15.85547 a 15.0015,15.0015 0 1 0 14.75391,26.12305 c 44.93089,-25.37877 101.50153,-9.65695 126.87891,35.27148 a 15.0015,15.0015 0 0 0 0.002,0.002 c 5.97914,10.5809 9.67901,21.806 11.25391,33.11718 6.05459,-0.75233 12.16161,-1.1082 18.27929,-1.03125 3.9311,0.0494 7.86522,0.29387 11.79102,0.69141 -1.69879,-16.26085 -6.67078,-32.42963 -15.20508,-47.5332 l -0.002,-0.004 C 438.66662,592.76857 395.88529,570.1838 352.19922,570.87109 Z m 111.96484,159.0625 c -8.60928,-0.13004 -17.17156,1.11137 -25.38476,3.61914 -7.92906,16.86846 -21.01881,31.53354 -38.5625,41.44727 a 15.0015,15.0015 0 1 0 14.75976,26.11914 c 28.36804,-16.03044 47.9335,-41.75205 56.91406,-70.69922 -2.57293,-0.28138 -5.1522,-0.44744 -7.72656,-0.48633 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5045">Bogen q_3</title>
+        <desc
+           id="desc5047">Bogen q_3: Halbkreis durch J und A_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="translate(-93.454579,2.3363645)"
+       style="stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5064"
+       clip-path="url(#clip12)">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5062">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5056"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 309.69336,416.23242 c -3.12854,-0.0344 -6.28106,0.0499 -9.45313,0.25781 a 15.0015,15.0015 0 1 0 1.96289,29.93555 c 51.493,-3.37566 95.63615,35.32888 99.01172,86.82031 a 15.0015,15.0015 0 0 0 0,0.004 c 0.79767,12.13033 -0.74239,23.85143 -4.23242,34.72852 9.49772,3.20209 18.64691,7.46191 27.24805,12.73242 5.52324,-15.38826 8.05792,-32.1165 6.91992,-49.42774 v -0.002 C 426.99013,467.83984 375.04903,418.5634 312.81445,416.30664 v -0.002 c -1.03725,-0.0376 -2.07825,-0.0608 -3.12109,-0.0723 z M 367.125,611.65625 c -14.46441,11.76125 -32.62358,19.29711 -52.73047,20.61523 a 15.0015,15.0015 0 1 0 1.96485,29.93555 c 32.51337,-2.13145 61.30464,-16.81696 81.95703,-39.00391 -9.53948,-5.95235 -20.16448,-9.85158 -31.19141,-11.54687 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title5058">Bogen r_3</title>
+        <desc
+           id="desc5060">Bogen r_3: Halbkreis durch I und Z</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     clip-path="url(#clip11)"
+     id="g5051-4"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5049-4"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5045-4">Bogen q_3</title>
+      <desc
+         id="desc5047-7">Bogen q_3: Halbkreis durch J und A_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip13)"
+     id="g5077-1"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5075-0"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5071-1">Bogen s_3</title>
+      <desc
+         id="desc5073-1">Bogen s_3: Halbkreis durch F und W</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip8)"
+     id="g5012-8"
+     style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     transform="matrix(-1,0,0,1,1552.261,0)">
+    <g
+       id="g5010-1"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:38.78702164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5006-3">Bogen s_2</title>
+      <desc
+         id="desc5008-0">Bogen s_2: Halbkreis durch B und U</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(-1,0,0,1,914.064,-28.177084)"
+     clip-path="url(#clip5)"
+     id="g4973-4"
+     style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       id="g4971-62"
+       style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title4967-8">Bogen f_3</title>
+      <desc
+         id="desc4969-6">Bogen f_3: Halbkreis durch O und F_1</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(-1,0,0,1,914.064,-28.177084)"
+     clip-path="url(#clip22)"
+     id="g5194-2"
+     style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       id="g5192-8"
+       style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5188-7">Bogen p_4</title>
+      <desc
+         id="desc5190-2">Bogen p_4: Halbkreis durch D_1 und M</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(-1,0,0,1,914.064,-28.177084)"
+     clip-path="url(#clip20)"
+     id="g5168-8"
+     style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       id="g5166-1"
+       style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+      <title
+         id="title5162-1">Bogen h_4</title>
+      <desc
+         id="desc5164-1">Bogen h_4: Halbkreis durch F_1 und O</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     id="g7003"
+     transform="matrix(-0.75455131,0.65624105,0.65624105,0.75455131,1235.7066,-791.81513)"
+     inkscape:transform-center-x="89.80259"
+     inkscape:transform-center-y="-11.973709">
+    <g
+       style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4999-0"
+       clip-path="url(#clip7)"
+       transform="translate(638.19705,-28.177084)">
+      <g
+         style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4997-8">
+        <path
+           sodipodi:nodetypes="csscccccccccsccscccccccccccccsccc"
+           inkscape:connector-curvature="0"
+           id="path4991-5"
+           transform="matrix(0.70555555,0,0,0.70555555,-638.19705,28.177084)"
+           d="m 1756.6309,773.26953 c -13.3069,-0.16858 -26.854,1.64252 -40.252,5.63867 -71.4566,21.31304 -112.3382,96.96022 -91.0254,168.41602 4.0553,13.59625 10.0817,26.08143 17.668,37.24609 0.01,-0.009 0.017,-0.0185 0.025,-0.0273 14.5737,21.61679 35.5007,39.26239 61.4179,49.70899 h -0.014 c 24.4179,9.85 50.0774,12.0156 74.2871,7.664 5.1277,-0.9367 10.4372,-2.2041 15.0293,-3.5664 14.5754,-4.3473 27.8777,-10.9563 39.6406,-19.3281 20.478,-14.4815 37.169,-34.78353 47.2109,-59.69138 0.2957,-0.70468 0.5223,-1.43254 0.7168,-2.16797 10.4149,-26.98529 12.3351,-57.46744 3.459,-87.22656 -10.2402,-34.33259 -33.0266,-61.60061 -61.8613,-78.31055 -4.047,11.68008 -5.6286,24.02222 -4.7481,36.25391 16.1481,12.62698 28.6707,30.24865 35.004,51.48242 6.7667,22.68687 5.3614,45.79204 -2.5176,66.19726 -0.2333,0.46607 -0.4513,0.94503 -0.6426,1.43946 -3.2882,8.15596 -7.4939,15.65339 -12.4492,22.42383 -0.04,0.0549 -0.079,0.11122 -0.1192,0.16601 -0.014,0.0183 -0.027,0.0364 -0.041,0.0547 -0.1399,0.19011 -0.2847,0.37549 -0.4258,0.56445 -12.699,16.8865 -30.7543,30.00322 -52.6543,36.53522 -17.8672,5.3292 -35.9926,5.5915 -52.8554,1.6133 -0.2233,-0.053 -0.4451,-0.1119 -0.668,-0.166 -4.7055,-1.161 -9.3884,-2.6631 -14.0195,-4.5313 -24.4602,-9.85927 -42.9986,-27.96758 -53.7149,-49.80669 0.017,-0.0424 0.034,-0.0845 0.051,-0.12695 -2.4443,-5.01688 -4.522,-10.2986 -6.1719,-15.83008 -16.2179,-54.37413 14.4725,-111.16125 68.8457,-127.37891 12.8041,-3.81902 25.7413,-5.03502 38.252,-3.95507 1.1085,-10.9592 3.4375,-21.80566 6.9805,-32.31055 -4.7606,-0.57521 -9.5659,-0.91913 -14.4082,-0.98047 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:32.98423767;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <title
+           id="title4993-0">Bogen h_3</title>
+        <desc
+           id="desc4995-6">Bogen h_3: Halbkreis durch M und D_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <path
+       transform="scale(0.70555555)"
+       sodipodi:nodetypes="cccccccccccccccccccccccsc"
+       inkscape:connector-curvature="0"
+       id="path4965-5"
+       d="m 2011.9004,540.43555 c -17.4381,0.5252 -36.2134,3.95034 -50.3047,9.3457 0.013,0.0211 0.028,0.0415 0.041,0.0625 -17.0462,6.65167 -32.7365,16.71783 -45.9551,29.7168 -0.012,-0.0185 -0.025,-0.0362 -0.037,-0.0547 -12.8099,12.60584 -23.2993,27.96439 -30.4297,45.65039 -27.895,69.15542 5.77,148.28165 74.9239,176.16211 l 0.016,0.006 c 13.194,5.32007 26.7514,8.39546 40.2461,9.41601 -1.4307,-12.09871 -5.2859,-24.00024 -11.6426,-34.94921 -5.4668,-1.21862 -10.9118,-2.8949 -16.2851,-5.0625 v 0 c -52.2992,-21.08527 -77.5728,-79.88873 -57.041,-132.26758 0.1327,-0.29142 0.2699,-0.57899 0.3867,-0.88086 21.2152,-52.62137 80.6141,-77.88893 133.2344,-56.66211 27.6894,11.16085 47.7969,32.88974 57.5508,58.63867 0.01,-0.003 0.014,-0.005 0.021,-0.008 8.7584,23.17748 9.1341,49.60281 -0.914,74.51172 v 0.004 c -11.1609,27.68945 -32.8898,47.79688 -58.6387,57.55078 3.7461,10.44516 6.2718,21.22379 7.5723,32.11524 35.8659,-12.33252 66.4186,-39.52535 81.6582,-77.33399 v 0.006 c 27.8975,-69.15647 -5.765,-148.28706 -74.9199,-176.16796 -16.2079,-6.53449 -32.965,-9.68895 -49.4805,-9.79883 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:32.98423767;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g5181-40"
+       clip-path="url(#clip21)"
+       transform="translate(638.19705,-28.177084)">
+      <g
+         style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g5179-6">
+        <path
+           id="path5173-2"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 994.53125,695.66406 a 15.0015,15.0015 0 0 0 -11.64258,25.24024 c 34.74853,38.15767 32.00713,96.80627 -6.15039,131.55468 -20.07445,18.28094 -45.81988,26.1794 -70.77344,24.00977 -1.05179,10.03956 -3.23394,19.87056 -6.46679,29.31055 34.25934,4.04895 70.02888,-6.17705 97.43945,-31.13868 50.1452,-45.66508 53.7978,-123.79244 8.1328,-173.9375 a 15.0015,15.0015 0 0 0 -10.53905,-5.03906 z M 834.6543,841.24414 a 15.0015,15.0015 0 0 0 -11.65039,25.26367 c 8.71709,9.57231 18.61898,17.4451 29.28125,23.60938 3.60189,-10.47882 5.13676,-21.75363 4.24804,-33.23438 -4.00028,-3.15607 -7.80066,-6.67708 -11.34961,-10.57422 a 15.0015,15.0015 0 0 0 -10.52929,-5.06445 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5175-9">Bogen k_4</title>
+        <desc
+           id="desc5177-90">Bogen k_4: Halbkreis durch E_1 und N</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       style="fill:#ea0000;fill-opacity:1;stroke-width:23.27221298;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4986-0"
+       clip-path="url(#clip6)"
+       transform="translate(638.19705,-28.177084)">
+      <g
+         style="fill:#ea0000;fill-opacity:1;stroke:#000000;stroke-width:23.27221298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="g4984-3">
+        <path
+           id="path4978-4"
+           transform="matrix(0.77574043,0,0,0.77574043,0,-0.16973798)"
+           d="m 923.4707,660.95312 c 1.29493,11.17036 4.87373,21.90866 10.42578,31.58594 18.21418,3.97501 35.4262,13.47247 48.99414,28.36719 a 15.0015,15.0015 0 1 0 22.17778,-20.20313 c -21.94115,-24.08667 -51.37472,-37.43773 -81.5977,-39.75 z m -49.38281,6.23438 c -15.47208,5.2756 -30.12745,13.72042 -42.95117,25.39844 -50.14402,45.664 -53.79679,123.7779 -8.13281,173.92187 a 15.0015,15.0015 0 1 0 22.17968,-20.19922 c -34.74952,-38.15874 -32.00831,-96.79347 6.15039,-131.54297 8.9852,-8.18243 19.10685,-14.28402 29.78516,-18.33593 -3.41872,-9.4212 -5.78855,-19.23204 -7.03125,-29.24219 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title4980-0">Bogen g_3</title>
+        <desc
+           id="desc4982-3">Bogen g_3: Halbkreis durch N und E_1</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <path
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:23.27221107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m 601.94672,322.70065 c 9.3887,0.11868 18.947,-1.15707 28.4,-3.97702 23.0288,-6.8697 41.552,-21.73983 53.4527,-40.67004 4.6021,-7.42422 8.4989,-16.19136 10.7487,-23.62371 1.19,-3.99777 2.0472,-7.98916 2.7433,-11.93385 2.2667,-13.78166 1.537,-28.2604 -2.6968,-42.50558 -0.01,-0.0299 -0.017,-0.0597 -0.026,-0.0896 v -0.003 c -3.7275,-12.4876 -9.8111,-23.6467 -17.6141,-33.14733 -0.1421,-0.1747 -0.2852,-0.34854 -0.4286,-0.52228 -0.1747,-0.20971 -0.3499,-0.41894 -0.5264,-0.627 -11.588,-13.79925 -27.1771,-24.48118 -45.675,-29.99852 -12.8929,-3.84551 -25.9776,-4.81469 -38.5658,-3.29351 0.01,0.0169 0.011,0.034 0.016,0.051 -5.3444,0.63401 -10.7046,1.72517 -16.0321,3.31418 -10.2661,3.06203 -19.637,7.71429 -27.9259,13.60675 -16.8466,11.91311 -29.9824,29.3144 -36.3196,50.54506 v 0.003 c -0.01,0.0257 -0.014,0.0514 -0.022,0.0772 -2.9642,12.3782 -4.396,24.47141 -3.6011,35.38388 0.5422,6.39516 1.7394,12.82707 3.6436,19.21124 2.8698,9.62156 7.1508,18.446 12.5264,26.34119 0.018,-0.0185 0.035,-0.038 0.054,-0.0565 11.2934,16.6513 27.8615,29.85333 48.1569,36.75228 9.687,3.17544 20.7631,5.00419 29.6912,5.16214 z m 1.2293,-23.29299 c -6.8694,-0.001 -13.8625,-0.98829 -20.8002,-3.05786 -20.122,-6.00216 -35.6425,-19.87909 -44.2061,-37.25251 0.01,-0.0158 0.013,-0.0311 0.019,-0.0468 -1.7316,-3.54937 -3.202,-7.28595 -4.3697,-11.2007 -2.5776,-8.64166 -3.47,-17.36891 -2.876,-25.83684 0.3794,-5.15328 1.313,-10.34941 2.8526,-15.51533 v -0.0138 c 3e-4,-8.6e-4 -2e-4,-0.002 0,-0.003 1.8818,-5.69909 3.8101,-10.45628 6.4713,-15.17633 0,-0.008 0.01,-0.0156 0.014,-0.0234 8.8812,-15.51666 23.5387,-27.76616 42.1115,-33.3058 9.0331,-2.69426 18.1582,-3.55074 26.9833,-2.78915 v -0.0372 c 4.75,0.43172 9.5317,1.33619 14.2875,2.75469 8.945,2.66799 16.9802,6.89332 23.9007,12.28935 9e-4,0.0133 0,0.0266 0,0.04 11.3891,8.90881 20.2213,21.34033 24.6931,36.31957 3e-4,8.6e-4 -2e-4,0.002 0,0.003 l 0.01,0.0138 c 1.6829,5.64708 2.6425,11.33025 2.9435,16.95401 0.3824,7.97068 -0.5523,16.15031 -2.9697,24.25484 -1.1675,3.91476 -2.638,7.65133 -4.3697,11.2007 0.017,0.0431 0.035,0.0851 0.052,0.12816 -6.0856,12.37593 -15.7003,22.97898 -27.9934,30.23415 -0.01,-0.009 -0.012,-0.0182 -0.018,-0.0276 -5.2216,3.09801 -10.8283,5.53484 -16.6852,7.23747 -6.4427,1.87288 -13.1881,2.85779 -20.0573,2.85666 z"
+     id="path5004-9"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccsccccccccccccccccccccccsccccccccccccccccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:7.05555563;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 1213.444,32.597679 V 766.37543"
+     id="path1161"
+     inkscape:connector-curvature="0" />
+</svg>
+<!-- bounding box -->
+

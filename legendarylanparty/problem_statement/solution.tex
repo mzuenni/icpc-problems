@@ -1,0 +1,24 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+    	Given $n$ tuples $(c_i,m_i)$, reorder them such that the following sum is minimized
+    	$$\sum_{i=1}^{n} c_i\cdot \sum_{j=1}^{i-1}m_j~.$$
+    \end{block}
+	\bigskip
+	\centering
+	\includegraphics[width=0.9\textwidth]{sample}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\problemtitle}
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item Observe that swapping two adjacent tuples changes the cost by
+			$$\delta=c_{i}\cdot m_{i+1}-c_{i+1}\cdot m_i$$
+			\item[$\Rightarrow$] $\delta$ must be positive for all adjacent tuples
+			\pause
+			\item This already implies a total order
+			\item[$\Rightarrow$] We can sort by $\delta$, and compare non adjacent elements with it
+		\end{itemize}
+	\end{block}
+\end{frame}

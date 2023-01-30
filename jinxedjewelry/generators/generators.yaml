@@ -1,0 +1,30 @@
+solution: /submissions/accepted/sol.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+
+  secret:
+    type: directory
+    data:
+      - random: random --seed {seed} --t 100
+      - random: random --seed {seed} --t 1000
+      - random: random --seed {seed} --t 10000
+      - random: random --seed {seed:1} --t 10000
+      - random: random --seed {seed:2} --t 10000
+      - random: random --seed {seed:3} --t 10000
+      - random: random --seed {seed:4} --t 10000
+      - random: random --seed {seed:5} --t 10000
+      - random: random --seed {seed:6} --t 10000
+
+
+      - random: random --seed {seed} --t 10000 --lim 5
+      - random: random --seed {seed} --t 10000 --lim 10
+      - random: random --seed {seed} --t 20000 --lim 5
+      - random: random --seed {seed} --t 20000 --lim 10
+      - random: random --seed {seed} --t 30000 --lim 5
+      - random: random --seed {seed} --t 30000 --lim 10
+

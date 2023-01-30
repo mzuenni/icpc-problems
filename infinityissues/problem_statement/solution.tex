@@ -1,0 +1,20 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+    	Given a text, split it into lines of length exactly $w$
+    \end{block}
+	\pause
+    \begin{block}{Solution}
+    	\begin{itemize}
+    		\item Read the complete line containing the text
+    		\item Print it character for character
+    		\item If the position $i=0\bmod w$ print in addition a newline\\
+    		\textcolor{gray}{except if $i=0$}
+    	\end{itemize}
+    \end{block}
+	\pause
+	\begin{block}{Tipps for Common Errors}
+		If you combine \texttt{std::cin} and \texttt{std::getline} make sure
+		that you read the \texttt{'\textbackslash n'} character ending the previous line
+	\end{block}
+\end{frame}

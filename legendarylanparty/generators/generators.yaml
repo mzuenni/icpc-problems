@@ -1,0 +1,22 @@
+solution: /submissions/accepted/simplified.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+
+  secret:
+    type: directory
+    data:
+      - random: generator_equal --seed {seed}
+      - random: generator_random --seed {seed}
+      - random: generator_random2 --seed {seed}
+      - random: generator_same_ratio --seed {seed}
+      - random: generator_random2 --seed {seed} --n 7
+      - random: generator_almost_same_ratio -- seed {seed} --n 7
+      - random: generator_almost_same_ratio -- seed {seed} --n 16
+      - random: generator_almost_same_ratio -- seed {seed} --n 32
+      - random: generator_almost_same_ratio -- seed {seed} --n 111
+
