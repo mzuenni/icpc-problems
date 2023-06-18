@@ -1,0 +1,46 @@
+\documentclass[12pt,border=2cm]{standalone}
+
+\RequirePackage{times}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage[T1]{fontenc}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usetikzlibrary{arrows,backgrounds,scopes}
+
+\definecolor{red}{HTML}{972e21}
+\definecolor{yellow}{HTML}{ebb83f}
+\definecolor{blue}{HTML}{5e7fbf}
+
+\pagecolor{blue!50}
+\tikzset{>=stealth}
+
+\begin{document}
+	\begin{tikzpicture}[x=25cm,y=30cm]
+		\newcommand{\drawLilyPads}[1]{
+			\pgfmathsetseed{123456789}
+			\foreach \i in {1,...,9} {
+				\node[yscale=(2*int(random(2)))-3,xscale=(2*int(random(2)))-3] at (\i,-#1) {\includegraphics{lilypad}};
+			}
+		}
+		\newcommand{\drawFrogs}[2]{
+			\drawLilyPads{#1};
+			\foreach \i in {#2} {
+				\node at (\i,-#1+0.15) {\includegraphics{frog}};
+			}
+		}
+		\newcommand{\move}[3]{			
+			\draw[->,line width=1cm] (#2,-#1-0.225)--(#2,-#1-0.4)--(#3,-#1-0.4)--(#3,-#1-1+0.4);
+		}
+		\drawFrogs{0}{1,2,3,5,7};
+		\move{0}{1}{4}
+		\drawFrogs{1}{4,2,3,5,7};
+		\move{1}{2}{6}
+		\drawFrogs{2}{4,6,3,5,7};
+		\move{2}{5}{8}
+		\drawFrogs{3}{4,6,3,8,7};
+	\end{tikzpicture}
+\end{document}

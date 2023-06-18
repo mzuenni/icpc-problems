@@ -1,0 +1,9 @@
+Obviously you need to cut at a point where the part
+on left is a possible bracket sequence. If there is
+any solution than cutting at the earliest possible
+point is also a vallid solution.
+
+Note that you need to obtain a different solution
+therefore ()() has no solution!
+
+Difficulty: 10%

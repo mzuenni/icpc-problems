@@ -1,0 +1,80 @@
+solution: /submissions/accepted/sol.cpp
+
+generators:
+  gen1:
+    - gen1.cpp
+    - validate.h
+
+  gen2:
+    - gen2.cpp
+    - validate.h
+
+  gen3:
+    - gen3.cpp
+    - validate.h
+
+  gen4:
+    - gen4.cpp
+    - validate.h
+
+  gen5:
+    - gen5.cpp
+    - validate.h
+
+  gen6:
+    - gen6.cpp
+    - validate.h
+
+  gen7:
+    - gen7.cpp
+    - validate.h
+
+  gen8:
+    - gen8.cpp
+    - validate.h
+
+  gen9:
+    - gen9.cpp
+    - validate.h
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+      '2':
+
+  secret:
+    type: directory
+    data:
+      - gen1_h_60: gen1 --seed {seed} --h 60
+      - gen1_h_400: gen1 --seed {seed} --h 400
+      - gen1_h_100000: gen1 --seed {seed} --h 100000
+      - gen2: gen2 --seed {seed}
+      - gen3: gen3 --seed {seed}
+      - gen4: gen4 --seed {seed}
+      - gen5_h2_60: gen5 --seed {seed} --h2 60
+      - gen5_h2_400: gen5 --seed {seed} --h2 400
+      - gen5_h2_50000: gen5 --seed {seed} --h2 50000
+      - gen6_w_6: gen6 --seed {seed} --w 6
+      - gen7_w_7: gen7 --seed {seed} --w 7
+      - gen8: gen8 --seed {seed}
+
+      - manual: manual/manual1.in
+      - manual: manual/manual2.in
+      - manual: manual/manual3.in
+      - manual: manual/manual4.in
+      - manual: manual/manual5.in
+      - manual: manual/manual6.in
+      - manual: manual/manual7.in
+      - manual: manual/manual8.in
+
+      - gen9: gen9 --seed {seed} --step 200
+      - gen9: gen9 --seed {seed} --step 400
+      - gen9: gen9 --seed {seed} --step 600
+      - gen9: gen9 --seed {seed} --step 800
+      - gen9: gen9 --seed {seed} --step 1000
+      - gen9: gen9 --seed {seed} --step 1200
+      - gen9: gen9 --seed {seed} --step 1400
+      - gen9: gen9 --seed {seed} --step 1600
+

@@ -1,0 +1,58 @@
+solution: /submissions/accepted/sol_fast.cpp
+
+generators:
+  random:
+    - random.cpp
+    - validate.h
+
+  move_far:
+    - move_far.cpp
+    - validate.h
+
+  move_left:
+    - move_left.cpp
+    - validate.h
+
+  move_far_left:
+    - move_far_left.cpp
+    - validate.h
+  
+  jump_far:
+    - jump_far.cpp
+    - validate.h
+
+
+data:
+  sample:
+    type: directory
+    data:
+      '1': 
+      '2':
+
+  secret:
+    type: directory
+    data:
+      - tiny: random --seed {seed:1} --n 5 --q 20 --p 7
+      - small: random --seed {seed:2} --n 10 --q 1000 --p 15
+      - small: random --seed {seed:3} --n 20 --q 1000 --p 25
+      - big: random --seed {seed:1} --n 200000 --q 200000 --p 220000
+      - big: random --seed {seed:2} --n 200000 --q 200000 --p 300000
+      - big: random --seed {seed:3} --n 200000 --q 200000 --p 400000
+      - random: random --seed {seed:1} --q 200000 --p 200007
+      - random: random --seed {seed:2} --q 200000 --p 200007
+      - random: random --seed {seed:3} --q 200000 --p 200007
+      - random: random --seed {seed:4} --q 200000 --p 400000
+      - random: random --seed {seed:5} --q 200000 --p 400000
+      - random: random --seed {seed:6} --q 200000 --p 400000
+      - random: random --seed {seed:7} --q 200000
+      - random: random --seed {seed:8} --q 200000
+      - random: random --seed {seed:9} --q 200000
+      - move_far: move_far --q 200000 --p 1000000
+      - move_left: move_left --seed {seed:1} --n 200000 --q 200000 --p 1000000
+      - move_left: move_left --seed {seed:2} --n 200000 --q 200000
+      - move_left: move_left --seed {seed:3} --q 200000
+      - move_far_left: move_far_left --seed {seed:1} --n 200000 --q 200000
+      - jump_far: jump_far --seed {seed:1} --n 200000 --q 200000 --hn 10 --hp 5
+      - jump_far: jump_far --seed {seed:2} --n 200000 --q 200000 --hn 100 --hp 50
+      - jump_far: jump_far --seed {seed:3} --n 200000 --q 200000 --hn 5 --hp 20
+      - jump_far: jump_far --seed {seed:4} --n 200000 --q 200000 --hn 3 -- hp 100

@@ -1,0 +1,115 @@
+solution: /submissions/accepted/sol.cpp
+
+data:
+  sample:
+    type: directory
+    data:
+      '1':
+      '2':
+      '3':
+
+  secret:
+    type: directory
+    data:
+      - small: random --seed {seed} --n2 2 --parts 1 --noice 0
+      # - small: random --seed {seed} --n2 3 --parts 1 --noice 0 (used as sample)
+      - small: random --seed {seed} --n2 4 --parts 1 --noice 0
+      - small: random --seed {seed} --n2 4 --parts 2 --noice 0
+      - small: random --seed {seed} --n2 5 --parts 2 --noice 0
+      - small: random --seed {seed} --n2 6 --parts 2 --noice 0
+
+      - manual: manual/1.in
+      - manual: manual/2.in
+      - manual: manual/3.in
+      - manual: manual/4.in
+      - manual: manual/5.in
+      - manual: manual/6.in
+
+      - random: random --seed {seed} --n2 99999 --parts 1 --noice 0
+      - random: random --seed {seed} --n2 99999 --parts 2 --noice 0
+      - random: random --seed {seed} --n2 99999 --parts 3 --noice 0
+      - random: random --seed {seed} --n2 99999 --parts 4 --noice 0
+      - random: random --seed {seed} --n2 99999 --parts 5 --noice 0
+
+      - random: random --seed {seed} --n2 99999 --parts 1 --noice 1
+      - random: random --seed {seed} --n2 99999 --parts 2 --noice 1
+      - random: random --seed {seed} --n2 99999 --parts 3 --noice 1
+      - random: random --seed {seed} --n2 99999 --parts 4 --noice 1
+      - random: random --seed {seed} --n2 99999 --parts 5 --noice 1
+
+
+      - random: random --seed {seed:1} --n2 99999
+      - random: random --seed {seed:2} --n2 99999
+      - random: random --seed {seed:3} --n2 99999
+      - random: random --seed {seed:4} --n2 99999
+      - random: random --seed {seed:5}
+      - random: random --seed {seed:6}
+      - random: random --seed {seed:7}
+      - random: random --seed {seed:8}
+      - random: random --seed {seed:9}
+
+      - manySmallYes: manySmallYes --seed {seed} --w 3 --h 4
+      - manySmallYes: manySmallYes --seed {seed} --w 3 --h 5
+      - manySmallYes: manySmallYes --seed {seed} --w 3 --h 6
+
+      - manySmallYes: manySmallYes --seed {seed} --w 4 --h 4
+      - manySmallYes: manySmallYes --seed {seed} --w 4 --h 5
+      - manySmallYes: manySmallYes --seed {seed} --w 4 --h 6
+
+      - manySmallYes: manySmallYes --seed {seed} --w 5 --h 4
+      - manySmallYes: manySmallYes --seed {seed} --w 5 --h 5
+      - manySmallYes: manySmallYes --seed {seed} --w 5 --h 6
+
+      - manySmallYes: manySmallYes --seed {seed} --w 10 --h 4
+      - manySmallYes: manySmallYes --seed {seed} --w 10 --h 5
+      - manySmallYes: manySmallYes --seed {seed} --w 10 --h 6
+
+      - manySmallYes: manySmallYes --seed {seed} --w 11 --h 4
+      - manySmallYes: manySmallYes --seed {seed} --w 11 --h 5
+      - manySmallYes: manySmallYes --seed {seed} --w 11 --h 6
+
+      - manySmallYes: manySmallYes --seed {seed:1} --w 13 --h 13
+      - manySmallYes: manySmallYes --seed {seed:2} --w 13 --h 13
+      - manySmallYes: manySmallYes --seed {seed:3} --w 13 --h 13
+      - manySmallYes: manySmallYes --seed {seed:4} --w 13 --h 13
+      - manySmallYes: manySmallYes --seed {seed:5} --w 13 --h 13
+      - manySmallYes: manySmallYes --seed {seed:1} --w 14 --h 13
+      - manySmallYes: manySmallYes --seed {seed:2} --w 14 --h 13
+      - manySmallYes: manySmallYes --seed {seed:3} --w 14 --h 13
+      - manySmallYes: manySmallYes --seed {seed:4} --w 14 --h 13
+      - manySmallYes: manySmallYes --seed {seed:5} --w 14 --h 13
+
+      - random: random --seed {seed:1} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:2} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:3} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:4} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:5} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:6} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:7} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:8} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:9} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:10} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:11} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:12} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:13} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:14} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:15} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:16} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:17} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:18} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:19} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:20} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:31} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:32} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:33} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:34} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:35} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:36} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:37} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:38} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:39} --n2 99999 --parts 1 --noice 2
+      - random: random --seed {seed:40} --n2 99999 --parts 1 --noice 2
+
+
+
+

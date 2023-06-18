@@ -1,0 +1,99 @@
+solution: /submissions/accepted/sol_fixed.cpp
+
+data:
+  sample:
+    type: directory
+    solution:
+    data:
+      '1':
+      '2':
+
+  secret:
+    type: directory
+    data:
+      - minusOne: eval.py -1
+      - minusSeven: eval.py -7
+      - zero: eval.py 0
+      - one: eval.py 1
+      - seven: eval.py 7
+
+      - 5pow500000000: eval.py powMod(5,500000000)
+      - _7_17_19_23_29_31: eval.py 46750697
+      - _12345678: eval.py 12345678
+
+      - fib_39: eval.py fib(39)
+      - fib_40: eval.py fib(40)
+      - fib_71: eval.py fib(71)
+      - fib_89: eval.py fib(89)
+      - fib_90: eval.py fib(90)
+      - fib_199: eval.py fib(199)
+      - fib_200: eval.py fib(200)
+      - fib_201: eval.py fib(201)
+
+      - fib_99_99: eval.py fib(99)*fib(99)
+      - fib_100_99: eval.py fib(100)*fib(99)
+      - fib_100_100: eval.py fib(100)*fib(100)
+      - fib_66_66_66: eval.py fib(66)*fib(66)*fib(66)
+      - fib_67_66_66: eval.py fib(67)*fib(66)*fib(66)
+
+      - prime: eval.py 999999929
+
+      - hard: eval.py 35345813
+      - hard: eval.py 33810803
+      - hard: eval.py 966289935
+      - hard: eval.py 29521716
+      - hard: eval.py 64472472
+      - hard: eval.py 158427805
+      - hard: eval.py 476648214
+
+      - random: eval.py random(1,mod) {seed:1}
+      - random: eval.py random(1,mod) {seed:2}
+      - random: eval.py random(1,mod) {seed:3}
+      - random: eval.py random(1,mod) {seed:4}
+      - random: eval.py random(1,mod) {seed:5}
+      - random: eval.py random(1,mod) {seed:6}
+      - random: eval.py random(1,mod) {seed:7}
+      - random: eval.py random(1,mod) {seed:8}
+      - random: eval.py random(1,mod) {seed:9}
+      - random: eval.py random(1,mod) {seed:10}
+      - random: eval.py random(1,mod) {seed:11}
+      - random: eval.py random(1,mod) {seed:12}
+      - random: eval.py random(1,mod) {seed:13}
+      - random: eval.py random(1,mod) {seed:14}
+      - random: eval.py random(1,mod) {seed:15}
+      - random: eval.py random(1,mod) {seed:16}
+      - random: eval.py random(1,mod) {seed:17}
+      - random: eval.py random(1,mod) {seed:18}
+      - random: eval.py random(1,mod) {seed:19}
+      - random: eval.py random(1,mod) {seed:20}
+      - random: eval.py random(1,mod) {seed:21}
+      - random: eval.py random(1,mod) {seed:22}
+      - random: eval.py random(1,mod) {seed:23}
+      - random: eval.py random(1,mod) {seed:24}
+      - random: eval.py random(1,mod) {seed:25}
+      - random: eval.py random(1,mod) {seed:26}
+      - random: eval.py random(1,mod) {seed:27}
+      - random: eval.py random(1,mod) {seed:28}
+      - random: eval.py random(1,mod) {seed:29}
+      - random: eval.py random(1,mod) {seed:30}
+      - random: eval.py random(1,mod) {seed:31}
+      - random: eval.py random(1,mod) {seed:32}
+      - random: eval.py random(1,mod) {seed:33}
+      - random: eval.py random(1,mod) {seed:34}
+      - random: eval.py random(1,mod) {seed:35}
+      - random: eval.py random(1,mod) {seed:36}
+      - random: eval.py random(1,mod) {seed:37}
+      - random: eval.py random(1,mod) {seed:38}
+      - random: eval.py random(1,mod) {seed:39}
+      - random: eval.py random(1,mod) {seed:40}
+      - random: eval.py random(1,mod) {seed:41}
+      - random: eval.py random(1,mod) {seed:42}
+      - random: eval.py random(1,mod) {seed:43}
+      - random: eval.py random(1,mod) {seed:44}
+      - random: eval.py random(1,mod) {seed:45}
+      - random: eval.py random(1,mod) {seed:46}
+      - random: eval.py random(1,mod) {seed:47}
+      - random: eval.py random(1,mod) {seed:48}
+      - random: eval.py random(1,mod) {seed:49}
+      - random: eval.py random(1,mod) {seed:50}
+

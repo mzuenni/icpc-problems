@@ -1,0 +1,54 @@
+\begin{frame}
+  \frametitle{\problemtitle}
+  \begin{block}{Problem}
+  	Find a subgraph of a $2\times200$ grid which has exactly $n$ perfect matchings modulo $10^9+7$.
+  \end{block}
+  \begin{center}
+  	\alt<1>{\includegraphics{sample}}{\includegraphics{sampleB}}  	
+  \end{center}
+  \pause
+  \begin{block}{Observations}
+  \begin{itemize}
+  	\item Some edges are contained in every matching
+  	\item The remaining edges are matched in grids of the form $2\times m_i$
+  	\item A $2\times m$ grid has $\mathit{fibonacci}(m)$ perfect matchings
+  	\pause
+  	\item This is equivalent to: find $k$ Fibonacci numbers,
+  	\begin{itemize}
+  		\item whose sum is less than $200$,
+  		\item whose product is congruent to $n$ modulo $10^9+7$.
+  	\end{itemize}
+  \end{itemize}
+  \end{block}
+\end{frame}
+\newcommand{\fib}[1]{\mathit{fib}(#1)}
+\begin{frame}
+  \frametitle{\problemtitle}
+  \begin{block}{Problem}
+  	\begin{itemize}
+		\item Find a (multi)set of positive Integers $S$, such that
+	  	\begin{itemize}
+			\item $\sum_{i\in S} i < 200$, and
+			\item $\prod_{i\in S} \fib i \equiv n \mod 10^9+7$.
+	  	\end{itemize}
+	  \end{itemize}
+  \end{block}
+  
+  \begin{block}{Solution}
+    \begin{itemize}
+    	\item Meet in the Middle
+    	\pause
+    	\begin{itemize}
+			\item Repeat $a$ times: Randomly pick a multiset $S_1$ with $\sum_{i\in S_1} i < 100$ and store it indexed by $\prod_{i\in S_1} \fib i$
+    		\pause
+		\item Repeat $b$ times: Randomly pick a multiset $S_2$ with $\sum_{i\in S_2} i < 100$ and check if some $S_1$ with $\prod_{i\in S_1} \fib i \equiv n\cdot\left(\prod_{i\in S_2} \fib i\right)^{-1}$ has been stored
+			\item If yes, we found a solution because $\prod_{i\in S_1\cup S_2} \fib i \equiv n$ and $\sum_{i\in S_1\cup S_2} i < 200$
+    	\end{itemize}
+    	\pause
+	\item For $a=b=10^6$ we test (up to) $10^{12}$ combinations, but there are only $10^9+7$ possible outcomes
+    	\item[$\Rightarrow$] We have to be really unlucky to not find a combination for some fixed $n$
+    	\pause
+    	\item Special case: $n=0$, find a graph without a perfect matching
+    \end{itemize}
+  \end{block}
+\end{frame}

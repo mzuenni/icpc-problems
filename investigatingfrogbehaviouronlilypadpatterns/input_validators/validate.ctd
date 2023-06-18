@@ -1,0 +1,13 @@
+INT(1, 200000, n) NEWLINE
+SET(last = 0)
+REP(n, SPACE)
+	INT(1, 1000000, cur)
+	ASSERT(last < cur)
+	SET(last = cur)
+END
+NEWLINE
+INT(1, 200000, q) NEWLINE
+REP(q)
+	INT(1, n) NEWLINE
+END
+EOF

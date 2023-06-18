@@ -1,0 +1,25 @@
+\documentclass[12pt]{standalone}
+
+\RequirePackage{times}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage[T1]{fontenc}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\definecolor{red}{HTML}{dd2e21}
+
+\begin{document}
+	$
+	\texttt{()}
+		\rightarrow
+	\texttt{()\textbf{\textcolor{red}{()}}}
+		\rightarrow
+	\texttt{()()\textbf{\textcolor{red}{()}}}
+		\rightarrow
+	\texttt{()(\textbf{\textcolor{red}{()}})()}
+	$
+\end{document}

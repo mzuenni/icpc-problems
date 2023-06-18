@@ -1,0 +1,39 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+
+    \begin{block}{Problem}
+		Given a valid balanced parentheses sequence (BPS) $s$, find a rotation
+		of $s$ that is a different valid BPS (if it exists).
+    \end{block}
+	\begin{block}{Example}
+		\Large
+		$ \texttt{()(())()} \rightarrow \texttt{(())()()} $
+	\end{block}
+    \pause
+    \begin{block}{Solution}
+        \begin{itemize}
+			\item Insight 1: We need to break at a point where the part on the
+				left is a valid BPS.
+				Otherwise, there will be an unmatched closing parenthesis to the
+				right of the break: $\texttt{\textcolor{blue}{()(}())()} \rightarrow
+					\texttt{()\textcolor{red}{)}()()\textcolor{red}{(}} $
+				\pause
+			\item Split $s$ at each possible break point into
+				\emph{words}:
+				$\texttt{()(())()} \rightarrow \texttt{() (()) ()} $
+				\pause
+			\item Insight 2: There is a solution if and only if there are (at
+				least) two different words.
+				\pause
+			\item Thus, breaking at the earliest possible point gives a valid
+				solution (if there exists one).
+				\pause
+			\item Break at the earliest possible point and check if the result
+				$s'$ is different from $s$. Output $s'$ if yes and
+				``\texttt{unique}'' otherwise.
+				\pause
+        \end{itemize}
+		\vspace*{-5pt}
+		Time complexity: $\mathcal{O}(|s|)$
+    \end{block}
+\end{frame}
