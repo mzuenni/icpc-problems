@@ -7,6 +7,7 @@ data:
       '1':
       '2':
       '3':
+      '4':
 
   secret:
     type: directory
@@ -110,6 +111,7 @@ data:
       - random: random --seed {seed:39} --n2 99999 --parts 1 --noice 2
       - random: random --seed {seed:40} --n2 99999 --parts 1 --noice 2
 
-
+      - fuzz: random --seed 451976806
+      - fuzz: random --seed 622269605 --n2 99999
 
 
