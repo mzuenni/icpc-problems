@@ -1,0 +1,167 @@
+solution: /submissions/accepted/mzuenni1.cpp
+gitignore_generated: true
+
+generators:
+  possible:
+    - possible.cpp
+    - validate.h
+
+  impossible:
+    - impossible.cpp
+    - validate.h
+
+data:
+  sample:
+    data:
+      "1":
+        in: 163 326 1 2
+        ans: |
+          possible
+          1 2
+      "2":
+        in: 871 1261 13 39
+        ans: |
+          possible
+          87 261
+      "3":
+        in: 123 267 12339 23679
+        ans: impossible
+
+  secret:
+    data:
+      - manual-many-subsets:
+          in: 123451234512345123 123451234512345124 121212121212121212 121212121212121212
+      - possible: possible --seed {seed:1}
+      - impossible: impossible --seed {seed:1}
+
+      - manual:
+          in: 899999999999999998 999999999999999998 999999999999999999 999999999999999999
+      - manual:
+          in: 999999999999999999 999999999999999998 999999999999999997 999999999999999996
+      - manual:
+          in: 999999999999999998 999999999999999999 999999999999999996 999999999999999997
+
+      - manual:
+          in: 699999999999999979 699999999999999972 9999999999999997 9999999999999996
+      - manual:
+          in: 699999999999999972 699999999999999979 9999999999999996 9999999999999997
+
+      - manual:
+          in: 569999999999999979 569999999999999972 9999999999999997 9999999999999996
+      - manual:
+          in: 569999999999999972 569999999999999979 9999999999999996 9999999999999997
+
+      - manual:
+          in: 615463967153146625 625329650586180138 8792342387592375 8904235798025734
+      - manual:
+          in: 625329650586180138 615463967153146625 8904235798025734 8792342387592375
+
+      - manual:
+          in: 999999999999999999 999999999999999998 9 8
+      - manual:
+          in: 999999999999999998 999999999999999999 8 9
+
+      - manual:
+          in: 999999999999999999 999999999999999998 9 9
+      - manual:
+          in: 999999999999999998 999999999999999999 9 9
+
+      - overflow:
+          in: 999999999999999999 590897978349414785 1 9999999
+      - overflow:
+          in: 590897978349414785 999999999999999999 9999999 1
+
+      - manual:
+          in: 103 301 1 1010
+      - manual:
+          in: 301 103 1010 1
+
+      - manual:
+          in: 10 10 1 1010
+      - manual:
+          in: 10 10 1010 1
+
+      - manual:
+          in: 10 100 1 1010
+      - manual:
+          in: 100 10 1010 1
+
+      - manual:
+          in: 101 101 1 10
+      - manual:
+          in: 101 101 10 1
+
+      - manual:
+          in: 101 103 271 383
+      - manual:
+          in: 103 101 383 271
+
+      - manual:
+          in: 101 103 2 2
+      - manual:
+          in: 103 101 2 2
+
+      - manual:
+          in: 1 2 3 4
+      - manual:
+          in: 2 1 4 3
+
+      - need_gcd:
+          in: 1 2 2 4
+      - need_gcd:
+          in: 2 1 4 2
+
+      - possible: possible --cancel 1 --seed {seed:1}
+      - possible: possible --cancel 0 --seed {seed:2}
+      - possible: possible --digits 5 --cancel 4 --seed {seed:3}
+      - possible: possible --digits 5 --cancel 4 --seed {seed:4}
+
+      - possible: possible --seed {seed:2}
+      - possible: possible --seed {seed:3}
+      - possible: possible --seed {seed:4}
+      - possible: possible --seed {seed:5}
+      - possible: possible --seed {seed:6}
+      - possible: possible --seed {seed:7}
+      - possible: possible --seed {seed:8}
+      - possible: possible --seed {seed:9}
+
+      - impossible: impossible --cancel 1 --seed {seed:1}
+      - impossible: impossible --cancel 0 --seed {seed:2}
+      - impossible: impossible --digits 5 --cancel 4 --seed {seed:3}
+      - impossible: impossible --digits 5 --cancel 4 --seed {seed:4}
+
+      - impossible: impossible --seed {seed:2}
+      - impossible: impossible --seed {seed:3}
+      - impossible: impossible --seed {seed:4}
+      - impossible: impossible --seed {seed:5}
+      - impossible: impossible --seed {seed:6}
+      - impossible: impossible --seed {seed:7}
+      - impossible: impossible --seed {seed:8}
+      - impossible: impossible --seed {seed:9}
+
+      - manual-many-subsets:
+          in: 123212321232123212 123212321232123212 123212321232123212 123212321232123213
+      - manual-many-subsets:
+          in: 123123123123123123 123123123123123123 123123123123123123 123123123123123121
+      - manual-many-subsets:
+          in: 123212321232123213 123212321232123214 121212121212121212 121212121212121212
+      - manual-many-subsets:
+          in: 123212321232123212 123212321232123213 121212121212121212 121212121212121212
+      - manual-many-subsets:
+          in: 123412341234123412 123412341234123415 121212121212121212 121212121212121212
+      - manual-many-subsets:
+          in: 123456123456123456 654321654321654321 121212121212121212 121212121212121213
+      - manual-many-subsets:
+          in: 123456789123456789 987654321987654321 121212121212121212 121212121212121213
+      - manual-many-subsets:
+          in: 121212121212121212 121212121212121212 121212121212121212 121212121212121213
+      - manual-many-subsets:
+          in: 121314151617181912 213141516171819121 2 1
+      - manual-many-subsets:
+          in: 112112112112112112 211211211211211211 1 2
+      - manual-many-subsets:
+          in: 121212121212121212 212121212121212121 121212121212121212 121212121212121213
+      - manual-many-subsets:
+          in: 121212111212121121 111212121112121212 121212121212121212 121212121212121213
+      - manual-many-subsets:
+          in: 112212112212121122 212112212211221121 121212121212121212 121212121212121213

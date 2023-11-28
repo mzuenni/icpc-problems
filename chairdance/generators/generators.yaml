@@ -1,0 +1,95 @@
+solution: /submissions/accepted/paul.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    data:
+      "1":
+      "2":
+
+  secret:
+    data:
+      - query-biggest: query-biggest.py {seed:1}
+      - random: random --n 497 --q 500000
+      - random_even: random_even --n 497 --q 500000
+      - random_occupied: random_occupied --n 496829 --q 500000
+      - distinct_primes: distinct_primes.py {seed:1} 500000 500000
+      - big_prime: rand2.py {seed:1} 499979 150000 10000 340000
+      - small_prime: no-n.py {seed:2} 13 500000
+      - semiprime: rand3.py {seed:4} 423701 150000 10000 340000
+      - composite: rand2.py {seed:5} 498960 166666 166666 166666
+
+      - random: random --n 1006 --q 500000
+      - random: random --n 500 --q 500000
+      - random: random --n 498 --q 500000
+      - random: random --n 512 --q 500000
+      - random: random --n 500000 --q 500000
+
+      - random_even: random_even --n 1006 --q 500000
+      - random_even: random_even --n 500 --q 500000
+      - random_even: random_even --n 498 --q 500000
+      - random_even: random_even --n 512 --q 500000
+      - random_even: random_even --n 499 --q 500000
+
+      - random_occupied: random_occupied --n 500000 --q 500000
+      - random_occupied: random_occupied --n 499999 --q 500000
+
+      - distinct_primes: distinct_primes.py {seed:2} 5000 500000
+      - distinct_primes: distinct_primes.py {seed:3} 500 500000
+      - power_of_two: power_of_two.py {seed:1} 500000 500000
+      - follow: follow.py {seed:1} 500000 500000
+      - follow: follow.py {seed:2} 498960 500000
+
+      - random: rand2.py {seed:1} 500000 10000 200000 290000
+      - random: rand2.py {seed:2} 500000 400000 50000 50000
+
+      - big_prime: rand2.py {seed:2} 121013 150000 10000 340000
+      - big_prime: follow.py {seed:3} 228341 500000
+      - small_prime: no-n.py {seed:1} 547 500000
+
+      - semiprime: rand2.py {seed:3} 423701 150000 10000 340000
+      - semiprime: follow.py {seed:3} 423701 500000
+      - composite: rand3.py {seed:6} 498960 166666 166666 166666
+
+      - query_all: query_all --n 1111
+      - query_all: query_all --n 500
+      - query_all: query_all --n 498
+      - query_all: query_all --n 10
+      - query_all: query_all --n 30
+      - query_all: query_all --n 90
+
+      - manual:
+          in: |
+            2 2
+            ? 1
+            ? 2
+      - manual:
+          in: |
+            2 2
+            + 1
+            ? 1
+      - manual:
+          in: |
+            2 2
+            * 1
+            ? 1
+      - manual:
+          in: |
+            2 2
+            * 2
+            ? 1
+      - manual:
+          in: |
+            36 12
+            * 3
+            ? 12
+            ? 24
+            ? 36
+            * 4
+            ? 12
+            ? 24
+            ? 36
+            * 2
+            ? 12
+            ? 24
+            ? 36

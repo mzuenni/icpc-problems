@@ -1,0 +1,42 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+      Given are $n\leq 10^5$ players playing a deterministic version of \emph{musical
+      chairs}.
+      Player $i$ starts on chair $i$.
+      Apply up to $10^5$ commands:
+      \begin{itemize}
+      \item Rotate by $+r$: the person on chair $i$ moves clockwise to chair $i+r$.
+      \item Multiply by $* m$, the person on chair $i$ moves to $i\cdot m$, where
+        the person walking the least gets it.
+      \item On $? q$, print who sits on chair $q$.
+      \end{itemize}
+    \end{block}
+    \pause
+    \begin{block}{Naive solution}
+      Store who sits on each chair, and apply each command. $\mathcal O(n^2)$
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Solution}
+      Be \emph{lazy}!
+      Initialize $p[i]=i$, the person on chair $i$.
+      \begin{itemize}
+        \item<+-> Instead of rotating by $+r$, increment the \emph{total rotation}
+          $R$. $p[i]$ is now at $i+R$, so query $p[q-R]$.
+        \item<+-> For \emph{collision-free} multiplications: store total
+          multiplication $M$, so $p[i]$ is now at $M\cdot i + R$.
+          When multiplying by $m$, update $M \leftarrow m\cdot M$ and $R\leftarrow m\cdot R$.
+          Query $p[(q-R)\cdot M^{-1}]$.
+        \item<+-> Collisions occur when $\gcd(m, k)>1$ ($k=\#\text{leftover
+          people}$).\\
+          Simulate these fully, set $k\leftarrow k/\gcd(m,k)$, and reset $R$ and $M$.
+        \item<+-> Be careful about queries to empty chairs.
+        \item<+-> Each collision at least halves $k$, so at most $\lg n$ collisions.
+        \item<+-> Runtime: $\mathcal O(n \log n)$.
+      \end{itemize}
+    \end{block}
+    \solvestats
+\end{frame}

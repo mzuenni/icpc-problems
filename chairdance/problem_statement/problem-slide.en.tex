@@ -1,0 +1,33 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+
+    \begin{columns}
+        \begin{column}[T]{.60\textwidth}
+            \begin{itemize}
+                \item Simulate deterministic a game of \emph{Musical Chairs}.
+                \item $2\leq n\leq 5\cdot 10^5$ players are sitting on as many
+                  chairs arranged in a circle numbered modulo $n$.
+                \item The game master gives three types of commands:
+                  \begin{itemize}
+                    \item ``\texttt{+~$x$}'': The player on chair~$i$ moves to chair~$i+x$.
+                    \item ``\texttt{*~$x$}'': The player on chair~$i$ moves to chair~$i\cdot{}x$.
+                    \item ``\texttt{?~$x$}'': Tell us the number of the player on chair~$x$.
+                  \end{itemize}
+                \item  When multiple players go to the same
+                      chair, the one moving the shortest distance in clockwise
+                      direction gets it. The others are out.
+                \item Simulate up to $5\cdot 10^5$ commands and answer the query commands
+                  (answering $-1$ if the chair is empty).
+            \end{itemize}
+        \end{column}
+        \illustration{0.36}{sample}{
+          \small Sample Input 1 at the fourth command. Players~$4$~and~$10$ both need to move to chair~$2$.
+          Player~$10$ needs to travel less, so gets to take the seat. Player~$4$ is out.
+        }
+
+        %% \illustration{0.25}{musicalchairs.jpg}{
+        %% A family playing Musical Chairs. \\
+        %% CC BY-SA 3.0 by Artaxerxes on \href{https://commons.wikimedia.org/wiki/File:Musical_chairs_Lawn_Jam_Our_Community_Place_Harrisonburg_VA_June_2008.jpg}{Wikimedia Commons}
+        %% }%
+    \end{columns}
+\end{frame}

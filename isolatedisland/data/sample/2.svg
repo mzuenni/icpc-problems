@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="full" viewBox="-6.120000 -3.120000 12.240000 6.240000" >
+<line x1="-6" y1="3" x2="0" y2="-3" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+<line x1="0" y1="-3" x2="6" y2="3" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+<line x1="6" y1="3" x2="-6" y2="3" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+<line x1="-3" y1="-0" x2="3" y2="-0" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+<line x1="3" y1="-0" x2="0" y2="3" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+<line x1="0" y1="3" x2="-3" y2="-0" stroke="#000000" stroke-width="1" stroke-linecap="round" vector-effect="non-scaling-stroke" fill="none" />
+</svg>

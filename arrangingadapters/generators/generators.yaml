@@ -1,0 +1,184 @@
+solution: /submissions/accepted/mzuenni.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    data:
+      "1":
+        in: |
+          5 7
+          7 4 4 5 8
+      "2":
+        in: |
+          8 9
+          7 4 3 6 4 8 5 6
+
+  secret:
+    data:
+      - one_plug:
+          in: |
+            1 4
+            6
+      - one_socket:
+          in: |
+            4 1
+            4 5 6 7
+      - much_free:
+          in: |
+            9 12
+            4 4 4 4 4 4 4 4 4
+      - much_free:
+          in: |
+            6 10
+            5 5 5 5 5 5
+      - two_max_length:
+          in: |
+            3 3
+            3 1000000000 1000000000
+      
+      - greedy_edge_case_small: # greedy_edge_case --n 10 --seed 1132656668  # Found during fuzzing
+          in: |
+            10 86
+            7 25 49 46 22 58 49 34 28 37
+      - greedy_edge_case_small: # greedy_edge_case --n 10 --seed 1781063316  # Found during fuzzing
+          in: |
+            10 91
+            58 34 55 40 55 22 49 40 7 16
+      - tight-pack:
+          in: |
+            8 9
+            7 4 3 5 4 8 5 6
+
+      # Worst-case moved to front to kill slow submissions earlier
+      - many_gaps: many_gaps.py 
+      - greedy_edge_case: greedy_edge_case --seed {seed:1}
+      - greedy_edge_case: greedy_edge_case --seed {seed:2}      
+      - almost_max_constraints: random_copy --n 199500 --s 999950000 --seed {seed:1}
+      - almost_max_constraints: random_copy --n 199500 --s 999950000 --seed {seed:2}
+
+      - random: random_copy --n 100 --s 1000000 --seed {seed:1}
+      - random: random_copy --n 100 --s 1000000 --seed {seed:2}
+      - random: random_copy --n 100 --s 1000000 --seed {seed:3}
+
+      - random: random_copy --seed {seed:1}
+      - random: random_copy --seed {seed:2}
+      - random: random_copy --seed {seed:3}
+      - random: random_copy --seed {seed:4}
+      - random: random_copy --seed {seed:5}
+
+      - max_constraints: random_copy --n 200000 --s 1000000000 --seed {seed:1}
+
+      - almost_max_constraints: random_copy --n 199500 --s 999950000 --seed {seed:3}
+      - almost_max_constraints: random_copy --n 199500 --s 999950000 --seed {seed:4}
+      - almost_max_constraints: random_copy --n 199500 --s 999950000 --seed {seed:5}
+
+      - greedy_edge_case: greedy_edge_case --seed {seed:3}
+      - greedy_edge_case: greedy_edge_case --seed {seed:4}
+      - greedy_edge_case: greedy_edge_case --seed {seed:5}
+      - greedy_edge_case_small: greedy_edge_case --n 10 --seed {seed:1}
+      - greedy_edge_case_small: greedy_edge_case --n 10 --seed {seed:2}
+      - greedy_edge_case_small: greedy_edge_case --n 10 --seed {seed:3}
+      - greedy_edge_case_small: greedy_edge_case --n 10 --seed {seed:4}
+      - greedy_edge_case_small: greedy_edge_case --n 10 --seed {seed:5}
+
+      - three_type_case: three_type_case --seed {seed:1}
+      - three_type_case: three_type_case --seed {seed:2}
+      - three_type_case: three_type_case --seed {seed:3}
+      - three_type_case: three_type_case --seed {seed:4}
+      - three_type_case: three_type_case --seed {seed:5}
+
+      - two_type_case: two_type_case --seed {seed:1}
+      - two_type_case: two_type_case --seed {seed:2}
+      - two_type_case: two_type_case --seed {seed:3}
+      - two_type_case: two_type_case --seed {seed:4}
+      - two_type_case: two_type_case --seed {seed:5}
+
+      - some_large_plugs: some_large_plugs --n 200000 --s 999600000 --seed {seed:1}
+      - some_large_plugs: some_large_plugs --n 200000 --s 999600000 --seed {seed:2}
+      - some_large_plugs: some_large_plugs --n 200000 --s 999600000 --seed {seed:3}
+      - some_large_plugs: some_large_plugs --n 200000 --s 999600000 --seed {seed:4}
+      - some_large_plugs: some_large_plugs --n 200000 --s 999600000 --seed {seed:5}
+
+      - some_large_plugs: some_large_plugs --seed {seed} --n 10
+      - some_large_plugs: some_large_plugs --seed {seed} --n 20
+      - some_large_plugs: some_large_plugs --seed {seed} --n 30
+      - some_large_plugs: some_large_plugs --seed {seed} --n 40
+      - some_large_plugs: some_large_plugs --seed {seed} --n 100
+      - some_large_plugs: some_large_plugs --seed {seed} --n 1000
+      - some_large_plugs: some_large_plugs --seed {seed} --n 10000
+      - some_large_plugs: some_large_plugs --seed {seed} --n 200000
+
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 0 --mode 0 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 0 --mode 1 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 0 --mode 2 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 0 --mode 3 --seed {seed:1}
+
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 1 --mode 0 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 1 --mode 1 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 1 --mode 2 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 1 --mode 3 --seed {seed:1}
+
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 2 --mode 0 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 2 --mode 1 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 2 --mode 2 --seed {seed:1}
+      - some_modulo_class: some_modulo_class --n 200 --s 10000 --m 2 --mode 3 --seed {seed:1}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 0 --mode 0 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 0 --mode 1 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 0 --mode 2 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 0 --mode 3 --seed {seed:2}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 1 --mode 0 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 1 --mode 1 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 1 --mode 2 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 1 --mode 3 --seed {seed:2}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 2 --mode 0 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 2 --mode 1 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 2 --mode 2 --seed {seed:2}
+      - some_modulo_class: some_modulo_class --n 200000 --s 900000 --m 2 --mode 3 --seed {seed:2}
+
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 0 --mode 0 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 0 --mode 1 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 0 --mode 2 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 0 --mode 3 --seed {seed:3}
+
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 1 --mode 0 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 1 --mode 1 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 1 --mode 2 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 1 --mode 3 --seed {seed:3}
+
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 2 --mode 0 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 2 --mode 1 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 2 --mode 2 --seed {seed:3}
+      - some_modulo_class: some_modulo_class --n 2000 --s 1000000000 --m 2 --mode 3 --seed {seed:3}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 0 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 0 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 0 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 0 --mode 3 --seed {seed:4}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 1 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 1 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 1 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 1 --mode 3 --seed {seed:4}
+
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 2 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 2 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 2 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --n 200000 --s 1000000000 --m 2 --mode 3 --seed {seed:4}
+
+      - some_modulo_class: some_modulo_class --m 0 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 0 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 0 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 0 --mode 3 --seed {seed:4}
+
+      - some_modulo_class: some_modulo_class --m 1 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 1 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 1 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 1 --mode 3 --seed {seed:4}
+
+      - some_modulo_class: some_modulo_class --m 2 --mode 0 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 2 --mode 1 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 2 --mode 2 --seed {seed:4}
+      - some_modulo_class: some_modulo_class --m 2 --mode 3 --seed {seed:4}

@@ -1,0 +1,283 @@
+solution: /submissions/accepted/mzuenni.cpp
+visualizer: /visualizers/vis
+gitignore_generated: true
+
+data:
+  sample:
+    data:
+      "1":
+        copy: samples/1
+      "2":
+        copy: samples/2
+      "3":
+        copy: samples/3
+      "4":
+        in: |
+          4
+          0 0 1 0
+          1 0 1 1
+          1 1 0 1
+          0 1 0 0
+  secret:
+    data:
+      - hashing: { copy: manual/hashing }
+      - grid: grid --seed {seed} --n 1000
+      - precision: { copy: manual/precision1 }
+      - manual: { copy: manual/manual }
+      - anti_unordered: { copy: manual/anti_unordered }
+      - anti_reinier_hash: generate_yes.py 1000000 0 0 1 {seed}
+      - anti_reinier_hash: generate_yes.py 0 1000000 1 0 {seed}
+      - anti_reinier_hash: generate_yes.py 1000000 0 -1 1 {seed}
+      - anti_reinier_hash: generate_yes.py 0 1000000 1 -1 {seed}
+      - anti_reinier_hash: generate_yes.py 1000000 0 -1000000 1 {seed}
+      - anti_reinier_hash: generate_yes.py 0 1000000 1 -1000000 {seed}
+      - min:
+          in: |
+            3
+            0 0 0 1
+            0 1 1 1
+            1 1 0 0
+      - min:
+          in: |
+            3
+            -1000000 -1000000 -1000000 1000000
+            -1000000 1000000 1000000 1000000
+            1000000 1000000 -1000000 -1000000
+
+      - rnd_loop: rnd_loop --seed {seed} --n 1000
+      - rnd_loop: rnd_loop --seed {seed:2} --n 1000
+      - rnd_loop: rnd_loop --seed {seed} --n 100
+      - rnd_loop: rnd_loop --seed {seed} --n 20
+      - rnd_loop: rnd_loop --seed {seed} --n 5
+      - rnd: rnd --seed {seed} --n 40
+      - rnd: rnd --seed {seed:2} --n 40
+      - rnd: rnd --seed {seed} --n 39
+      - rnd: rnd --seed {seed} --n 5
+      - rot_tri: rot_tri --seed {seed} --n 1000
+      - rot_tri: rot_tri --seed {seed:1} --n 1000
+      - rot_tri: rot_tri --seed {seed} --n 100
+      - rot_tri: rot_tri --seed {seed} --n 10
+      - star: star --seed {seed} --n 1000
+      - star: star --seed {seed} --n 1000 --dim 1000 --o 999000
+      - star: star --seed {seed} --n 1000 --dim 200 --o 999800
+      - star: star --seed {seed} --n 10 --dim 100 --o 999900
+      - many_intersections: many_intersections --seed {seed} --n 1000
+      - many_intersections: many_intersections --seed {seed} --n --dim 251
+      - many_intersections: many_intersections --seed {seed} --n --dim 251 --o 999000
+      - nested: nested --seed {seed} --n 1000
+      - nested: nested --seed {seed:2} --n 1000
+      - nested: nested --seed {seed} --n 100
+      - nested: nested --seed {seed} --n 10
+      - precision: { copy: manual/precision2 }
+      - precision: { copy: manual/precision3 }
+      - precision: { copy: manual/precision4 }
+      
+      - grid: grid --seed {seed} --n 25
+      - grid: grid --seed {seed} --n 999
+      - grid: grid --seed {seed} --n 100
+      - grid: grid --seed {seed:1} --n 1000
+
+      - graph: graph --seed {seed} --n 50 --m 1000
+      - graph: graph --seed {seed} --n 75 --m 1000
+      - graph: graph --seed {seed} --n 100 --m 1000
+      - graph: graph --seed {seed} --n 200 --m 1000
+      - graph: graph --seed {seed} --n 300 --m 1000
+      - graph: graph --seed {seed} --n 5 --m 7
+
+      - graph: graph2 --seed {seed} --n 75 --m 1000
+      - graph: graph2 --seed {seed} --n 100 --m 1000
+      - graph: graph2 --seed {seed} --n 200 --m 1000
+      - graph: graph2 --seed {seed} --n 300 --m 1000
+      - graph: graph2 --seed {seed} --n 500 --m 1000
+      - graph: graph2 --seed {seed} --n 5 --m 7
+      - graph: graph2 --seed {seed} --n 75 --m 1000 --yes
+      - graph: graph2 --seed {seed} --n 100 --m 1000 --yes
+      - graph: graph2 --seed {seed} --n 200 --m 1000 --yes
+      - graph: graph2 --seed {seed} --n 300 --m 1000 --yes
+      - graph: graph2 --seed {seed} --n 500 --m 1000 --yes
+      - graph: graph2 --seed {seed} --n 6 --m 8 --yes
+
+      - other_many_intersections: other_many_intersections.py 1000 -1000000 1000000 {seed}
+      - other_many_intersections: other_many_intersections.py 1000 -1000000 1000000 {seed:2}
+      - other_many_intersections: other_many_intersections.py 1000 -1000000 1000000 {seed:3}
+      - other_many_intersections: other_many_intersections.py 1000 990000 1000000 {seed:3}
+      - other_many_intersections: other_many_intersections.py 1000 999000 1000000 {seed:4}
+      - other_many_intersections: other_many_intersections.py 20 -40 100 {seed:5}
+
+      - rectilinear_loop: rectilinear_loop.py 1000 -1000000 1000000 0 {seed}
+      - rectilinear_loop: rectilinear_loop.py 1000 -1000000 1000000 0 {seed:9}
+      - rectilinear_loop: rectilinear_loop.py 1000 -1000000 1000000 1 {seed:3}
+      - rectilinear_loop: rectilinear_loop.py 1000 -1000000 1000000 1 {seed:10}
+      - rectilinear_loop: rectilinear_loop.py 20 -1000 1000 0 {seed}
+      - rectilinear_loop: rectilinear_loop.py 20 -1000 1000 1 {seed:6}
+
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 3 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 4 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 5 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 6 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 7 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 8 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 9 {seed}
+      - random_cliques: random_cliques.py 1000 -1000000 1000000 20 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 3 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 4 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 5 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 6 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 7 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 8 {seed}
+      - random_cliques: random_cliques.py 1000 -200 200 20 {seed}
+      - random_cliques: random_cliques.py 300 -200 200 5 {seed}
+      - random_cliques: random_cliques.py 100 -200 200 4 {seed}
+      - random_cliques: random_cliques.py 30 -200 200 5 {seed}
+      - random_cliques: random_cliques.py 10 -200 200 4 {seed}
+
+      - sample_3_modified: { copy: manual/3_modified }
+
+
+      - manual8:
+          in: |
+            10
+            -10 -10 -10 10
+            -10 10 10 10
+            10 10 10 -10
+            10 -10 -10 -10
+            0 0 1 0
+            1 0 1 2
+            1 2 2 2
+            2 2 2 1
+            2 1 0 1
+            0 1 0 0
+      - manual8:
+          in: |
+            11
+            -10 -10 -10 10
+            -10 10 10 10
+            10 10 10 -10
+            10 -10 -10 -10
+            0 0 1 0
+            1 0 1 1
+            1 1 1 2
+            1 2 2 2
+            2 2 2 1
+            2 1 0 1
+            0 1 0 0
+      - manual-tbox:
+          in: |
+            5
+            0 0 2 0
+            2 0 2 1
+            2 1 0 1
+            0 1 0 0
+            1 1 1 0
+      - collinear: collinear.py 1000 -1000000 1000000 1 0 {seed}
+      - collinear: collinear.py 1000 -1000000 1000000 0 1 {seed:2}
+      - collinear: collinear.py 1000 -1000000 1000000 123 456 {seed:3}
+      - collinear: collinear.py 1000 -1000000 1000000 1578 623 {seed:4}
+
+  invalid_inputs:
+    data:
+      dead-end:
+        in: |
+          5
+          0 0 2 0
+          2 0 2 1
+          2 1 0 1
+          0 1 0 0
+          1 0 1 2
+      double-line1:
+        in: |
+          6
+          0 0 2 0
+          2 0 2 1
+          2 1 0 1
+          0 1 0 0
+          1 0 1 1
+          1 0 1 1
+      double-line2:
+        in: |
+          3
+          0 0 2 2
+          1 1 3 3
+          8 8 9 9
+      double-line3:
+        in: |
+          3
+          0 0 2 2
+          0 0 3 3
+          8 8 9 9
+      double-line4:
+        in: |
+          3
+          0 0 2 2
+          0 0 2 2
+          8 8 9 9
+      double-line5:
+        in: |
+          3
+          0 0 0 2
+          0 0 0 2
+          8 8 9 9
+      double-line6:
+        in: |
+          3
+          0 0 0 2
+          0 1 0 3
+          8 8 9 9
+      bad-graph1:
+        in: |
+          7
+          0 0 3 0
+          0 0 0 1
+          0 1 1 1
+          1 1 1 0
+          2 0 2 1
+          2 1 3 1
+          3 1 3 0
+      bad-graph2:
+        in: |
+          11
+          -10 -10 -10 10
+          -10 10 10 10
+          10 10 10 -10
+          10 -10 -10 -10
+          0 0 3 0
+          0 0 0 1
+          0 1 1 1
+          1 1 1 0
+          2 0 2 1
+          2 1 3 1
+          3 1 3 0
+      bad_regions1:
+        in: |
+          5
+          0 0 3 3
+          0 0 1 0
+          1 0 1 1
+          2 2 2 3
+          2 3 3 3
+      bad_regions2:
+        in: |
+          9
+          0 0 3 3
+          0 0 1 0
+          1 0 1 1
+          2 2 2 3
+          2 3 3 3
+          1 0 5 0
+          5 0 5 5
+          5 5 0 5
+          0 5 0 0
+      bad_regions3:
+        in: |
+          9
+          0 0 3 3
+          0 0 1 0
+          1 0 1 1
+          2 2 2 3
+          2 3 3 3
+          2 3 -1 3
+          -1 3 -1 -1
+          -1 -1 3 -1
+          3 -1 3 3
+      invalid_generator: invalid_generator.py 1000 -1000000 1000000 {seed}
+      invalid_generator2: invalid_generator2.py 1000 -1000000 1000000 {seed}

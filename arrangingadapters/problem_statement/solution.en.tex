@@ -1,0 +1,29 @@
+\begin{frame}
+  \frametitle{\problemtitle}
+  \begin{block}{Problem}
+    Given $1\leq n\leq 2\cdot 10^5$ chargers, each $3\leq w\leq
+    10^9\,\textrm{cm}$ wide, how many fit into a powerstrip
+    comprising a row of $1\leq s\leq 10^5$ sockets, each of width $3\,\textrm{cm}$?
+  \end{block}
+  \pause
+  \begin{block}{Solution}
+    \begin{itemize}
+    \item<+-> First, greedily put the two largest chargers on the outside.
+    \item<+-> If the answer is $k$, we can use the $k$ smallest chargers.
+    \item<+-> To test if the smallest $k$ chargers fit:
+      \begin{itemize}
+      \item Start with those of length $0\mod 3$.
+      \item Then pair up $1\mod 3$ and $2\mod 3$ chargers, filling the
+        gaps.
+      \item Then pair up remaining $1\mod 3$, leaving a gap of $1$ in between.
+      \item Lastly put the remaining chargers, and check the total length used.
+      \end{itemize}
+    \item<+-> Binary search over $k$. Runtime $\mathcal O(n \log n)$.
+    \item<+-> Edge case: when there is only a single socket.
+    \item<+-> Linear time is also possible, trying to add one charger at a
+      time.
+    \end{itemize}
+  \end{block}
+  \vspace{-0.5em}
+  \solvestats
+\end{frame}

@@ -1,0 +1,26 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+        Given a fraction $\frac{a}{b}$,
+        try to make it equal to $\frac{c}{d}$ by
+        cancelling some digits in $a$ and $b$
+    \end{block}
+    \pause
+    \begin{block}{Solution}
+      \begin{itemize}
+      \item Try all possible $\mathcal O(2^{\left|a\right|})$ subsets of $a$
+      \item Given $a'$, $c$ and $d$, we know $b' = \frac{a' \cdot d}{c}$ must hold
+      \item Check if $b$ can be made into $b'$ by removing the same digits
+      \end{itemize}
+    \end{block}
+    \pause
+    \begin{block}{Pitfalls}
+      \begin{itemize}
+      \item $a' \cdot d$ not divisible by $c$
+      \item Leading zeroes
+      \item 64-bit integer overflow: take GCD first, do operations modulo some prime, use bigger integers
+      \end{itemize}
+    \end{block}
+    \pause
+    \solvestats
+\end{frame}

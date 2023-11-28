@@ -1,0 +1,36 @@
+\documentclass{standalone}
+
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows,backgrounds,scopes}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+
+%ICPC logo colors
+\definecolor{red}{HTML}{972e21}
+\definecolor{yellow}{HTML}{ebb83f}
+\definecolor{blue}{HTML}{5e7fbf}
+
+\begin{document}
+	\begin{tikzpicture}[line width=0.1cm]
+		\draw[fill=red] (0,0) rectangle(1.2,1);
+		\draw[fill=yellow] (1.2,0) rectangle(6,1);
+		\draw (4.0,0)--(3.0,1);
+		\draw (4.2,0)--(3.2,1);
+		\draw[fill=blue] (6,0) rectangle(8.4,1);
+		\draw[fill=blue] (8.4,0) rectangle(10.8,1);
+		\draw[fill=red] (10.8,0) rectangle(12,1);
+		
+		\draw[fill=blue] (0,1) rectangle(2.4,2);
+		\draw[fill=yellow] (2.4,1) rectangle(7.2,2);
+		\draw (5.2,1)--(4.2,2);
+		\draw (5.4,1)--(4.4,2);
+		\draw[fill=blue] (7.2,1) rectangle(9.6,2);
+		\draw[fill=blue] (9.6,1) rectangle(12,2);
+	\end{tikzpicture}
+\end{document} 

@@ -1,0 +1,42 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc,backgrounds,shapes}
+%ICPC logo colors
+\definecolor{red}{HTML}{972e21}
+\definecolor{yellow}{HTML}{ebb83f}
+\definecolor{blue}{HTML}{5e7fbf}
+\begin{document}
+	\newcommand{\n}{12}
+\begin{tikzpicture}[x=1cm,y=-1cm,circ/.style={draw, circle, inner sep=0pt}]
+	\foreach \i in {1,...,\n}{
+		\node[circ,minimum size=1cm] (c\i) at (-90+360/\n*\i:2.2) {};
+		\coordinate (x\i) at (-90+360/\n*\i:3.2);
+		\coordinate (p\i) at (-90+360/\n*\i:2.6);
+		\node at (-90+360/\n*\i:1.96) {\i};
+		\begin{pgfonlayer}{background}
+			\begin{scope}
+				\clip (c\i.center) circle (0.5cm);
+				\draw[fill=red!20] (0,0) circle (2.2);
+			\end{scope}
+		\end{pgfonlayer}
+	}
+	
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p1) {12};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p2) {1};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p3) {2};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p4) {3};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p6) {5};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p7) {6};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p8) {7};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p9) {8};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p10) {9};
+	\node[circ,minimum size=0.6cm,black!40,fill=white] at (p12) {11};
+	
+	\node[circ,minimum size=0.6cm,fill=blue!20] (y10) at (p11) {10};
+	\node[circ,minimum size=0.6cm,fill=blue!20] (y4) at (p5) {4};
+	
+	\draw[-stealth] (y10) to[out=50, in=85,looseness=1.05] (c2);
+	\draw[-stealth] (y4) to[out=240, in=0] (x6) arc(90:300:3.2)
+					(x1) to[out=-30, in=70] (c2);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,172 @@
+solution: /submissions/accepted/brute_reconstruct_bitset.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    solution:
+    data:
+      "1":
+      "2":
+
+  secret:
+    data:
+      - earlyBreak: { in: "2 12\n3 4" }
+
+      - manual_impossible: { in: "2 189874\n1 189874" }
+      - manual_impossible: { in: "2 179843\n1 1" }
+
+      - ones_twos: eval.py 300000 [1]*299999+[2]
+      - ones_twos: eval.py 300000 [2]*299999+[1]
+      - ones_twos: eval.py 300000 [1]*150000+[2]*150000
+
+      - residue: residue --seed {seed} --w 299993
+      - residue: residue --seed {seed} --w 299983
+      - residue: residue --seed {seed} --w 299977
+      - residue: residue --seed {seed} --w 299969
+      - residue: residue --seed {seed} --w 299951
+
+      - residue: residue2 --seed {seed} --w 299993 --mod 3
+      - residue: residue2 --seed {seed} --w 299983 --mod 5
+      - residue: residue2 --seed {seed} --w 299977 --mod 3
+      - residue: residue2 --seed {seed} --w 299969 --mod 5
+      - residue: residue2 --seed {seed} --w 299951 --mod 3
+
+      - residue: residue --seed {seed:1}
+      - residue: residue --seed {seed:2}
+      - residue: residue --seed {seed:3}
+
+      - random: random2 --seed 314610240 --w 199933
+      - random: random2 --seed 1521452111 --w 199999
+      - random: random2 --seed 1617086784 --w 199967
+      - random: random2 --seed 1245849971 --w 199933
+      - random: random2 --seed 350433231 --w 199961
+
+      - useAll: useAll --seed {seed} --n 13
+      - useAll: useAll --seed {seed} --n 12
+      - useAll: useAll --seed {seed} --n 3
+
+      - unique: unique --seed {seed} --w 99
+      - unique: unique --seed {seed} --w 300000
+      - unique: unique --seed {seed} --w 299997
+      - unique: unique --seed {seed} --w 299994
+      - unique: unique --seed {seed} --w 156213
+      - unique: unique --seed {seed} --w 178312
+
+      - many:
+          in: |
+            6 30030
+            2310 2730 4290 6006 10010 15015
+
+      - residue: residue --seed {seed} --w 299993 --lim 3
+      - residue: residue --seed {seed} --w 299983 --lim 3
+      - residue: residue --seed {seed} --w 299977 --lim 3
+      - residue: residue --seed {seed} --w 299969 --lim 3
+      - residue: residue --seed {seed} --w 299951 --lim 3
+
+      - residue: residue2 --seed {seed:1}
+      - residue: residue2 --seed {seed:2}
+      - residue: residue2 --seed {seed:3}
+
+      - residue: residue3 --seed {seed} --w 299993 --mod 1000
+      - residue: residue3 --seed {seed} --w 299983 --mod 1000
+      - residue: residue3 --seed {seed} --w 299977 --mod 1000
+      - residue: residue3 --seed {seed} --w 299969 --mod 1000
+      - residue: residue3 --seed {seed} --w 299951 --mod 1000
+
+      - manual_possible: { in: "2 10\n1 2" }
+      - manual_possible: { in: "2 10\n2 4" }
+      - manual_possible: { in: "2 8\n2 4" }
+      - manual_possible: { in: "2 10\n10 5" }
+      - manual_possible: { in: "1 10\n10" }
+      - manual_possible: { in: "2 10\n1 3" }
+      - manual_possible: { in: "2 10\n2 3" }
+      - manual_possible: { in: "2 10\n2 5" }
+      - manual_possible: { in: "2 16\n2 6" }
+      - manual_possible: { in: "3 25\n2 4 17" }
+      - manual_possible: { in: "3 16\n2 4 8" }
+
+      - manual_impossible: { in: "2 10\n2 2" }
+      - manual_impossible: { in: "2 10\n2 7" }
+      - manual_impossible: { in: "2 10\n5 7" }
+
+      - random: randomSmall --seed 198855722
+      - random: randomSmall --seed 956016679
+      - random: randomSmall --seed 2062315353
+      - random: randomSmall --seed 1316789312
+      - random: randomSmall --seed 266023624
+
+      - random: random --seed {seed} --w 299993
+      - random: random --seed {seed} --w 299983
+      - random: random --seed {seed} --w 299977
+      - random: random --seed {seed} --w 299969
+      - random: random --seed {seed} --w 299951    
+
+      - range: range --seed {seed} --w 300000 --( 150000 --) 300000
+      - range: range --seed {seed} --w 300000 --[ 150000 --) 300000
+      - range: range --seed {seed} --w 300000 --( 100000 --) 300000
+      - range: range --seed {seed} --w 300000 --[ 100000 --) 300000
+
+      - range: range --seed {seed} --w 300000 --( 150000 --) 300000 --ws 1
+      - range: range --seed {seed} --w 300000 --( 100000 --) 300000 --ws 1
+      - range: range --seed {seed} --w 300000 --( 150000 --) 300000 --ws 11
+      - range: range --seed {seed} --w 300000 --( 100000 --) 300000 --ws 11
+      - range: range --seed {seed} --w 300000 --( 150000 --) 300000 --ws 107
+      - range: range --seed {seed} --w 300000 --( 100000 --) 300000 --ws 107
+      - range: range --seed {seed} --w 300000 --( 150000 --) 300000 --ws 53139
+      - range: range --seed {seed} --w 300000 --( 100000 --) 300000 --ws 41246
+
+      - many_same: { in: "2 300000\n1 150000" }
+      - many_same: { in: "2 299999\n1 150000" }
+      - many_same: { in: "2 300000\n1 2" }
+      - many_same: { in: "2 299999\n1 2" }
+      - many_same: { in: "5 262144\n1 2 4 8 16" }
+      - many_same: { in: "5 262144\n1 2 8 16 32" }
+      - many_same: { in: "5 262144\n2 4 8 16 32" }
+      - many_same: { in: "2 300000\n2 3" }
+      - many_same: { in: "2 300000\n1 3" }
+      - many_same: { in: "3 300000\n2 3 6" }
+      - many_same: { in: "4 300000\n2 3 5 30" }
+      - many_same: { in: "6 297990\n2 3 5 7 11 2310" }
+      - many_same: { in: "3 300000\n1 2 3" }
+
+
+      - powers_of_two: eval.py 300000 [2**i for i in range(0,18)]
+      - powers_of_two: eval.py random.randint(200000,300000) [2**i for i in range(1,18)]
+      - powers_of_two: eval.py random.randint(200000,300000) [2**i+1 for i in range(0,18)]
+      - powers_of_two: eval.py random.randint(200000,300000) [2**i-1 for i in range(1,18)]
+      - powers_of_three: eval.py 300000 [3**i for i in range(1,11)]
+      - powers_of_three: eval.py random.randint(200000,300000) [3**i for i in range(1,11)]
+
+      - diviors: { copy: divisors }
+
+      - max: range --seed {seed} --w 300000 --[ 1 --] 300000
+      - max: range --seed {seed} --w 300000 --( 1 --] 300000
+      - max: range --seed {seed} --w 300000 --[ 1 --) 300000
+      - max: range --seed {seed} --w 300000 --( 1 --) 300000
+      - min: { in: "1 1\n1" }
+      - min: { in: "2 1\n1 1" }
+      - min: { in: "1 3\n2" }
+      - min: { in: "2 3\n1 1" }
+      - min: { in: "1 4\n3" }
+      - min: { in: "2 5\n2 4" }
+
+      - small: randomSmall --seed {seed:1}
+      - small: randomSmall --seed {seed:2}
+      - small: randomSmall --seed {seed:3}
+      - small: randomSmall --seed {seed:4}
+      - small: randomSmall --seed {seed:5}
+      - small: randomSmall --seed {seed:6}
+      - small: randomSmall --seed {seed:7}
+      - small: randomSmall --seed {seed:8}
+      - small: randomSmall --seed {seed:9}
+      - small: randomSmall --seed {seed:10}
+      - small: randomSmall --seed {seed:11}
+      - small: randomSmall --seed {seed:12}
+      - small: randomSmall --seed {seed:13}
+      - small: randomSmall --seed {seed:14}
+      - small: randomSmall --seed {seed:15}
+      - small: randomSmall --seed {seed:16}
+      - small: randomSmall --seed {seed:17}
+      - small: randomSmall --seed {seed:18}
+      - small: randomSmall --seed {seed:19}
+
