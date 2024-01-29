@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc,quotes,arrows.meta}
+%ICPC logo colors
+\definecolor{red}{HTML}{972e21}
+\definecolor{yellow}{HTML}{ebb83f}
+\definecolor{blue}{HTML}{5e7fbf}
+\definecolor{green}{HTML}{5fd94e}
+\begin{document}
+	\begin{tikzpicture}[every path/.style={line cap=round,line join=round}]
+		
+		\draw[fill=red!50] (0,0,0) --++ (3,0,0) --++ (0,8,0) --++ (-3,0,0) --cycle;
+		
+		\draw[fill=yellow!50] (3,0,0) --++ (0,0,-3) --++ (0,8,0) --++ (0,0,3) --cycle;
+		
+		\draw[fill=blue!50] (0,8,0) --++ (3,0,0) --++ (0,0,-3) --++ (-3,0,0) --cycle;
+		
+		\draw[dashed,opacity=0.5] (0,0,-3) --++ (0,0,3);
+		\draw[dashed,opacity=0.5] (0,0,-3) --++ (0,8,0);
+		\draw[dashed,opacity=0.5] (0,0,-3) --++ (3,0,0);
+		
+		\path[|-|] (3.2,0,0.2) edge[sloped,"3\,dm"'] ++(0,0,-3);
+		\path[|-|] (0,-0.2,0) edge[sloped,"3\,dm"'] ++(3,0,0);
+		\path[|-|] (-0.2,0,0) edge[sloped,"8\,dm"] ++(0,8,0);
+		
+		
+		%\draw[fill=red!50] (5,0,-1.5) --++ (3,0,0) --++ (0,5,0) --++ (-3,0,0) --cycle;
+		
+		%\draw[fill=yellow!50] (9,0,-1.5) --++ (3,0,0) --++ (0,5,0) --++ (-3,0,0) --cycle;
+		
+		\draw[fill=green!50] (7,2,0) --++ (4,0,0) --++ (0,4,0) --++ (-4,0,0) --cycle;
+		\draw[rotate around={10:(9,4,0)},fill=blue!50] (7.5,2.5,0) --++ (3,0,0) --++ (0,3,0) --++ (-3,0,0) --cycle;
+		
+		\path[|-|] (7,1.8,0) edge[sloped,"4\,dm"'] ++(4,0,0);
+		\path[|-|] (6.8,2,0) edge[sloped,"4\,dm"] ++(0,4,0);
+		\path[-Stealth,line width=0.05cm] (4,8,-1.5) edge[out=0,in=90] (9,6.3,0);
+		
+				
+	\end{tikzpicture}
+\end{document}

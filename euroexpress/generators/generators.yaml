@@ -1,0 +1,49 @@
+solution: /submissions/accepted/sol.cpp
+gitignore_generated: true
+
+data:
+  sample:
+    type: directory
+    data:
+      - '': {copy: sample/1}
+      - '': {copy: sample/2}
+
+  secret:
+    type: directory
+    data:
+      - random: random --seed {seed:1}
+      - random: random --seed {seed:2}
+      - random: random --seed {seed:3}
+      - random: random --seed {seed:4}
+      - random: random --seed {seed:5}
+
+      - min_n: random --n 1 --seed {seed}
+      - max_n: random --n 200000 --seed {seed:1}
+      - max_n: random --n 200000 --seed {seed:2}
+      - max_n: random --n 200000 --seed {seed:3}
+      - max_n: random --n 200000 --seed {seed:4}
+      - max_n: random --n 200000 --seed {seed:5}
+
+      - pareto: pareto --seed {seed:1}
+      - pareto: pareto --seed {seed:2}
+      - pareto: pareto --seed {seed:3}
+      - pareto: pareto --seed {seed:4}
+      - pareto: pareto --seed {seed:5}
+      - pareto: pareto --n 200000 --seed {seed:1}
+      - pareto: pareto --n 200000 --seed {seed:2}
+      - pareto: pareto --n 200000 --seed {seed:3}
+      - pareto: pareto --n 200000 --seed {seed:4}
+      - pareto: pareto --n 200000 --seed {seed:5}
+
+
+      - hard: hard --n 200000 --x 500000 --y 500000 --seed {seed}
+      - hard: hard --n 200000 --x 500000 --y 499999 --seed {seed}
+      - hard: hard --n 200000 --seed {seed:1}
+      - hard: hard --n 200000 --seed {seed:2}
+      - hard: hard --n 200000 --seed {seed:3}
+      - hard: hard --n 200000 --seed {seed:4}
+      - hard: hard --n 200000 --seed {seed:5}
+
+      - equal_max: equal --n 200000 --a 1000000 --b 1000000
+      - equal_in: equal --n 200000 --a 1 --b 1
+      - equal: equal --n 200000 --a 1 --b 1000000
