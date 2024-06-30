@@ -1,0 +1,28 @@
+solution: /submissions/accepted/sol.cpp
+
+data:
+  sample:
+    type: directory
+    data:
+      - '': {copy: sample/1}
+      - '': {copy: sample/2}
+
+  secret:
+    type: directory
+    data:
+      - random: random --seed {seed:1}
+      - random: random --seed {seed:2}
+      - random: random --seed {seed:3}
+      - random: random --seed {seed:4}
+      - random: random --seed {seed:5}
+
+      - min_n: random --n 1 --seed {seed}
+      - max_n: random --n 200000 --seed {seed:1}
+      - max_n: random --n 200000 --seed {seed:2}
+      - max_n: random --n 200000 --seed {seed:3}
+      - max_n: random --n 200000 --seed {seed:4}
+      - max_n: random --n 200000 --seed {seed:5}
+
+      - min_p: random --p 0.000001 --seed {seed}
+      - max_p: random --p 0.999999 --seed {seed}
+

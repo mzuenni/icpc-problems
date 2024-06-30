@@ -1,0 +1,108 @@
+\begin{frame}
+  \frametitle{\problemtitle}
+  \begin{block}{Problem}
+  	Process the following queries:
+  	\begin{description}[aaaaaaaaa]
+  		\setlength{\itemsep}{0pt}
+  		\item[\textbf{\texttt{+ b x}:}] place a lamp with brightness $b$ at position $x$.
+  		\item[\textbf{\texttt{- b x}:}] remove a lamp with brightness $b$ at position $x$.
+  		\item[\textbf{\texttt{?~x}:}] calculate the brightness at position $x$.
+  	\end{description}
+  	Note that the light reduces by a factor of $\tilde{p}=1-p$ every metre.
+  \end{block}
+  \begin{center}
+  	\begin{tikzpicture}[x=1cm,y=-0.5cm,every node/.style={inner sep=0pt,outer sep=0pt}]
+  		\only<1>{
+  			\node at (2.5,-2) {};
+	  		\draw[fill=white] (0, 0) rectangle (1, 1) node[pos=.5] {$0$};
+	  		\draw[fill=white] (1, 0) rectangle (2, 1) node[pos=.5] {$0$};
+	  		\draw[fill=white] (2, 0) rectangle (3, 1) node[pos=.5] {$0$};
+	  		\draw[fill=white] (3, 0) rectangle (4, 1) node[pos=.5] {$0$};
+	  		\draw[fill=white] (4, 0) rectangle (5, 1) node[pos=.5] {$0$};
+	  		\draw[fill=white] (5, 0) rectangle (6, 1) node[pos=.5] {$0$};
+	  	}
+	  	\only<2->{
+	  		\node at (2.5,-2) {};
+	  		\node at (2.5,-1) {\includegraphics[width=1cm]{bulb}};
+	  		\node at (2.5,-1) {$1$};
+	  		\draw[fill=yellow!25!white] (0, 0) rectangle (1, 1) node[pos=.5] {$0.25$};
+	  		\draw[fill=yellow!50!white] (1, 0) rectangle (2, 1) node[pos=.5] {$0.5$};
+	  		\draw[fill=yellow!100!white] (2, 0) rectangle (3, 1) node[pos=.5] {$1$};
+	  		\draw[fill=yellow!50!white] (3, 0) rectangle (4, 1) node[pos=.5] {$0.5$};
+	  		\draw[fill=yellow!25!white] (4, 0) rectangle (5, 1) node[pos=.5] {$0.25$};
+	  		\draw[fill=yellow!12.5!white] (5, 0) rectangle (6, 1) node[pos=.5] {$0.125$};
+	  	}
+  	\end{tikzpicture}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\problemtitle}
+	\begin{block}{Solution}
+		\begin{itemize}
+			\setlength{\itemsep}{0pt}
+			\item<2-> Split light into two directions and store it in two data structures.\\
+			$\Longrightarrow$ only consider light to the right for now
+			
+			\item<3-> A light with brightness $b$ at position $x$ contributes $b\cdot \tilde{p}^{y-x}$ at $y\geq x$.
+			
+			\item<4-> A light with brightness $b\cdot\tilde{p}^{x}$ at position $0$ has the same contribution at $y$.
+			
+			\item<5-> Do not propagate light.
+			\item<5-> Place bulbs at positions $x,x+1,\dots,n$ with constant brightness $b\cdot\tilde{p}^{x}$.
+			
+			\item<6-> The light at position $y$ is now too bright by a constant factor $p^y$.
+			\item<6-> For queries of type \texttt{?~x}, answer with $\ell_x\cdot \tilde{p}^{-x}$.
+			
+			\item<7-> Use segment tree or fenwick tree to maintain $\ell$ in $\mathcal{O}(q\log(n))$.
+		\end{itemize}
+	\end{block}
+	\begin{center}
+		\begin{tikzpicture}[x=1cm,y=-0.5cm,every node/.style={inner sep=0pt,outer sep=0pt}]
+			\only<1-3>{
+				\node at (2.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (2.5,-1) {$1$};
+			}
+			\only<4>{
+				\node at (0.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (0.5,-1) {$4$};
+			}
+			\only<5->{
+				\node at (2.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (2.5,-1) {$4$};
+				\node at (3.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (3.5,-1) {$4$};
+				\node at (4.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (4.5,-1) {$4$};
+				\node at (5.5,-1) {\includegraphics[width=1cm]{bulb}};
+				\node at (5.5,-1) {$4$};
+			}
+			\only<1>{
+				\draw[fill=yellow!25!white] (0, 0) rectangle (1, 1) node[pos=.5] {$0.25$};
+				\draw[fill=yellow!50!white] (1, 0) rectangle (2, 1) node[pos=.5] {$0.5$};
+			}
+			\only<2-3>{
+				\draw[fill=white] (0, 0) rectangle (1, 1) node[pos=.5] {$0$};
+				\draw[fill=white] (1, 0) rectangle (2, 1) node[pos=.5] {$0$};
+			}
+			\only<4>{
+				\draw[fill=orange!50!yellow] (0, 0) rectangle (1, 1) node[pos=.5] {$4$};
+				\draw[fill=orange!25!yellow] (1, 0) rectangle (2, 1) node[pos=.5] {$2$};
+			}
+			\only<1-4>{
+				\draw[fill=yellow!100!white] (2, 0) rectangle (3, 1) node[pos=.5] {$1$};
+				\draw[fill=yellow!50!white] (3, 0) rectangle (4, 1) node[pos=.5] {$0.5$};
+				\draw[fill=yellow!25!white] (4, 0) rectangle (5, 1) node[pos=.5] {$0.25$};
+				\draw[fill=yellow!12.5!white] (5, 0) rectangle (6, 1) node[pos=.5] {$0.125$};
+			}
+			\only<5->{
+				\draw[fill=white] (0, 0) rectangle (1, 1) node[pos=.5] {$0\cdot \tilde{p}^{-0}$};
+				\draw[fill=white] (1, 0) rectangle (2, 1) node[pos=.5] {$0\cdot \tilde{p}^{-1}$};
+				\draw[fill=yellow!100!white] (2, 0) rectangle (3, 1) node[pos=.5] {$4\cdot \tilde{p}^{-2}$};
+				\draw[fill=yellow!50!white] (3, 0) rectangle (4, 1) node[pos=.5] {$4\cdot \tilde{p}^{-3}$};
+				\draw[fill=yellow!25!white] (4, 0) rectangle (5, 1) node[pos=.5] {$4\cdot \tilde{p}^{-4}$};
+				\draw[fill=yellow!12.5!white] (5, 0) rectangle (6, 1) node[pos=.5] {$4\cdot \tilde{p}^{-5}$};
+			}
+		\end{tikzpicture}
+	\end{center}
+\end{frame}
