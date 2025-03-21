@@ -1,0 +1,21 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+        Simulate how a multi-level fountain fills up as liquid is poured into levels multiple times.
+    \end{block}
+    \pause
+    \begin{block}{Naive solution}
+        Just do it, iterating to find next level each time while some poured amount remains.
+        Run time: $\mathcal O(qn)$, too slow!
+    \end{block}
+    \pause
+    \begin{block}{Solution}
+        We need to find the Next Greater Element (NGE) for each index.
+        Can be done with one linear pass and a stack.
+        Use Union-Find with path compression to track where overflow ends up.
+        When level $i$ fills up, unite $i$ with $\mathrm{NGE}(i)$.
+        Run time: $\mathcal O(n + q\alpha(n))$.
+    \end{block}
+    \pause
+    \solvestats
+\end{frame}

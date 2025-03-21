@@ -1,0 +1,125 @@
+solution: /submissions/accepted/sol.cpp
+
+data:
+  sample:
+    data:
+      - '':
+          in: |
+            4 4
+            1 2 3 4
+            + 1 6
+            ? 4
+            + 1 6
+            ? 4
+      - '':
+          in: |
+            4 8
+            2 4 3 5
+            + 1 4
+            ? 2
+            + 2 3
+            ? 4
+            + 3 4
+            ? 4
+            + 2 10
+            ? 4
+  secret:
+    data:
+      - fill-from-top: fill-from-top.py stagger
+      - fill-from-top: fill-from-top.py
+
+      - from_tree: from_tree --seed {seed} --n 300000 --q 300000 --type almost_path
+      - from_tree: from_tree --seed {seed} --n 300000 --q 300000 --type almost_path --w 5
+      - from_tree: from_tree --seed {seed} --n 300000 --q 300000 --type almost_path --w 25
+      - from_tree: from_tree --seed {seed} --n 300000 --q 300000 --type random
+      - from_tree: from_tree --seed {seed} --n 300000 --q 300000 --type binary
+
+      - from_tree: from_tree --seed {seed} --n 150000 --q 300000 --type almost_path --fill
+      - from_tree: from_tree --seed {seed} --n 150000 --q 300000 --type almost_path --w 5 --fill
+      - from_tree: from_tree --seed {seed} --n 150000 --q 300000 --type almost_path --w 25 --fill
+      - from_tree: from_tree --seed {seed} --n 150000 --q 300000 --type random --fill
+      - from_tree: from_tree --seed {seed} --n 150000 --q 300000 --type binary --fill
+
+      - small: random --seed {seed} --n  1 --q 100 --lim 15
+      - small: random --seed {seed} --n  1 --q 100 --lim 150
+      - small: random --seed {seed} --n  2 --q 100 --lim 3
+      - small: random --seed {seed} --n  2 --q 100 --lim 18
+      - small: random --seed {seed} --n  3 --q 100 --lim 2401
+      - small: random --seed {seed} --n  3 --q 100 --lim 4
+      - small: random --seed {seed} --n  4 --q 100 --lim 78
+      - small: random --seed {seed} --n  4 --q 100 --lim 9
+      - small: random --seed {seed} --n  5 --q 100 --lim 15
+      - small: random --seed {seed} --n  5 --q 100 --lim 10
+      - small: random --seed {seed} --n  6 --q 100 --lim 8
+      - small: random --seed {seed} --n  6 --q 100 --lim 10
+      - small: random --seed {seed} --n  7 --q 100 --lim 9
+      - small: random --seed {seed} --n  7 --q 100 --lim 12
+      - small: random --seed {seed} --n  8 --q 100 --lim 9
+      - small: random --seed {seed} --n  8 --q 100 --lim 120
+      - small: random --seed {seed} --n  9 --q 100 --lim 20
+      - small: random --seed {seed} --n  9 --q 100 --lim 12
+      - small: random --seed {seed} --n 10 --q 100 --lim 20
+      - small: random --seed {seed} --n 10 --q 100 --lim 11
+      - random-1k: random --seed {seed:1} --n 1000 --q 1000
+      - random-2k: random --seed {seed:1} --n 2000 --q 2000
+      - random-5k: random --seed {seed:1} --n 5000 --q 5000
+      - random-10k: random --seed {seed:1} --n 10000 --q 10000
+      - random-20k: random --seed {seed:1} --n 20000 --q 20000
+      - random-50k: random --seed {seed:1} --n 50000 --q 50000
+      - random-100k: random --seed {seed:1} --n 100000 --q 100000
+      - random-200k: random --seed {seed:1} --n 200000 --q 200000
+      - random: random --seed {seed:1} --n 300000 --q 300000
+      - random: random --seed {seed:2} --n 300000 --q 300000
+      - random: random --seed {seed:3} --n 300000 --q 300000
+      - random: random --seed {seed:4} --n 300000 --q 300000
+      - random: random --seed {seed:5} --n 300000 --q 300000
+      - random: random --seed {seed:6} --n 300000 --q 300000
+      - random: random --seed {seed:7} --n 300000 --q 300000
+      - random: random --seed {seed:8} --n 300000 --q 300000
+      - random: random --seed {seed:9} --n 300000 --q 300000
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order ascending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order ascending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order descending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order descending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 16500 --order descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order ascending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order ascending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order descending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order descending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 547 --order descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order ascending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order ascending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order descending --internalorder ascending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order descending --internalorder descending
+      - bucketed: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 18 --order descending
+      - increasing: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 1 --order ascending
+      - increasing: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 1 --order ascending --maxindex 2
+      - decreasing: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 1 --order descending
+      - decreasing: bucketed --seed {seed:1} --n 300000 --q 300000 --bucketsize 1 --order descending --maxindex 2
+
+      - test: test.py
+
+      - bounds:
+          in: |
+            1 1
+            1000000000
+            ? 1
+      - bounds:
+          in: |
+            1 2
+            1000000000
+            + 1 1000000000
+            ? 1
+
+      - linear: linear.py -1     increasing increasing
+      - linear: linear.py -1     increasing decreasing
+      - linear: linear.py {seed} increasing random
+      - linear: linear.py -1     decreasing increasing
+      - linear: linear.py -1     decreasing decreasing
+      - linear: linear.py {seed} decreasing random
+      - linear: linear.py {seed} random random
+      - linear: linear.py {seed} random increasing
+      - linear: linear.py {seed} random decreasing

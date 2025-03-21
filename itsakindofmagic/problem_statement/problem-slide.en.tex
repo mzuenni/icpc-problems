@@ -1,0 +1,37 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+
+    \begin{columns}
+        \begin{column}[T]{.62\textwidth}
+            \begin{itemize}
+                \item For $t\leq 10^5$ values of $n\leq 10^{18}$,
+                    count the number of multiplicative magic $3\times 3$ squares with product at most $n$.
+                \item All nine numbers must be positive and distinct.
+                \item The \emph{products} along all rows, columns, and diagonals have to be equal.
+            \end{itemize}
+
+            %\includegraphics[width=0.25\textwidth]{sample}
+
+            %\small
+            %Illustration of Sample Input 1.
+        \end{column}
+
+        \illustration{0.30}{parker.jpeg}{
+            The Parker Square. \\
+            \textcopyright{} \href{https://www.bradyharanblog.com/the-parker-square}{Brady Haran}, used with permission
+        }
+
+    \end{columns}
+
+    \vspace{1em}
+    \begin{figure}
+      \centering
+      \begin{tabular}{c c c}
+        18 & 1 & 12 \\
+        4 & 6 & 9 \\
+        3 & 36 & 2 
+      \end{tabular}
+      \caption{Multiplicative magic square with product 216 along all rows, columns and diagonals.}
+    \end{figure}
+
+\end{frame}

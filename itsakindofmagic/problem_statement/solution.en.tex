@@ -1,0 +1,117 @@
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Problem}
+        Count the number of multiplicative magic $3\times 3$ squares with product at most $n$.
+    \end{block}
+    \pause
+    \begin{block}{Observations}
+        \begin{itemize}
+        \item<+-> Given a multiplicative magic square, for every prime $p$, counting factors $p$ in the entries gives an additive magic square (possibly with duplicates).
+        \item<+-> Some linear algebra shows that all additive magic squares have a sum divisible by 3, and take the following form (where the sum is $3a \geq 0$ and $|b| + |c| < a$):
+            \begin{table}
+            \centering
+            \begin{tabular}{|c|c|c|}
+                \hline
+                $a+b$   & $a-b-c$ & $a+c$   \\\hline
+                $a-b+c$ & $a$     & $a+b-c$ \\\hline
+                $a-c$   & $a+b+c$ & $a-b$   \\\hline
+            \end{tabular}
+            \end{table}
+        \item<+-> The number of additive magic squares (with duplicates) with sum $3a$ equals $2a^2+2a+1$.
+        \item<+-> The number of multiplicative magic squares (with duplicates) with product $m^3$ with $m = p_1^{e_1} \cdots p_k^{e_k}$ equals $(2e_1^2 + 2e_1 + 1) \cdots (2e_k^2 + 2e_k + 1)$.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Idea}
+        \begin{itemize}
+        \item<+-> For every $1 \leq m \leq 10^6$, use inclusion-exclusion to compute the number of solutions with distinct numbers.
+        \item<+-> There are 5 (up to symmetry) different possible patterns of equal numbers. \onslide<2->{(Counts include squares with additional duplicates.)}
+        	\onslide<2->{
+        	\begin{table}
+        	\centering
+        	\begin{subtable}{0.3\linewidth}
+        	\centering
+        	\begin{tabular}{|c|c|c|}
+                \hline
+                A & B & C \\\hline
+                D & E & F \\\hline
+                G & H & I \\\hline
+            \end{tabular}
+            \onslide<2->{\caption*{$c_1(m) = \prod (2e_i^2 + 2e_i + 1)$}}
+            \end{subtable}
+            \begin{subtable}{0.3\linewidth}
+        	\centering
+        	\begin{tabular}{|c|c|c|}
+                \hline
+                A & B & A \\\hline
+                C & C & C \\\hline
+                D & E & D \\\hline
+            \end{tabular}
+            \onslide<2->{\caption*{$c_2(m) = \prod \left(2\left\lfloor\frac{e_i}{3}\right\rfloor+1\right)$}}
+            \end{subtable}
+            \begin{subtable}{0.3\linewidth}
+        	\centering
+        	\begin{tabular}{|c|c|c|}
+                \hline
+                A & B & C \\\hline
+                C & A & B \\\hline
+                B & C & A \\\hline
+            \end{tabular}
+            \onslide<2->{\caption*{$c_3(m) = \prod \left(2\left\lfloor\frac{e_i}{2}\right\rfloor+1\right)$}}
+            \end{subtable}
+            \begin{subtable}{0.3\linewidth}
+        	\centering
+        	\begin{tabular}{|c|c|c|}
+                \hline
+                A & A & B \\\hline
+                C & D & E \\\hline
+                F & G & G \\\hline
+            \end{tabular}
+            \onslide<2->{\caption*{$c_4(m) = \prod (2e_i + 1)$}}
+            \end{subtable}
+            \begin{subtable}{0.3\linewidth}
+        	\centering
+        	\begin{tabular}{|c|c|c|}
+                \hline
+                A & A & A \\\hline
+                A & A & A \\\hline
+                A & A & A \\\hline
+            \end{tabular}
+            \onslide<2->{\caption*{$c_5(m) = 1$}}
+            \end{subtable}
+        	\end{table}
+        	}
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\problemtitle}
+    \begin{block}{Solution}
+        \begin{itemize}
+        \item<+-> All values $c_i(m)$ for $1 \leq m \leq 10^6$ can be computed with a prime sieve in $\mathcal{O}(N \log \log N)$ time, where $N = 10^6$.
+        \item<+-> Use inclusion-exclusion to compute the number of solutions with distinct numbers.
+            \begin{itemize}
+            \item The count equals $c_1(m) - 4c_2(m) - 2c_3(m) - 2c_4(m) + 7c_5(m)$.
+            \end{itemize}
+        \item<+-> For each query, print the sum of all counts with $m \leq \sqrt[3]{n}$.
+        	\begin{itemize}
+        	\item<+-> All sums can be precomputed in $\mathcal{O}(N)$ additional time.
+        	\end{itemize}
+        \end{itemize}
+    \end{block}
+    \onslide<+->{
+    \begin{block}{Alternative solution}
+    \begin{itemize}
+    \item<+-> There are only around $300$ different possible multisets of exponents for numbers limited by $10^6$.
+    \item<+-> For each multiset, locally precompute the number of multiplicative magic squares using a brute force, and hard-code the results into a lookup table.
+    \item<+-> Use a sieve to factor all numbers $1 \leq m \leq 10^6$ and look up all counts in this table.
+    \end{itemize}
+    \end{block}}
+    \onslide<9->{
+    \solvestats
+    }
+\end{frame}

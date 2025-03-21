@@ -1,0 +1,62 @@
+solution: /submissions/accepted/paul.cpp
+
+data:
+  sample:
+    data:
+      - '':
+          in: |
+            3
+            500
+            1000
+            3000
+
+  secret:
+    data:
+      - range: range.py 100001
+      - range: range.py 100001 200001
+      - range: range.py 10**18-10**5+1 10**18+1
+
+      - random: rand.py {seed} 10**5 10**6
+      - random: rand.py {seed} 10**5 10**7
+      - random: rand.py {seed} 10**5 10**8
+      - random: rand.py {seed} 10**5 10**9
+      - random: rand.py {seed} 10**5 10**10
+      - random: rand.py {seed} 10**5 10**11
+      - random: rand.py {seed} 10**5 10**12
+      - random: rand.py {seed} 10**5 10**13
+      - random: rand.py {seed} 10**5 10**14
+      - random: rand.py {seed} 10**5 10**15
+      - random: rand.py {seed} 10**5 10**16
+      - random: rand.py {seed} 10**5 10**17
+      - random: rand.py {seed} 10**5 10**18
+
+      - cubes: cubes.py 1 100001
+      - cubes: cubes.py 100001 200001
+      - cubes: cubes.py 200001 300001
+      - cubes: cubes.py 300001 400001
+      - cubes: cubes.py 400001 500001
+      - cubes: cubes.py 500001 600001
+      - cubes: cubes.py 600001 700001
+      - cubes: cubes.py 700001 800001
+      - cubes: cubes.py 800001 900001
+      - cubes: cubes.py 900001 1000001
+
+      - cubesm1: cubesm1.py 2 100001
+      - cubesm1: cubesm1.py 100001 200001
+      - cubesm1: cubesm1.py 200001 300001
+      - cubesm1: cubesm1.py 300001 400001
+      - cubesm1: cubesm1.py 400001 500001
+      - cubesm1: cubesm1.py 500001 600001
+      - cubesm1: cubesm1.py 600001 700001
+      - cubesm1: cubesm1.py 700001 800001
+      - cubesm1: cubesm1.py 800001 900001
+      - cubesm1: cubesm1.py 900001 1000001
+      
+      - minmin: const.py 1 1
+      - maxmin: const.py 1 10**18
+      - maxmax: const.py 10**5 10**18
+      - minmax: const.py 10**5 1
+      
+      - equal_steps: range.py 10**13 10**18+10**13 10**13
+      - cubes_equal_steps: cubes.py 10 10**6+10 10
+      - cubesm1_equal_steps: cubesm1.py 10 10**6+10 10
