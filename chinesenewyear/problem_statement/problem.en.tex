@@ -1,0 +1,65 @@
+\problemname{}
+
+\illustration{0.3}{image}{Image by DGJ, \href{https://pixabay.com/users/gdj-1086657/}{pixabay.com}\vspace{-0.5cm}}%
+%TODO
+Chinese New Year is in four days and Lina is already excited about all the festivities.
+She looks forward to eating dumplings on New Year's Eve and setting off fireworks to greet the new year.
+And of course, the money she gets in small red bags from her relatives is always a plus.
+
+Her whole family is already busy with the preparations such as cleaning and decorating the house.
+Each year, they put up Chinese Spring Couplets next to their front door which will bring luck and prosperity next year.
+For the first time, it is Lina's job to write the couplets, and she takes it very seriously.
+However, Lina did not yet start her preparations and now she has to hurry up to finish before New Year's Eve.
+Instead of following the very strict rules in which order the strokes of a glyph have to be written, Lina decides to speed things up by bending the rules a little.
+She just wants to draw all the glyphs with as few strokes as possible without her parents noticing it.
+
+% Right when you started with this years wintercontest you had a sudden realization: there are only $4$ days left until Chinese new year.
+% This wouldn't be a big issue if you had not made a bet last year that you could easily learn to write Chinese in one year.
+% Now you only have $4$ days left and and didn't even start yet.
+% With time pressuring you you had a great idea: instead of properly learning to write Chinese you just want to learn to reproduce glyphs.
+% To make this easier you decide to to decompose all the glyphs into the minimal number of strokes.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{sample}
+	\caption{Visualization of the second sample.
+	Each colour represents one stroke.}
+\end{figure}
+
+But first, Lina needs to find out how to do this.
+More formally: given a drawing of a glyph as a set of segments, Lina wants to decompose it into some paths that can each be drawn without lifting the pen.
+Note that each segment should be drawn exactly once in the end so that no one will notice Lina's little trick.
+
+\begin{Input}
+	The input consists of:
+	\begin{itemize}
+		\item One line with two integers $n$ and $m$ ($4\leq n \leq10^5$, $5\leq m\leq3\cdot10^5$), the number of coordinates and the number of line segments in the drawing.
+		\item $n$ lines, each with two integers $x$ and $y$ ($0\leq x,y\leq10^9$), the $i$th line describes the position of the $i$th coordinate.
+		All coordinates are distinct.
+		\item $m$ lines, each with two integers $a$ and $b$ ($1\leq a,b\leq n$, $a\neq b$), describing that the $a$th and $b$th coordinate are connected by a line segment.
+		Two coordinates are connected by at most one line segment.
+	\end{itemize}
+	It is guaranteed that two lines segments only intersect in a coordinate they both start or end at.
+	Further, it is guaranteed that each coordinate is incident to at least one line segment.
+\end{Input}
+
+\begin{Output}
+	First, output a single integer, the minimum number of strokes needed to recreate the drawing.
+	For each stroke first output the number of coordinates that the stroke consists of, followed by the actual coordinates along the stroke.
+	If there are multiple optimal solutions, you may output any one of them.
+\end{Output}
+
+\nextsample{}
+
+\par\vspace{0.5cm}
+\begin{tabular}{l}
+	\textbf{Sample Input 2}\\
+\end{tabular}
+
+We have a truly marvellous second sample for this Problem, which this page is too narrow to contain.
+You can find the sample in the DOMjudge.
+
+\newsavebox\removesample
+\sbox\removesample{\remainingsamples{}}
+
+

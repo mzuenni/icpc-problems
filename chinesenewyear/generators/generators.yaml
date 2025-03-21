@@ -1,0 +1,177 @@
+solution: /submissions/accepted/sol.cpp
+visualizer: /visualizers/ {name}
+
+generators:
+  ans4:
+    - ans4.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  ans4_bug:
+    - ans4_bug.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  ans4_bug2:
+    - ans4_bug2.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  ans5:
+    - ans5.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  bridge:
+    - bridge.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  cycles:
+    - cycles.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  grid:
+    - grid.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  nested_quads:
+    - nested_quads.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  nested:
+    - nested.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  not_a_face:
+    - not_a_face.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  not_connected:
+    - not_connected.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  not5:
+    - not5.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  small_diameter_odd:
+    - small_diameter_odd.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  small_diameter:
+    - small_diameter.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  tree:
+    - tree.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  path:
+    - path.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+  random_small:
+    - random_small.cpp
+    - validate.h
+    - gadget.h
+    - graph_gen.h
+
+data:
+  sample:
+    type: directory
+    data:
+      - "": {copy: sample/sample1}
+      - "": {copy: sample/sample2}
+
+  secret:
+    type: directory
+    data:
+      - 3regular_2connected: {copy: manual/3regular_2connected}
+      - cube: {copy: manual/cube}
+      - dodecahedron: {copy: manual/dodecahedron}
+      - icosahedron: {copy: manual/icosahedron}
+      - octahedron: {copy: manual/octahedron}
+      - not_connected: not_connected
+      - bridge: bridge
+      - tutte: {copy: manual/tutte}
+
+      - ans4: ans4
+      - ans5: ans5
+      - grid: grid
+      - nested_quads: nested_quads
+      - not_a_face: not_a_face
+      - not5: not5
+      - small_diameter_odd: small_diameter_odd
+      - small_diameter: small_diameter
+
+      - not_a_face4: {copy: manual/not_a_face4}
+      - not_a_face5: {copy: manual/not_a_face5}
+
+      - ans4_bug: ans4_bug
+      - ans4_bug: ans4_bug --seed {seed:2}
+      - ans4_bug: ans4_bug --seed {seed:3}
+      - ans4_bug: ans4_bug --seed {seed:4}
+      - ans4_bug: ans4_bug --seed {seed:5}
+      - ans4_bug2: ans4_bug2
+      - ans4_bug2: ans4_bug2 --seed {seed:2}
+      - ans4_bug2: ans4_bug2 --seed {seed:3}
+      - ans4_bug2: ans4_bug2 --seed {seed:4}
+      - ans4_bug2: ans4_bug2 --seed {seed:5}
+
+      - nested: nested --seed {seed:1}
+      - nested: nested --seed {seed:2} --triangles 42
+      - nested: nested --seed {seed:3} --triangles 42 69 420 1337
+      - nested: nested --seed {seed:4} --triangles 16 32 64 128 256 512 1024
+
+      - ans4: ans4 --n 38
+      - ans5: ans5 --n 38
+      - grid: grid --w 6 --h 6
+      - nested_quads: nested_quads --n 40
+      - not5: not5 --seed {seed:2}
+      - not5: not5 --seed {seed:3}
+      - not5: not5 --seed {seed:4}
+      - not5: not5 --seed {seed:5}
+      - not5: not5 --seed {seed:6}
+      - small_diameter_odd: small_diameter_odd --n 39
+      - small_diameter: small_diameter --n 38
+      - cycles: cycles --n 40
+      - cycles: cycles --n 10000
+      - tree: tree --l 4
+      - tree: tree
+      - ans4_bug2: ans4_bug2 --a 6 --b 6 --c 6
+      - ans4_bug2: ans4_bug2 --a 6 --b 12492 --c 12492
+      - ans4_bug2: ans4_bug2 --a 57 --b 1083 --c 20577
+      - ans4_bug2: ans4_bug2 --a 57 --b 20577 --c 1083
+      - path: path --n 100000
+
+      - random_small:
+          generate: random_small --seed {seed}
+          count: 20

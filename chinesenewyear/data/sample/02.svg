@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="full" viewBox="0.000000 -9.500000 9.500000 9.500000" >
+<polyline points="2,-9 2,-7 1,-4 3,-3 4,-2 " stroke="#00ff00" stroke-width="0.1" fill="none" />
+<polyline points="1,-7 2,-7 4,-7 3,-3 1,-1 " stroke="#55aa00" stroke-width="0.1" fill="none" />
+<polyline points="5,-8 9,-8 7,-6 7,-5 7,-1 6,-1 " stroke="#aa5500" stroke-width="0.1" fill="none" />
+<polyline points="5,-5 7,-5 9,-5 " stroke="#ff0000" stroke-width="0.1" fill="none" />
+<circle r="0.5" cx="2" cy="-9" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="1" cy="-4" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="4" cy="-2" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="1" cy="-7" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="4" cy="-7" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="1" cy="-1" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="5" cy="-8" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="9" cy="-8" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="7" cy="-6" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="5" cy="-5" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="9" cy="-5" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="7" cy="-1" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="6" cy="-1" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="7" cy="-5" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="3" cy="-3" stroke="none" fill="#0000ff" />
+<circle r="0.5" cx="2" cy="-7" stroke="none" fill="#0000ff" />
+</svg>

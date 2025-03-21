@@ -1,0 +1,38 @@
+\begin{frame}[c]
+    \frametitle{\problemtitle}
+    \begin{columns}[onlytextwidth]
+    	\begin{column}[c]{0.6\textwidth}
+    		\begin{block}{Problem}
+    			Given a planar graph $G$, decompose it into the minimal number of -- not necessarily simple -- paths.
+    		\end{block}
+    	\end{column}
+    	\begin{column}[c]{0.35\textwidth}
+    		\includegraphics[width=\linewidth]{sample}%
+    	\end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[c]
+	\frametitle{\problemtitle}
+	\begin{block}{Observation 1}
+		\begin{itemize}
+			\item A single path only contains two odd degree vertices.
+			\item[$\Rightarrow$] We need at least $\frac{\#\mathit{odd vertices}}{2}$ paths.
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Observation 2}
+		\begin{itemize}
+			\item Even if there is no odd vertex, each component needs at least one path.
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Solution}
+		\begin{itemize}
+			\item Pair up the odd degree vertices in any way and add an edge.
+			\item The resulting graph contains an euler tour.
+			\item Split this tour along the added edges.
+		\end{itemize}
+	\end{block}
+	\solvestats
+\end{frame}

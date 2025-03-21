@@ -1,0 +1,14 @@
+name:
+  #lang: name
+  en: Chinese New Year
+author: Michael Zündorf
+source: Winter Contest 2025
+source_url: https://wintercontest.io
+uuid: 8ee7605a-623c-8bc0-1a55-6ad395767bb3
+license: cc by-sa
+rights_owner: author
+validation: custom
+
+limits:
+  time_multiplier: 2
+  time_safety_margin: 1.5
