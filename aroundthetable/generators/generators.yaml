@@ -1,0 +1,39 @@
+solution: /submissions/accepted/michi.cpp
+
+data:
+  sample:
+    data:
+      - '':
+          in: "2 2"
+      - '':
+          in: "2 3"
+      - '':
+          in: "3 2"
+      - '':
+          in: "5 2"
+
+  secret:
+    data:
+      - small:
+          generate: eval.py -1 2+({count}-1)%8, 1+({count}-1)//8
+          count: 64
+      # random not independent
+      - random_independent:
+          generate: eval.py {seed} randint(2,10**9), randint(1,10**9)
+          count: 15
+      - random:
+          generate: rand.py {seed}
+          count: 30
+      - rmax:
+          generate: eval.py {seed} 10**9, randint(1,10**9)
+          count: 10
+      - rmax:
+          generate: eval.py -1 10**9, 10**9//2-3+{count}
+          count: 5
+      - lmax:
+          generate: eval.py {seed} randint(2,10**9), 10**9
+          count: 10
+      - lmax:
+          generate: eval.py -1 10**9//2-3+{count}, 10**9
+          count: 5
+      - max: eval.py -1 10**9, 10**9

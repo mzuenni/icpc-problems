@@ -1,0 +1,120 @@
+\documentclass[12pt,varwidth=48cm]{standalone}
+
+\RequirePackage{times}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage[T1]{fontenc}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{fadings}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\definecolor{red}{HTML}{972e21}
+\definecolor{yellow}{HTML}{ebb83f}
+\definecolor{blue}{HTML}{7999db}
+
+\definecolor{green}{HTML}{5fd94e}
+\definecolor{cyan}{HTML}{58c9c7}
+\definecolor{magenta}{HTML}{d252d3}
+\definecolor{lime}{HTML}{96e049}
+\definecolor{orange}{HTML}{e78543}
+\definecolor{violet}{HTML}{5d5bc4}
+\definecolor{purple}{HTML}{9058cb}
+
+\tikzset{>=stealth}
+
+\tikzfading[
+	name=lrballfading,
+	left color=transparent!100,
+	right color=transparent!0,
+	middle color=transparent!33,
+]
+
+\tikzfading[
+name=rlballfading,
+left color=transparent!0,
+right color=transparent!100,
+middle color=transparent!33,
+]
+
+\newcounter{state}
+
+\begin{document}
+	\Large%
+	\newcommand{\state}[3]{%
+		\stepcounter{state}%
+		\begin{tikzpicture}[line width=0.04cm]
+			\newcommand{\drawball}[1]{
+				\fill[lime!50!GreenYellow] (##1) circle (5pt);
+				\begin{scope}[rotate around={rnd*360:(##1)}]
+					\clip (##1) circle (5pt);
+					\draw[white] ([shift={(8.5pt,8.5pt)}]##1) circle (10pt);
+					\draw[white] ([shift={(-8.5pt,-8.5pt)}]##1) circle (10pt);
+				\end{scope}
+				\draw (##1) circle (5pt);
+			}
+			\clip (7,2.25) rectangle (-6,-2.75);
+			\fill[green!70!black] (2,1.115) rectangle (-2,-1.115);
+			\draw[white,line width=0.15cm] (2,1.115) rectangle (-2,-1.115);
+			\draw[white,line width=0.06cm] (2,0) rectangle (-2,-0);
+			\draw[black] (2,1.115) rectangle (-2,-1.115);
+			\draw[dashed] (0,1.115) -- (0,-1.115);
+			\def\xpos{-2.75}
+			\foreach \name in {#2} {
+				\colorlet{namecolor}{blue}
+				\ifnum\pdfstrcmp{\name}{C}<0\colorlet{namecolor}{red!75}\fi
+				\node[draw,circle,inner sep=0, outer sep=0,minimum width=1cm,fill=namecolor] at (\xpos,0) {\name};
+				\pgfmathsetmacro\tmp{\xpos-1.25}
+				\global\let\xpos\tmp
+			}
+			\ifnum\pdfstrcmp{#1}{<-}=0
+				\begin{scope}[on background layer]
+					\draw[->,rounded corners=0.75cm,line width=0.04cm] (2.75,0) --++ (0,1.5) -- (\xpos-0.25,1.5) -- (\xpos-0.25,0) --++ (0.8,0);
+				\end{scope}
+				\draw[black,path fading=rlballfading] (1.75,0.2) to[out=190,in=50] (1.25,-0.1) to[bend right] (-0.3,0.2);
+				\drawball{-0.3,0.2}
+			\fi
+			\def\xpos{2.75}
+			\foreach \name in {#3} {
+				\colorlet{namecolor}{blue}
+				\ifnum\pdfstrcmp{\name}{C}<0\colorlet{namecolor}{red!75}\fi
+				\node[draw,circle,inner sep=0, outer sep=0,minimum width=1cm,fill=namecolor] at (\xpos,0) {\name};
+				\pgfmathsetmacro\tmp{\xpos+1.25}
+				\global\let\xpos\tmp
+			}
+			\ifnum\pdfstrcmp{#1}{->}=0
+				\begin{scope}[on background layer]
+					\draw[->,rounded corners=0.75cm,line width=0.04cm] (-2.75,0) --++ (0,-1.5) -- (\xpos+0.25,-1.5) -- (\xpos+0.25,0) --++ (-0.8,0);
+				\end{scope}			
+				\draw[black,path fading=lrballfading] (-1.75,0.2) to[out=-10,in=130] (-1.25,-0.1) to[bend left] (0.3,0.2);
+				\drawball{0.3,0.2}
+			\fi
+			\foreach \name in {#2} {
+				\global\let\leftname\name
+				\breakforeach
+			}
+			\foreach \name in {#3} {
+				\global\let\rightname\name
+				\breakforeach
+			}
+			\node at (0,-2) {hit \thestate: \leftname{} and \rightname{} are facing each other};
+		\end{tikzpicture}%
+	}
+	\state{->}{A,B}{D,E}%AD
+%	\state{<-}{B}{D,E,A}%BD
+%	\state{->}{B,D}{E,A}%BE
+%	
+%	\state{<-}{D}{E,A,B}%DE
+%	\state{->}{D,E}{A,B}%ad
+%	\state{<-}{E}{A,B,D}%EA
+%	
+%	\state{->}{E,A}{B,D}%be
+%	\state{<-}{A}{B,D,E}%AB
+%	\state{->}{A,B}{D,E}%ad
+%	\begin{tikzpicture}[overlay]
+%		\fill[white,opacity=0.7] (0,0) rectangle (-13,4.5);
+%	\end{tikzpicture}%
+\end{document}
